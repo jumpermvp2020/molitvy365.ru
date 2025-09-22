@@ -1,0 +1,24 @@
+{
+    "name": "Молитвы дня",
+    "short_name": "Молитвы дня",
+    "description": "Православные молитвы для ежедневного духовного чтения",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#FAFAFA",
+    "theme_color": "#8B5CF6",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "categories": [
+        "religion",
+        "spirituality",
+        "books"
+    ],
+    "lang": "ru"
+}

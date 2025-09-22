@@ -1,103 +1,127 @@
-import Image from "next/image";
+'use client';
+
+import { useState, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
+import { Heart } from 'lucide-react';
+import PrayerBlock from '@/components/PrayerBlock';
+import ProjectsBlock from '@/components/ProjectsBlock';
+import Footer from '@/components/Footer';
+import { Prayer, PrayerIndex } from '@/types/prayer';
+import { useFavorites } from '@/hooks/useFavorites';
 
 export default function Home() {
-  return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+  const router = useRouter();
+  const [currentPrayer, setCurrentPrayer] = useState<Prayer | null>(null);
+  const [prayerIndex, setPrayerIndex] = useState<PrayerIndex | null>(null);
+  const [isLoading, setIsLoading] = useState(true);
+  const [shownPrayerIds, setShownPrayerIds] = useState<Set<string>>(new Set());
+  const { favorites } = useFavorites();
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+  useEffect(() => {
+    // Загружаем данные
+    const loadData = async () => {
+      try {
+        // Загружаем индекс молитв
+        const indexResponse = await fetch('/data/prayers-index.json');
+        const index = await indexResponse.json();
+        setPrayerIndex(index);
+
+        // Получаем случайную молитву для показа
+        const randomPrayer = await getRandomPrayerForDay(index);
+        setCurrentPrayer(randomPrayer);
+
+        // Добавляем ID молитвы в список показанных
+        if (randomPrayer.id) {
+          setShownPrayerIds(prev => new Set([...prev, randomPrayer.id.toString()]));
+        }
+      } catch (error) {
+        console.error('Ошибка загрузки данных:', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    loadData();
+  }, []);
+
+  const getRandomPrayerForDay = async (index: PrayerIndex): Promise<Prayer> => {
+    // Выбираем случайную молитву из всех доступных
+    const randomIndex = Math.floor(Math.random() * index.totalCount);
+    const prayerUrl = index.prayers[randomIndex].url;
+
+    const response = await fetch(`/data/prayers/${prayerUrl}.json`);
+    return await response.json();
+  };
+
+  const getRandomPrayer = async (): Promise<Prayer> => {
+    if (!prayerIndex) return currentPrayer!;
+
+    // Получаем молитвы, которые еще не показывались
+    const availablePrayers = prayerIndex.prayers.filter(prayer => !shownPrayerIds.has(prayer.id.toString()));
+
+    // Если все молитвы уже показаны, сбрасываем список показанных
+    if (availablePrayers.length === 0) {
+      setShownPrayerIds(new Set());
+      const randomIndex = Math.floor(Math.random() * prayerIndex.totalCount);
+      const prayerUrl = prayerIndex.prayers[randomIndex].url;
+      const response = await fetch(`/data/prayers/${prayerUrl}.json`);
+      return await response.json();
+    }
+
+    // Выбираем случайную молитву из доступных
+    const randomIndex = Math.floor(Math.random() * availablePrayers.length);
+    const prayerUrl = availablePrayers[randomIndex].url;
+
+    const response = await fetch(`/data/prayers/${prayerUrl}.json`);
+    return await response.json();
+  };
+
+  const handleRefresh = async () => {
+    const randomPrayer = await getRandomPrayer();
+    setCurrentPrayer(randomPrayer);
+
+    // Добавляем ID молитвы в список показанных
+    if (randomPrayer.id) {
+      setShownPrayerIds(prev => new Set([...prev, randomPrayer.id.toString()]));
+    }
+  };
+
+  if (isLoading) {
+    return (
+      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-gray-900 mx-auto mb-4"></div>
+          <p className="text-gray-600">Загрузка молитвы...</p>
         </div>
+      </div>
+    );
+  }
+
+  if (!currentPrayer || !prayerIndex) {
+    return (
+      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+        <div className="text-center">
+          <p className="text-gray-600">Ошибка загрузки данных</p>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="min-h-screen bg-gray-50">
+      {/* Главный контент */}
+      <main className="pt-16 pb-8">
+        <PrayerBlock
+          prayer={currentPrayer}
+          onRefresh={handleRefresh}
+        />
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+
+      {/* Блок с другими молитвами */}
+      <ProjectsBlock prayerIndex={prayerIndex} />
+
+      {/* Футер */}
+      <Footer />
     </div>
   );
 }
