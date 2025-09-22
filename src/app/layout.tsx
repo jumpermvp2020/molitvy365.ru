@@ -99,7 +99,6 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://mc.yandex.ru" />
-        <link rel="preconnect" href="https://worldclockapi.com" />
       </head>
       <body className={inter.className}>
         <GoogleAnalytics />
