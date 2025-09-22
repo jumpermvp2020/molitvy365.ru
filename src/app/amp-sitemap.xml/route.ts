@@ -1,10 +1,12 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getAllPrayers } from '@/lib/prayers';
 
+export const dynamic = 'force-static';
+
 export async function GET(request: NextRequest) {
     try {
         const prayers = await getAllPrayers();
-        const baseUrl = 'https://molitvy-dnya.ru';
+        const baseUrl = 'https://molitvy365.ru';
 
         const ampSitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

@@ -57,7 +57,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
             address: false,
             telephone: false,
         },
-        metadataBase: new URL('https://molitvy-dnya.ru'),
+        metadataBase: new URL('https://molitvy365.ru'),
         alternates: {
             canonical: `/prayer/${prayer.url}`,
         },

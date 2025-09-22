@@ -1,10 +1,12 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getAllPrayers } from '@/lib/prayers';
 
+export const dynamic = 'force-static';
+
 export async function GET(request: NextRequest) {
     try {
         const prayers = await getAllPrayers();
-        const baseUrl = 'https://molitvy-dnya.ru';
+        const baseUrl = 'https://molitvy365.ru';
 
         // Сортируем молитвы по популярности (можно настроить логику)
         const sortedPrayers = prayers.sort((a, b) => {
@@ -53,7 +55,7 @@ export async function GET(request: NextRequest) {
             return `
   <url>
     <loc>${baseUrl}/prayer/${prayer.url}</loc>
-    <lastmod>${prayer.updatedAt}</lastmod>
+    <lastmod>${prayer.updatedAt || new Date().toISOString()}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>${priority}</priority>
   </url>`;

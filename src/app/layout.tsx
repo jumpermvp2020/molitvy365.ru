@@ -27,14 +27,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://molitvy-dnya.ru'),
+  metadataBase: new URL('https://molitvy365.ru'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     type: 'website',
     locale: 'ru_RU',
-    url: 'https://molitvy-dnya.ru',
+    url: 'https://molitvy365.ru',
     title: 'Молитвы дня - Православные молитвы для ежедневного чтения',
     description: 'Коллекция православных молитв для ежедневного духовного чтения. Молитва дня, случайные молитвы и полная библиотека из 467 молитв.',
     siteName: 'Молитвы дня',

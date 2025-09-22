@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getAllPrayers } from '@/lib/prayers';
 
+export const dynamic = 'force-static';
+
 export async function GET(request: NextRequest) {
   try {
     const prayers = await getAllPrayers();
@@ -9,13 +11,13 @@ export async function GET(request: NextRequest) {
 <rss version="2.0" xmlns:yandex="http://news.yandex.ru" xmlns:media="http://search.yahoo.com/mrss/" xmlns:turbo="http://turbo.yandex.ru">
   <channel>
     <title>Молитвы дня - Православные молитвы</title>
-    <link>https://molitvy-dnya.ru</link>
+    <link>https://molitvy365.ru</link>
     <description>Коллекция православных молитв для ежедневного духовного чтения</description>
     <language>ru</language>
     
     ${prayers.slice(0, 50).map(prayer => `
     <item turbo="true">
-      <link>https://molitvy-dnya.ru/prayer/${prayer.url}</link>
+      <link>https://molitvy365.ru/prayer/${prayer.url}</link>
       <turbo:content>
         <![CDATA[
           <header>

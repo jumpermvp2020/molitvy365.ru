@@ -3,6 +3,21 @@ import { Prayer } from '@/types/prayer';
 import fs from 'fs';
 import path from 'path';
 
+// Генерируем статические параметры для всех молитв
+export async function generateStaticParams() {
+    try {
+        const files = fs.readdirSync(path.join(process.cwd(), 'data', 'prayers'));
+        const jsonFiles = files.filter(file => file.endsWith('.json'));
+        
+        return jsonFiles.map(file => ({
+            slug: file.replace('.json', '')
+        }));
+    } catch (error) {
+        console.error('Ошибка генерации статических параметров:', error);
+        return [];
+    }
+}
+
 // Получаем молитву по URL
 async function getPrayer(slug: string): Promise<Prayer | null> {
     try {
@@ -55,7 +70,7 @@ export default async function AMPPrayerPage({ params }: { params: Promise<{ slug
                 <title>{prayer.title} - Православная молитва | Молитвы дня</title>
                 <meta name="description" content={description} />
                 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
-                <link rel="canonical" href={`https://molitvy-dnya.ru/prayer/${prayer.url}`} />
+                <link rel="canonical" href={`https://molitvy365.ru/prayer/${prayer.url}`} />
 
                 {/* AMP Boilerplate */}
                 <style amp-boilerplate>
@@ -167,7 +182,7 @@ export default async function AMPPrayerPage({ params }: { params: Promise<{ slug
                         )}
                     </div>
 
-                    <a href="https://molitvy-dnya.ru" className="back-link">
+                    <a href="https://molitvy365.ru" className="back-link">
                         Больше молитв на сайте
                     </a>
                 </div>

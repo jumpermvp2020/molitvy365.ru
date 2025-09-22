@@ -1,17 +1,19 @@
 import { NextRequest, NextResponse } from 'next/server';
 
+export const dynamic = 'force-static';
+
 export async function GET(request: NextRequest) {
     const robotsTxt = `User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://molitvy-dnya.ru/sitemap.xml
+Sitemap: https://molitvy365.ru/sitemap.xml
 
 # AMP Sitemap
-Sitemap: https://molitvy-dnya.ru/amp-sitemap.xml
+Sitemap: https://molitvy365.ru/amp-sitemap.xml
 
 # Yandex Turbo
-Sitemap: https://molitvy-dnya.ru/api/turbo
+Sitemap: https://molitvy365.ru/api/turbo
 
 # Crawl-delay для Яндекса
 User-agent: YandexBot

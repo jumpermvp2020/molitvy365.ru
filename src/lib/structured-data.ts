@@ -9,15 +9,15 @@ export function generatePrayerStructuredData(prayer: Prayer) {
         "author": {
             "@type": "Organization",
             "name": "Молитвы дня",
-            "url": "https://molitvy-dnya.ru"
+            "url": "https://molitvy365.ru"
         },
         "publisher": {
             "@type": "Organization",
             "name": "Молитвы дня",
-            "url": "https://molitvy-dnya.ru",
+            "url": "https://molitvy365.ru",
             "logo": {
                 "@type": "ImageObject",
-                "url": "https://molitvy-dnya.ru/icon-192.png"
+                "url": "https://molitvy365.ru/icon-192.png"
             }
         },
         "datePublished": prayer.createdAt,
@@ -34,7 +34,7 @@ export function generatePrayerStructuredData(prayer: Prayer) {
         "isPartOf": {
             "@type": "WebSite",
             "name": "Молитвы дня",
-            "url": "https://molitvy-dnya.ru"
+            "url": "https://molitvy365.ru"
         },
         "about": {
             "@type": "Thing",
@@ -61,10 +61,10 @@ export function generateWebsiteStructuredData() {
         "publisher": {
             "@type": "Organization",
             "name": "Молитвы дня",
-            "url": "https://molitvy-dnya.ru",
+            "url": "https://molitvy365.ru",
             "logo": {
                 "@type": "ImageObject",
-                "url": "https://molitvy-dnya.ru/icon-192.png"
+                "url": "https://molitvy365.ru/icon-192.png"
             }
         },
         "inLanguage": "ru"
