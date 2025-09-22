@@ -47,13 +47,14 @@ export default function PrayerBlock({ prayer, onRefresh }: PrayerBlockProps) {
     };
 
     const handleShare = async () => {
-        const url = `${window.location.origin}/prayer/${prayer.randomUrl}`;
+        // На главной странице делимся ссылкой на главную
+        const url = window.location.origin;
 
         if (navigator.share) {
             try {
                 await navigator.share({
-                    title: prayer.title,
-                    text: prayer.content.substring(0, 100) + '...',
+                    title: 'Православный молитвослов - Молитва дня',
+                    text: 'Ежедневные православные молитвы и молитвослов онлайн',
                     url: url,
                 });
             } catch (error) {

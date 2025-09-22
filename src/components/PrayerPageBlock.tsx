@@ -58,8 +58,8 @@ export default function PrayerPageBlock({ prayer, h1Title }: PrayerPageBlockProp
         if (navigator.share) {
             try {
                 await navigator.share({
-                    title: prayer.title,
-                    text: prayer.content.substring(0, 100) + '...',
+                    title: `${prayer.title} - Православный молитвослов`,
+                    text: `Православная молитва: ${prayer.title}`,
                     url: url,
                 });
             } catch (error) {
@@ -68,7 +68,7 @@ export default function PrayerPageBlock({ prayer, h1Title }: PrayerPageBlockProp
         } else {
             // Fallback для браузеров без Web Share API
             await navigator.clipboard.writeText(url);
-            alert('Ссылка скопирована в буфер обмена!');
+            alert('Ссылка на молитву скопирована в буфер обмена!');
         }
     };
 
