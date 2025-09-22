@@ -70,8 +70,8 @@ export default function ProjectsBlock({ prayerIndex }: ProjectsBlockProps) {
                 text-gray-700 font-medium focus-visible
               "
                         >
-                            <span className="hidden sm:inline">Показать все молитвы ({prayerIndex.totalCount})</span>
-                            <span className="sm:hidden">Все молитвы ({prayerIndex.totalCount})</span>
+                            <span className="hidden sm:inline">Показать все молитвы ({prayerIndex.totalPrayers})</span>
+                            <span className="sm:hidden">Все молитвы ({prayerIndex.totalPrayers})</span>
                         </button>
                     </div>
                 )}

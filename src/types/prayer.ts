@@ -21,7 +21,7 @@ export interface PrayerMetadata {
 }
 
 export interface PrayerIndex {
-    totalCount: number;
+    totalPrayers: number;
     lastUpdated: string;
     prayers: {
         id: number;

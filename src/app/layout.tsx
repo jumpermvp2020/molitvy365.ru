@@ -90,6 +90,16 @@ export default function RootLayout({
         <link rel="apple-touch-icon" href="/icon-192.png" />
         <meta name="theme-color" content="#8B5CF6" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        {/* Preload критических ресурсов */}
+        <link rel="preload" href="/data/prayers-index.json" as="fetch" crossOrigin="anonymous" />
+        <link rel="preload" href="/og-image.jpg" as="image" />
+
+        {/* Preconnect для внешних ресурсов */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://mc.yandex.ru" />
+        <link rel="preconnect" href="https://worldclockapi.com" />
       </head>
       <body className={inter.className}>
         <GoogleAnalytics />
@@ -117,6 +127,8 @@ export default function RootLayout({
               src="https://mc.yandex.ru/watch/104240256"
               style={{ position: 'absolute', left: '-9999px' }}
               alt=""
+              width="1"
+              height="1"
             />
           </div>
         </noscript>
