@@ -3,8 +3,10 @@ import { Metadata } from 'next';
 import PrayerPageBlock from '@/components/PrayerPageBlock';
 import ProjectsBlock from '@/components/ProjectsBlock';
 import Footer from '@/components/Footer';
+import Breadcrumbs from '@/components/Breadcrumbs';
 import { Prayer, PrayerIndex } from '@/types/prayer';
 import { getDeterministicH1 } from '@/utils/h1-generator';
+import { generatePrayerStructuredData, generateBreadcrumbStructuredData } from '@/lib/structured-data';
 import fs from 'fs';
 import path from 'path';
 
@@ -35,17 +37,70 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
     if (!prayer) {
         return {
-            title: 'Молитва не найдена',
+            title: 'Молитва не найдена - Молитвы дня',
+            description: 'Запрашиваемая молитва не найдена на сайте Молитвы дня.',
         };
     }
 
+    const description = prayer.summary?.text || prayer.content.substring(0, 160) + '...';
+    const keywords = prayer.summary?.tags?.join(', ') || 'молитва, православие, духовность, молитвенник';
+
     return {
-        title: `${prayer.title} - Молитвы дня`,
-        description: prayer.content.substring(0, 160) + '...',
+        title: `${prayer.title} - Православная молитва | Молитвы дня`,
+        description: description,
+        keywords: keywords,
+        authors: [{ name: 'Молитвы дня' }],
+        creator: 'Молитвы дня',
+        publisher: 'Молитвы дня',
+        formatDetection: {
+            email: false,
+            address: false,
+            telephone: false,
+        },
+        metadataBase: new URL('https://molitvy-dnya.ru'),
+        alternates: {
+            canonical: `/prayer/${prayer.randomUrl}`,
+        },
         openGraph: {
-            title: prayer.title,
-            description: prayer.content.substring(0, 160) + '...',
-            type: 'website',
+            type: 'article',
+            locale: 'ru_RU',
+            url: `/prayer/${prayer.randomUrl}`,
+            title: `${prayer.title} - Православная молитва`,
+            description: description,
+            siteName: 'Молитвы дня',
+            images: [
+                {
+                    url: '/og-image.jpg',
+                    width: 1200,
+                    height: 630,
+                    alt: `${prayer.title} - Православная молитва`,
+                },
+            ],
+            publishedTime: prayer.createdAt,
+            modifiedTime: prayer.updatedAt,
+            section: 'Православные молитвы',
+            tags: prayer.summary?.tags || ['молитва', 'православие'],
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title: `${prayer.title} - Православная молитва`,
+            description: description,
+            images: ['/og-image.jpg'],
+        },
+        robots: {
+            index: true,
+            follow: true,
+            googleBot: {
+                index: true,
+                follow: true,
+                'max-video-preview': -1,
+                'max-image-preview': 'large',
+                'max-snippet': -1,
+            },
+        },
+        other: {
+            'yandex-verification': 'your-yandex-verification-code', // Замените на ваш код
+            'google-site-verification': 'your-google-verification-code', // Замените на ваш код
         },
     };
 }
@@ -106,10 +161,37 @@ export default async function PrayerPage({ params }: { params: Promise<{ slug: s
     // Генерируем детерминированный заголовок H1 на этапе статической генерации
     const h1Title = getDeterministicH1(prayer.id);
 
+    // Структурированные данные
+    const structuredData = generatePrayerStructuredData(prayer);
+
+    // Breadcrumbs
+    const breadcrumbs = [
+        { name: 'Молитвы', url: '/' },
+        { name: prayer.title, url: `/prayer/${prayer.randomUrl}` }
+    ];
+    const breadcrumbStructuredData = generateBreadcrumbStructuredData(breadcrumbs);
+
     return (
         <div className="min-h-screen bg-gray-50">
+            {/* Структурированные данные */}
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify(structuredData)
+                }}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify(breadcrumbStructuredData)
+                }}
+            />
+
             {/* Главный контент */}
             <main className="pt-16 pb-8">
+                <div className="max-w-2xl mx-auto px-4">
+                    <Breadcrumbs items={breadcrumbs} />
+                </div>
                 <PrayerPageBlock prayer={prayer} h1Title={h1Title} />
             </main>
 

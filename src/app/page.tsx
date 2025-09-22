@@ -8,6 +8,7 @@ import ProjectsBlock from '@/components/ProjectsBlock';
 import Footer from '@/components/Footer';
 import { Prayer, PrayerIndex } from '@/types/prayer';
 import { useFavorites } from '@/hooks/useFavorites';
+import { generateWebsiteStructuredData } from '@/lib/structured-data';
 
 export default function Home() {
   const router = useRouter();
@@ -107,8 +108,19 @@ export default function Home() {
     );
   }
 
+  // Структурированные данные для главной страницы
+  const websiteStructuredData = generateWebsiteStructuredData();
+
   return (
     <div className="min-h-screen bg-gray-50">
+      {/* Структурированные данные */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(websiteStructuredData)
+        }}
+      />
+
       {/* Главный контент */}
       <main className="pt-16 pb-8">
         <PrayerBlock
