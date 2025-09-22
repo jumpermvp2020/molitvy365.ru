@@ -4,14 +4,85 @@
   "content": "Господи, от страха вражьего изми душу мою.",
   "originalUrl": "https://www.molitvoslov.com/content/Protiv-vrazhego-strakha",
   "createdAt": "2025-09-20T21:18:20.237Z",
-  "updatedAt": "2025-09-22T03:50:11.476Z",
+  "updatedAt": "2025-09-22T11:39:17.014Z",
   "url": "protiv-vrazhego-straha",
   "contentModern": "Господи, от страха вражьего изми душу мою.",
   "summary": {
-    "text": "Краткая молитва.",
+    "text": "Православная молитва для духовного чтения, укрепления веры и общения с Богом.",
     "tags": [
       "Господу",
-      "при страхе, в опасности, после аварии"
+      "при страхе, в опасности, после аварии",
+      "православные молитвы",
+      "молитвенник",
+      "духовность",
+      "вера"
     ]
-  }
+  },
+  "explanation": "Эта молитва помогает верующему в духовном общении с Богом, укреплении веры и получении благодатной помощи в различных жизненных обстоятельствах.",
+  "relatedPrayers": [
+    {
+      "id": 431,
+      "title": "Чин литии, совершаемой мирянином дома и на кладбище",
+      "url": "chin-litii-sovershaemoy-miryaninom-doma-i-na-kladbische",
+      "commonTags": [
+        "Господу"
+      ]
+    },
+    {
+      "id": 477,
+      "title": "Чин обедницы",
+      "url": "chin-obednitsy",
+      "commonTags": [
+        "Господу"
+      ]
+    },
+    {
+      "id": 298,
+      "title": "Cвятому преподобному Иринарху, затворнику Ростовскому",
+      "url": "cvyatomu-prepodobnomu-irinarhu-zatvorniku-rostovskomu",
+      "commonTags": [
+        "Господу",
+        "при страхе, в опасности, после аварии"
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Cвятому равноапостольному Великому Князю Владимиру",
+      "url": "cvyatomu-ravnoapostolnomu-velikomu-knyazyu-vladimiru",
+      "commonTags": [
+        "при страхе, в опасности, после аварии"
+      ]
+    },
+    {
+      "id": 349,
+      "title": "Cвятым угодникам: Иоанну Крестителю, Иоанну Богослову, Николаю Чудотворцу, священномученику Харлампию, вмч. Георгию Победоносцу и другим святым",
+      "url": "cvyatym-ugodnikam-ioannu-krestitelyu-ioannu-bogoslovu-nikolayu-chudotvortsu-svyaschennomucheniku-harlampiyu-vmch-georgiyu-pobedonostsu-i-drugim-svyatym",
+      "commonTags": [
+        "при страхе, в опасности, после аварии"
+      ]
+    }
+  ],
+  "seoOptimized": {
+    "title": "Против вражьего страха",
+    "description": "Православная молитва для духовного чтения, укрепления веры и общения с Богом.",
+    "keywords": [
+      "Господу",
+      "при страхе, в опасности, после аварии",
+      "православные молитвы",
+      "молитвенник",
+      "духовность",
+      "вера"
+    ],
+    "canonicalUrl": "https://molitvy-dnya.ru/prayer/protiv-vrazhego-straha",
+    "structuredData": {
+      "@type": "Article",
+      "headline": "Против вражьего страха",
+      "description": "Православная молитва для духовного чтения, укрепления веры и общения с Богом.",
+      "keywords": "Господу, при страхе, в опасности, после аварии, православные молитвы, молитвенник, духовность, вера",
+      "articleBody": "Господи, от страха вражьего изми душу мою.",
+      "inLanguage": "ru"
+    }
+  },
+  "enhancedAt": "2025-09-22T11:39:17.014Z",
+  "version": "2.0"
 }
