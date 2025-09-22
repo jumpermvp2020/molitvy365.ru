@@ -1,0 +1,51 @@
+# Простой Dockerfile для Dokploy
+FROM node:18-alpine AS base
+
+# Устанавливаем зависимости
+FROM base AS deps
+RUN apk add --no-cache libc6-compat
+WORKDIR /app
+
+# Копируем package.json и устанавливаем зависимости
+COPY package.json package-lock.json* ./
+RUN npm ci
+
+# Сборка приложения
+FROM base AS builder
+WORKDIR /app
+COPY --from=deps /app/node_modules ./node_modules
+COPY . .
+
+# Отключаем telemetry
+ENV NEXT_TELEMETRY_DISABLED=1
+
+# Собираем приложение
+RUN npm run build
+
+# Продакшн образ
+FROM node:18-alpine AS runner
+WORKDIR /app
+
+ENV NODE_ENV=production
+ENV NEXT_TELEMETRY_DISABLED=1
+
+# Создаем пользователя
+RUN addgroup --system --gid 1001 nodejs
+RUN adduser --system --uid 1001 nextjs
+
+# Копируем статические файлы
+COPY --from=builder /app/out ./out
+COPY --from=builder /app/public ./public
+
+# Устанавливаем права доступа
+RUN chown -R nextjs:nodejs /app
+
+USER nextjs
+
+EXPOSE 3000
+
+ENV PORT=3000
+ENV HOSTNAME="0.0.0.0"
+
+# Запускаем статический сервер
+CMD ["npx", "serve", "out", "-p", "3000"]

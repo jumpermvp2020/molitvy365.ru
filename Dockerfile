@@ -24,14 +24,30 @@ ENV NEXT_TELEMETRY_DISABLED=1
 RUN npm run build
 
 # Продакшн образ для статической сборки
-FROM nginx:alpine AS runner
+FROM node:18-alpine AS runner
+WORKDIR /app
+
+ENV NODE_ENV=production
+# Следующая строка отключает telemetry во время выполнения.
+ENV NEXT_TELEMETRY_DISABLED=1
+
+RUN addgroup --system --gid 1001 nodejs
+RUN adduser --system --uid 1001 nextjs
 
 # Копируем статические файлы из сборки
-COPY --from=builder /app/out /usr/share/nginx/html
+COPY --from=builder /app/out ./out
+COPY --from=builder /app/public ./public
 
-# Копируем конфигурацию nginx
-COPY nginx.conf /etc/nginx/nginx.conf
+# Устанавливаем правильные права доступа
+RUN chown -R nextjs:nodejs /app
 
-EXPOSE 80
+USER nextjs
 
-CMD ["nginx", "-g", "daemon off;"]
+EXPOSE 3000
+
+ENV PORT=3000
+# Устанавливаем hostname на localhost
+ENV HOSTNAME="0.0.0.0"
+
+# Простой статический сервер
+CMD ["npx", "serve", "out", "-p", "3000"]
