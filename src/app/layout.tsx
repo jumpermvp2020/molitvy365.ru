@@ -1,10 +1,7 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
 import './globals.css';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
 import YandexMetrika from '@/components/YandexMetrika';
-
-const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: {
@@ -95,13 +92,17 @@ export default function RootLayout({
         {/* Preload критических ресурсов */}
         <link rel="preload" href="/data/prayers-index.json" as="fetch" crossOrigin="anonymous" />
         <link rel="preload" href="/og-image.jpg" as="image" />
+        
+        {/* Preload локальных шрифтов */}
+        <link rel="preload" href="/fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+        <link rel="preload" href="/fonts/Inter-Medium.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+        <link rel="preload" href="/fonts/Inter-SemiBold.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+        <link rel="preload" href="/fonts/Inter-Bold.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
 
         {/* Preconnect для внешних ресурсов */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://mc.yandex.ru" />
       </head>
-      <body className={inter.className}>
+      <body className="font-sans">
         <GoogleAnalytics />
         <YandexMetrika />
         {children}
