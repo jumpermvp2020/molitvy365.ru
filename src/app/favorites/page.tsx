@@ -19,7 +19,7 @@ export default function FavoritesPage() {
                 if (!prayerDetails[favorite.id]) {
                     setLoadingDetails(prev => new Set([...prev, favorite.id]));
                     try {
-                        const response = await fetch(`/data/prayers/${favorite.randomUrl}.json`);
+                        const response = await fetch(`/data/prayers/${favorite.url}.json`);
                         const prayer: Prayer = await response.json();
                         setPrayerDetails(prev => ({
                             ...prev,
@@ -52,8 +52,8 @@ export default function FavoritesPage() {
         });
     };
 
-    const handleViewPrayer = (randomUrl: string) => {
-        router.push(`/prayer/${randomUrl}`);
+    const handleViewPrayer = (url: string) => {
+        router.push(`/prayer/${url}`);
     };
 
     const handleBack = () => {
@@ -180,7 +180,7 @@ export default function FavoritesPage() {
                                         <div className="flex items-center gap-2 ml-4">
                                             {prayer && (
                                                 <button
-                                                    onClick={() => handleViewPrayer(favorite.randomUrl)}
+                                                    onClick={() => handleViewPrayer(favorite.url)}
                                                     className="
                                                         inline-flex items-center gap-2 px-3 py-2 
                                                         text-blue-600 hover:text-blue-800 

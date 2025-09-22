@@ -4,7 +4,7 @@ export interface Prayer {
     content: string;
     contentModern?: string; // Современный русский перевод
     originalUrl: string;
-    randomUrl: string;
+    url: string; // Изменили с randomUrl на url
     createdAt: string;
     updatedAt: string;
     summary?: {
@@ -16,7 +16,7 @@ export interface Prayer {
 export interface PrayerMetadata {
     id: number;
     title: string;
-    randomUrl: string;
+    url: string; // Изменили с randomUrl на url
     filename: string;
 }
 

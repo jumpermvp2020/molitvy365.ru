@@ -15,7 +15,7 @@ export async function GET(request: NextRequest) {
     
     ${prayers.slice(0, 50).map(prayer => `
     <item turbo="true">
-      <link>https://molitvy-dnya.ru/prayer/${prayer.randomUrl}</link>
+      <link>https://molitvy-dnya.ru/prayer/${prayer.url}</link>
       <turbo:content>
         <![CDATA[
           <header>

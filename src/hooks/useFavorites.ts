@@ -8,7 +8,7 @@ const FAVORITES_KEY = 'prayer-favorites';
 export interface FavoritePrayer {
     id: number;
     title: string;
-    randomUrl: string;
+    url: string;
     addedAt: string;
 }
 
@@ -46,7 +46,7 @@ export function useFavorites() {
         const favoritePrayer: FavoritePrayer = {
             id: prayer.id,
             title: prayer.title,
-            randomUrl: prayer.randomUrl,
+            url: prayer.url,
             addedAt: new Date().toISOString(),
         };
 

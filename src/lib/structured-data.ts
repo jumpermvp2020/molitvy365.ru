@@ -24,9 +24,9 @@ export function generatePrayerStructuredData(prayer: Prayer) {
         "dateModified": prayer.updatedAt,
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": `https://molitvy-dnya.ru/prayer/${prayer.randomUrl}`
+            "@id": `https://molitvy-dnya.ru/prayer/${prayer.url}`
         },
-        "url": `https://molitvy-dnya.ru/prayer/${prayer.randomUrl}`,
+        "url": `https://molitvy-dnya.ru/prayer/${prayer.url}`,
         "articleBody": prayer.content,
         "keywords": prayer.summary?.tags || ["молитва", "православие", "духовность"],
         "articleSection": "Православные молитвы",

@@ -25,7 +25,7 @@ interface Prayer {
     title: string;
     content: string;
     originalUrl: string;
-    randomUrl: string;
+    url: string;
     createdAt: string;
     updatedAt: string;
 }

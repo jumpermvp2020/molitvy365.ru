@@ -59,12 +59,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
         },
         metadataBase: new URL('https://molitvy-dnya.ru'),
         alternates: {
-            canonical: `/prayer/${prayer.randomUrl}`,
+            canonical: `/prayer/${prayer.url}`,
         },
         openGraph: {
             type: 'article',
             locale: 'ru_RU',
-            url: `/prayer/${prayer.randomUrl}`,
+            url: `/prayer/${prayer.url}`,
             title: `${prayer.title} - Православная молитва`,
             description: description,
             siteName: 'Молитвы дня',
@@ -167,7 +167,7 @@ export default async function PrayerPage({ params }: { params: Promise<{ slug: s
     // Breadcrumbs
     const breadcrumbs = [
         { name: 'Молитвы', url: '/' },
-        { name: prayer.title, url: `/prayer/${prayer.randomUrl}` }
+        { name: prayer.title, url: `/prayer/${prayer.url}` }
     ];
     const breadcrumbStructuredData = generateBreadcrumbStructuredData(breadcrumbs);
 

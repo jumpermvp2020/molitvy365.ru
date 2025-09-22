@@ -55,7 +55,7 @@ export default async function AMPPrayerPage({ params }: { params: Promise<{ slug
                 <title>{prayer.title} - Православная молитва | Молитвы дня</title>
                 <meta name="description" content={description} />
                 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
-                <link rel="canonical" href={`https://molitvy-dnya.ru/prayer/${prayer.randomUrl}`} />
+                <link rel="canonical" href={`https://molitvy-dnya.ru/prayer/${prayer.url}`} />
 
                 {/* AMP Boilerplate */}
                 <style amp-boilerplate>

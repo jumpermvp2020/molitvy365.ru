@@ -9,9 +9,9 @@ export function loadPrayerIndex(): PrayerIndex {
     return JSON.parse(fileContents);
 }
 
-export function loadPrayer(randomUrl: string): Prayer | null {
+export function loadPrayer(url: string): Prayer | null {
     try {
-        const filePath = path.join(process.cwd(), 'data', 'prayers', `${randomUrl}.json`);
+        const filePath = path.join(process.cwd(), 'data', 'prayers', `${url}.json`);
         const fileContents = fs.readFileSync(filePath, 'utf8');
         return JSON.parse(fileContents);
     } catch (error) {

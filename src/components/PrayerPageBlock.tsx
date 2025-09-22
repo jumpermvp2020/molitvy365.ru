@@ -53,7 +53,7 @@ export default function PrayerPageBlock({ prayer, h1Title }: PrayerPageBlockProp
     };
 
     const handleShare = async () => {
-        const url = `${window.location.origin}/prayer/${prayer.randomUrl}`;
+        const url = `${window.location.origin}/prayer/${prayer.url}`;
 
         if (navigator.share) {
             try {
@@ -73,7 +73,7 @@ export default function PrayerPageBlock({ prayer, h1Title }: PrayerPageBlockProp
     };
 
     const handleBookmark = async () => {
-        const url = `${window.location.origin}/prayer/${prayer.randomUrl}`;
+        const url = `${window.location.origin}/prayer/${prayer.url}`;
 
         // Показываем инструкции и копируем URL
         const instructions = showBookmarkInstructions();

@@ -52,7 +52,7 @@ export async function GET(request: NextRequest) {
 
             return `
   <url>
-    <loc>${baseUrl}/prayer/${prayer.randomUrl}</loc>
+    <loc>${baseUrl}/prayer/${prayer.url}</loc>
     <lastmod>${prayer.updatedAt}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>${priority}</priority>
