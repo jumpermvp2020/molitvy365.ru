@@ -79,42 +79,41 @@ export default function PrayerBlock({ prayer, onRefresh }: PrayerBlockProps) {
     };
 
     return (
-        <div className="max-w-2xl mx-auto px-4">
+        <div className="container-responsive">
             <div
                 className={`
-          bg-white rounded-3xl shadow-lg p-8 transition-all duration-400 ease-out
+          card-responsive fade-in hover-raise
           ${isAnimating ? 'opacity-0 translate-y-2' : 'opacity-100 translate-y-0'}
         `}
-                style={{
-                    boxShadow: '0 6px 16px rgba(0,0,0,0.06)'
-                }}
             >
                 {/* Заголовок */}
-                <h1 className="text-sm uppercase tracking-wider text-gray-600 mb-12 text-center">
+                <h1 className="caption-text uppercase tracking-wider text-gray-600 mb-8 sm:mb-12 text-center">
                     Молитва дня
                 </h1>
 
                 {/* Переключатель языков */}
                 {hasModernTranslation && (
                     <div className="flex justify-center mb-6">
-                        <div className="bg-gray-100 rounded-lg p-1 inline-flex">
+                        <div className="bg-gray-100 rounded-lg p-1 inline-flex flex-wrap gap-1">
                             <button
                                 onClick={() => setIsModernLanguage(false)}
-                                className={`px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 ${!isModernLanguage
+                                className={`button-responsive text-sm font-medium transition-all duration-200 focus-visible ${!isModernLanguage
                                     ? 'bg-white text-gray-900 shadow-sm'
                                     : 'text-gray-600 hover:text-gray-800'
                                     }`}
                             >
-                                Церковнославянский
+                                <span className="hidden sm:inline">Церковнославянский</span>
+                                <span className="sm:hidden">Церковный</span>
                             </button>
                             <button
                                 onClick={() => setIsModernLanguage(true)}
-                                className={`px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 ${isModernLanguage
+                                className={`button-responsive text-sm font-medium transition-all duration-200 focus-visible ${isModernLanguage
                                     ? 'bg-white text-gray-900 shadow-sm'
                                     : 'text-gray-600 hover:text-gray-800'
                                     }`}
                             >
-                                Современный русский
+                                <span className="hidden sm:inline">Современный русский</span>
+                                <span className="sm:hidden">Современный</span>
                             </button>
                         </div>
                     </div>
@@ -123,7 +122,7 @@ export default function PrayerBlock({ prayer, onRefresh }: PrayerBlockProps) {
                 {/* Текст молитвы */}
                 <div className="relative">
                     <div
-                        className="text-lg leading-relaxed text-gray-900 text-center mb-6 max-w-none transition-all duration-300 ease-in-out whitespace-pre-line"
+                        className="body-text text-gray-900 text-center mb-6 max-w-none transition-all duration-300 ease-in-out whitespace-pre-line text-overflow-protection"
                         style={{
                             maxWidth: '60ch',
                             maxHeight: shouldShowExpandButton && !isExpanded ? maxHeight : 'none',
@@ -140,12 +139,12 @@ export default function PrayerBlock({ prayer, onRefresh }: PrayerBlockProps) {
                             <button
                                 onClick={() => setIsExpanded(!isExpanded)}
                                 className="
-                                    inline-flex items-center gap-2 px-4 py-2 
+                                    button-responsive inline-flex items-center gap-2 
                                     text-gray-600 hover:text-gray-800 
                                     bg-gray-50 hover:bg-gray-100 
-                                    rounded-lg border border-gray-200 
+                                    border border-gray-200 
                                     transition-all duration-200
-                                    hover:shadow-sm text-sm
+                                    hover:shadow-sm text-sm focus-visible
                                 "
                             >
                                 {isExpanded ? (
@@ -165,21 +164,21 @@ export default function PrayerBlock({ prayer, onRefresh }: PrayerBlockProps) {
                 </div>
 
                 {/* Источник */}
-                <div className="text-sm text-gray-500 text-right mb-8">
+                <div className="caption-text text-gray-500 text-right mb-6 sm:mb-8 text-overflow-protection">
                     {prayer.title}
                 </div>
 
                 {/* Summary информация */}
                 {prayer.summary && (
-                    <div className="mb-6 mt-6 p-6 bg-gradient-to-br from-[#FCE7D7] to-[#F9F5FF] rounded-xl border border-[#E5E7EB]">
-                        <h3 className="text-sm font-medium text-[#4B5563] mb-3 uppercase tracking-wider">Описание молитвы</h3>
-                        <p className="text-[#1A1A1A] mb-4 leading-relaxed">{prayer.summary.text}</p>
+                    <div className="mb-6 mt-6 p-4 sm:p-6 bg-gradient-to-br from-[#FCE7D7] to-[#F9F5FF] rounded-xl border border-[#E5E7EB]">
+                        <h3 className="caption-text font-medium text-[#4B5563] mb-3 uppercase tracking-wider">Описание молитвы</h3>
+                        <p className="body-text text-[#1A1A1A] mb-4 leading-relaxed text-overflow-protection">{prayer.summary.text}</p>
                         {prayer.summary.tags && prayer.summary.tags.length > 0 && (
                             <div className="flex flex-wrap gap-2">
                                 {prayer.summary.tags.map((tag, index) => (
                                     <span
                                         key={index}
-                                        className="inline-block px-3 py-1 text-xs font-medium text-[#1A1A1A] bg-white/60 rounded-full border border-white/40"
+                                        className="inline-block px-2 sm:px-3 py-1 text-xs font-medium text-[#1A1A1A] bg-white/60 rounded-full border border-white/40 text-overflow-protection"
                                     >
                                         {tag}
                                     </span>
@@ -190,21 +189,21 @@ export default function PrayerBlock({ prayer, onRefresh }: PrayerBlockProps) {
                 )}
 
                 {/* Кнопки действий */}
-                <div className="flex justify-center gap-4">
+                <div className="flex justify-center gap-3 sm:gap-4 flex-wrap">
                     {onRefresh && (
                         <div className="flex flex-col items-center gap-2">
                             <button
                                 onClick={handleRefresh}
                                 className="
-                                    w-12 h-12 rounded-full bg-gray-100 hover:bg-gray-200 
+                                    w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-gray-100 hover:bg-gray-200 
                                     flex items-center justify-center transition-all duration-200
-                                    hover:scale-105 hover:shadow-md
+                                    hover:scale-105 hover:shadow-md focus-visible
                                 "
                                 title="Новая молитва"
                             >
-                                <RefreshCw className="w-5 h-5 text-gray-600" />
+                                <RefreshCw className="w-5 h-5 sm:w-6 sm:h-6 text-gray-600" />
                             </button>
-                            <span className="text-xs text-gray-500">Новая</span>
+                            <span className="caption-text text-gray-500">Новая</span>
                         </div>
                     )}
 
@@ -212,9 +211,9 @@ export default function PrayerBlock({ prayer, onRefresh }: PrayerBlockProps) {
                         <button
                             onClick={() => toggleFavorite(prayer)}
                             className={`
-                                w-12 h-12 rounded-full transition-all duration-200
+                                w-12 h-12 sm:w-14 sm:h-14 rounded-full transition-all duration-200
                                 flex items-center justify-center
-                                hover:scale-105 hover:shadow-md
+                                hover:scale-105 hover:shadow-md focus-visible
                                 ${isFavorite(prayer.id)
                                     ? 'bg-red-100 hover:bg-red-200'
                                     : 'bg-gray-100 hover:bg-gray-200'
@@ -223,13 +222,13 @@ export default function PrayerBlock({ prayer, onRefresh }: PrayerBlockProps) {
                             title={isFavorite(prayer.id) ? "Удалить из избранного" : "Добавить в избранное"}
                         >
                             <Heart
-                                className={`w-5 h-5 transition-colors duration-200 ${isFavorite(prayer.id)
+                                className={`w-5 h-5 sm:w-6 sm:h-6 transition-colors duration-200 ${isFavorite(prayer.id)
                                     ? 'text-red-500 fill-red-500'
                                     : 'text-gray-600'
                                     }`}
                             />
                         </button>
-                        <span className="text-xs text-gray-500">
+                        <span className="caption-text text-gray-500">
                             {isFavorite(prayer.id) ? "В избранном" : "Избранное"}
                         </span>
                     </div>
@@ -238,37 +237,37 @@ export default function PrayerBlock({ prayer, onRefresh }: PrayerBlockProps) {
                         <button
                             onClick={handleBookmark}
                             className="
-                                w-12 h-12 rounded-full bg-blue-100 hover:bg-blue-200 
+                                w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-blue-100 hover:bg-blue-200 
                                 flex items-center justify-center transition-all duration-200
-                                hover:scale-105 hover:shadow-md
+                                hover:scale-105 hover:shadow-md focus-visible
                             "
                             title="Добавить в закладки браузера"
                         >
-                            <Bookmark className="w-5 h-5 text-blue-600" />
+                            <Bookmark className="w-5 h-5 sm:w-6 sm:h-6 text-blue-600" />
                         </button>
-                        <span className="text-xs text-gray-500">Закладки</span>
+                        <span className="caption-text text-gray-500">Закладки</span>
                     </div>
 
                     <div className="flex flex-col items-center gap-2">
                         <button
                             onClick={handleShare}
                             className="
-                                w-12 h-12 rounded-full bg-gray-100 hover:bg-gray-200 
+                                w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-gray-100 hover:bg-gray-200 
                                 flex items-center justify-center transition-all duration-200
-                                hover:scale-105 hover:shadow-md
+                                hover:scale-105 hover:shadow-md focus-visible
                             "
                             title="Поделиться"
                         >
-                            <Share2 className="w-5 h-5 text-gray-600" />
+                            <Share2 className="w-5 h-5 sm:w-6 sm:h-6 text-gray-600" />
                         </button>
-                        <span className="text-xs text-gray-500">Поделиться</span>
+                        <span className="caption-text text-gray-500">Поделиться</span>
                     </div>
                 </div>
 
                 {/* Сообщение о закладках */}
                 {bookmarkMessage && (
-                    <div className="mt-4 p-3 bg-blue-50 border border-blue-200 rounded-lg">
-                        <p className="text-sm text-blue-800 text-center">{bookmarkMessage}</p>
+                    <div className="mt-4 p-3 sm:p-4 bg-blue-50 border border-blue-200 rounded-lg">
+                        <p className="caption-text text-blue-800 text-center text-overflow-protection">{bookmarkMessage}</p>
                     </div>
                 )}
             </div>

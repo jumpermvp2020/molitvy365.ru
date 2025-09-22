@@ -1,65 +1,47 @@
 'use client';
 
+import { Metadata } from 'next';
 import Link from 'next/link';
-import { ArrowLeft, Home } from 'lucide-react';
-import { useRouter } from 'next/navigation';
+import { Home, ArrowLeft } from 'lucide-react';
 
 export default function NotFound() {
-    const router = useRouter();
+  return (
+    <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+      <div className="container-responsive">
+        <div className="card-responsive text-center">
+          <div className="mb-8">
+            <h1 className="display-text text-gray-900 mb-4">404</h1>
+            <h2 className="heading-text text-gray-700 mb-6">Страница не найдена</h2>
+            <p className="body-text text-gray-600 mb-8">
+              К сожалению, запрашиваемая страница не существует или была перемещена.
+            </p>
+          </div>
 
-    const handleBack = () => {
-        router.back();
-    };
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link
+              href="/"
+              className="button-responsive bg-purple-600 text-white hover:bg-purple-700 focus-visible inline-flex items-center justify-center gap-2"
+            >
+              <Home className="w-4 h-4" />
+              На главную
+            </Link>
+            
+            <button
+              onClick={() => window.history.back()}
+              className="button-responsive bg-white border border-gray-300 text-gray-700 hover:bg-gray-50 focus-visible inline-flex items-center justify-center gap-2"
+            >
+              <ArrowLeft className="w-4 h-4" />
+              Назад
+            </button>
+          </div>
 
-    return (
-        <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-            <div className="max-w-md mx-auto text-center px-4">
-                <div className="bg-white rounded-3xl shadow-lg p-8">
-                    {/* Иконка 404 */}
-                    <div className="text-6xl font-bold text-gray-300 mb-4">404</div>
-
-                    {/* Заголовок */}
-                    <h1 className="text-2xl font-semibold text-gray-900 mb-4">
-                        Страница не найдена
-                    </h1>
-
-                    {/* Описание */}
-                    <p className="text-gray-600 mb-8">
-                        К сожалению, запрашиваемая страница не существует или была перемещена.
-                    </p>
-
-                    {/* Кнопки навигации */}
-                    <div className="flex flex-col sm:flex-row gap-3 justify-center">
-                        <Link
-                            href="/"
-                            className="
-                inline-flex items-center gap-2 px-4 py-2 
-                text-white bg-gray-900 hover:bg-gray-800 
-                rounded-lg transition-all duration-200
-                hover:shadow-md
-              "
-                        >
-                            <Home className="w-4 h-4" />
-                            На главную
-                        </Link>
-
-                        <button
-                            onClick={handleBack}
-                            className="
-                inline-flex items-center gap-2 px-4 py-2 
-                text-gray-600 hover:text-gray-800 
-                bg-white hover:bg-gray-50 
-                rounded-lg border border-gray-200 
-                transition-all duration-200
-                hover:shadow-sm
-              "
-                        >
-                            <ArrowLeft className="w-4 h-4" />
-                            Назад
-                        </button>
-                    </div>
-                </div>
-            </div>
+          <div className="mt-8 p-4 bg-gray-50 rounded-lg">
+            <p className="caption-text text-gray-500">
+              Если вы считаете, что это ошибка, пожалуйста, сообщите нам об этом.
+            </p>
+          </div>
         </div>
-    );
+      </div>
+    </div>
+  );
 }
