@@ -68,7 +68,8 @@ export default function PrayerBlock({ prayer, onRefresh }: PrayerBlockProps) {
     };
 
     const handleBookmark = async () => {
-        const url = `${window.location.origin}/prayer/${prayer.randomUrl}`;
+        // На главной странице добавляем в закладки главную страницу
+        const url = window.location.origin;
 
         // Показываем инструкции и копируем URL
         const instructions = showBookmarkInstructions();
