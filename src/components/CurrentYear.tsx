@@ -14,7 +14,7 @@ export default function CurrentYear({ fallbackYear = 2025 }: CurrentYearProps) {
         const fetchCurrentYear = async () => {
             try {
                 // Пробуем получить текущий год через WorldClockAPI
-                const response = await fetch('http://worldclockapi.com/api/json/utc/now', {
+                const response = await fetch('https://worldclockapi.com/api/json/utc/now', {
                     method: 'GET',
                     headers: {
                         'Accept': 'application/json',
