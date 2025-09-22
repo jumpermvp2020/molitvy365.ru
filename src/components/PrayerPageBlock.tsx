@@ -49,7 +49,14 @@ export default function PrayerPageBlock({ prayer, h1Title }: PrayerPageBlockProp
     const maxHeight = '200px'; // Максимальная высота в свернутом состоянии
 
     const handleBack = () => {
-        router.back();
+        // Проверяем, есть ли история для возврата
+        // Используем document.referrer для проверки, откуда пришел пользователь
+        if (document.referrer && document.referrer !== window.location.href) {
+            router.back();
+        } else {
+            // Если нет истории или пользователь пришел напрямую, переходим на главную страницу
+            router.push('/');
+        }
     };
 
     const handleShare = async () => {

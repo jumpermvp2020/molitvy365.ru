@@ -2,10 +2,10 @@ import { NextRequest, NextResponse } from 'next/server';
 import { getAllPrayers } from '@/lib/prayers';
 
 export async function GET(request: NextRequest) {
-    try {
-        const prayers = await getAllPrayers();
+  try {
+    const prayers = await getAllPrayers();
 
-        const turboContent = `<?xml version="1.0" encoding="UTF-8"?>
+    const turboContent = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:yandex="http://news.yandex.ru" xmlns:media="http://search.yahoo.com/mrss/" xmlns:turbo="http://turbo.yandex.ru">
   <channel>
     <title>Молитвы дня - Православные молитвы</title>
@@ -66,14 +66,14 @@ export async function GET(request: NextRequest) {
   </channel>
 </rss>`;
 
-        return new NextResponse(turboContent, {
-            headers: {
-                'Content-Type': 'application/rss+xml; charset=utf-8',
-                'Cache-Control': 'public, max-age=3600', // Кешируем на час
-            },
-        });
-    } catch (error) {
-        console.error('Ошибка генерации турбо-страниц:', error);
-        return new NextResponse('Ошибка генерации', { status: 500 });
-    }
+    return new NextResponse(turboContent, {
+      headers: {
+        'Content-Type': 'application/rss+xml; charset=utf-8',
+        'Cache-Control': 'public, max-age=3600', // Кешируем на час
+      },
+    });
+  } catch (error) {
+    console.error('Ошибка генерации турбо-страниц:', error);
+    return new NextResponse('Ошибка генерации', { status: 500 });
+  }
 }

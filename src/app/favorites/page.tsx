@@ -103,7 +103,7 @@ export default function FavoritesPage() {
                                 </p>
                             </div>
                         </div>
-                        
+
                         {favorites.length > 0 && (
                             <button
                                 onClick={clearFavorites}
@@ -169,7 +169,7 @@ export default function FavoritesPage() {
                                                     {new Date(favorite.addedAt).toLocaleDateString('ru-RU')}
                                                 </span>
                                             </div>
-                                            
+
                                             {prayer && (
                                                 <p className="text-gray-600 text-sm mb-4 line-clamp-3">
                                                     {prayer.content.substring(0, 200)}...
@@ -195,7 +195,7 @@ export default function FavoritesPage() {
                                                     Открыть
                                                 </button>
                                             )}
-                                            
+
                                             <button
                                                 onClick={() => handleRemoveFavorite(favorite.id)}
                                                 className="
