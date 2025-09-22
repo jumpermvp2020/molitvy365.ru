@@ -19,39 +19,19 @@ COPY . .
 
 # Следующая строка отключает telemetry во время сборки.
 # Узнать больше о telemetry здесь: https://nextjs.org/telemetry
-ENV NEXT_TELEMETRY_DISABLED 1
+ENV NEXT_TELEMETRY_DISABLED=1
 
 RUN npm run build
 
-# Продакшн образ, скопируем все файлы и запустим next
-FROM base AS runner
-WORKDIR /app
+# Продакшн образ для статической сборки
+FROM nginx:alpine AS runner
 
-ENV NODE_ENV=production
-# Следующая строка отключает telemetry во время выполнения.
-ENV NEXT_TELEMETRY_DISABLED=1
+# Копируем статические файлы из сборки
+COPY --from=builder /app/out /usr/share/nginx/html
 
-RUN addgroup --system --gid 1001 nodejs
-RUN adduser --system --uid 1001 nextjs
+# Копируем конфигурацию nginx
+COPY nginx.conf /etc/nginx/nginx.conf
 
-COPY --from=builder /app/public ./public
+EXPOSE 80
 
-# Устанавливаем правильные права доступа для prerender cache
-RUN mkdir .next
-RUN chown nextjs:nodejs .next
-
-# Автоматически используем output traces для уменьшения размера образа
-# https://nextjs.org/docs/advanced-features/output-file-tracing
-COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
-COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
-
-USER nextjs
-
-EXPOSE 3000
-
-ENV PORT=3000
-# Устанавливаем hostname на localhost
-ENV HOSTNAME="0.0.0.0"
-
-# server.js создается автоматически при использовании output: 'standalone'
-CMD ["node", "server.js"]
+CMD ["nginx", "-g", "daemon off;"]

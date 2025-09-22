@@ -8,7 +8,7 @@ export async function generateStaticParams() {
     try {
         const files = fs.readdirSync(path.join(process.cwd(), 'data', 'prayers'));
         const jsonFiles = files.filter(file => file.endsWith('.json'));
-        
+
         return jsonFiles.map(file => ({
             slug: file.replace('.json', '')
         }));
