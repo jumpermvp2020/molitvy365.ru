@@ -89,15 +89,8 @@ export default function RootLayout({
         <meta name="theme-color" content="#8B5CF6" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        {/* Preload критических ресурсов */}
-        <link rel="preload" href="/data/prayers-index.json" as="fetch" crossOrigin="anonymous" />
-        <link rel="preload" href="/og-image.jpg" as="image" />
-        
-        {/* Preload локальных шрифтов */}
+        {/* Preload только критических шрифтов */}
         <link rel="preload" href="/fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
-        <link rel="preload" href="/fonts/Inter-Medium.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
-        <link rel="preload" href="/fonts/Inter-SemiBold.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
-        <link rel="preload" href="/fonts/Inter-Bold.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
 
         {/* Preconnect для внешних ресурсов */}
         <link rel="preconnect" href="https://mc.yandex.ru" />
