@@ -195,10 +195,7 @@ body {
   }
 }
 
-.hover-raise:hover {
-  transform: scale(1.03);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
-}
+/* Removed hover-raise effect for cleaner design */
 
 /* Focus states for accessibility */
 .focus-visible:focus-visible {

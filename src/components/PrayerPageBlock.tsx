@@ -112,7 +112,7 @@ export default function PrayerPageBlock({ prayer, h1Title }: PrayerPageBlockProp
                 )}
             </div>
 
-            <div className="card-responsive fade-in hover-raise">
+            <div className="card-responsive fade-in">
                 {/* H1 заголовок с названием молитвы */}
                 <h2 className="heading-text text-gray-900 mb-6 text-center text-overflow-protection">
                     {prayer.title}

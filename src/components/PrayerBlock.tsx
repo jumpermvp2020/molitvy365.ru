@@ -82,7 +82,7 @@ export default function PrayerBlock({ prayer, onRefresh }: PrayerBlockProps) {
         <div className="container-responsive">
             <div
                 className={`
-          card-responsive fade-in hover-raise
+          card-responsive fade-in
           ${isAnimating ? 'opacity-0 translate-y-2' : 'opacity-100 translate-y-0'}
         `}
             >
