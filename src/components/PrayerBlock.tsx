@@ -90,7 +90,7 @@ export default function PrayerBlock({ prayer, onRefresh }: PrayerBlockProps) {
             >
                 {/* Заголовок */}
                 <h1 className="caption-text uppercase tracking-wider text-gray-600 mb-8 sm:mb-12 text-center">
-                    Молитва дня
+                    Православный молитвослов - Молитва дня
                 </h1>
 
                 {/* Переключатель языков */}
