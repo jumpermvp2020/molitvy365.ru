@@ -25,7 +25,7 @@ const weekDays: DayData[] = Object.entries(daysData.weekDays).map(([key, dayData
     theme: dayData.theme,
     color: getIconBgClass(key),
     icon: getIcon(key),
-    totalPrayers: dayData.totalPrayers,
+    totalPrayers: dayData.prayers.filter(p => !p.isUniversal).length,
     description: dayData.description
 }));
 

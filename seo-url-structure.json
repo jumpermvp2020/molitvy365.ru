@@ -1,0 +1,248 @@
+{
+    "canonicalUrls": {
+        "utrennie-molitvy": {
+            "canonical": "/molitvy/utrennie/",
+            "synonyms": [
+                "/molitvy/utrennie-molitvy/",
+                "/molitvy/utrennye-molitvy/",
+                "/molitvy/utrennyaya-molitva/",
+                "/molitvy/utrennie/",
+                "/molitvy/utrennye/"
+            ],
+            "variants": {
+                "read": "/molitvy/utrennie/chitat/",
+                "listen": "/molitvy/utrennie/slushat/",
+                "text_full": "/molitvy/utrennie/tekst-polnostyu/",
+                "russian": "/molitvy/utrennie/na-russkom/"
+            }
+        },
+        "vechernie-molitvy": {
+            "canonical": "/molitvy/vechernie/",
+            "synonyms": [
+                "/molitvy/vechernie-molitvy/",
+                "/molitvy/vechernie/",
+                "/molitvy/vechernye-molitvy/",
+                "/molitvy/vechernye/",
+                "/molitvy/vechernyaya-molitva/"
+            ],
+            "variants": {
+                "read": "/molitvy/vechernie/chitat/",
+                "listen": "/molitvy/vechernie/slushat/",
+                "text_full": "/molitvy/vechernie/tekst-polnostyu/",
+                "russian": "/molitvy/vechernie/na-russkom/"
+            }
+        },
+        "otche-nash": {
+            "canonical": "/molitvy/otche-nash/",
+            "synonyms": [
+                "/molitvy/otche-nash-molitva/",
+                "/molitvy/molitva-otche-nash/",
+                "/molitvy/otche-nash/"
+            ],
+            "variants": {
+                "read": "/molitvy/otche-nash/chitat/",
+                "listen": "/molitvy/otche-nash/slushat/",
+                "text_full": "/molitvy/otche-nash/tekst-polnostyu/",
+                "russian": "/molitvy/otche-nash/na-russkom/"
+            }
+        },
+        "simvol-very": {
+            "canonical": "/molitvy/simvol-very/",
+            "synonyms": [
+                "/molitvy/simvol-very-molitva/",
+                "/molitvy/molitva-simvol-very/",
+                "/molitvy/veruyu-molitva/",
+                "/molitvy/simvol-very/"
+            ],
+            "variants": {
+                "read": "/molitvy/simvol-very/chitat/",
+                "listen": "/molitvy/simvol-very/slushat/",
+                "text_full": "/molitvy/simvol-very/tekst-polnostyu/",
+                "russian": "/molitvy/simvol-very/na-russkom/"
+            }
+        },
+        "nikolaj-chudotvorets": {
+            "canonical": "/svyatye/nikolaj-chudotvorets/molitvy/",
+            "synonyms": [
+                "/molitvy/nikolayu-chudotvortsu/",
+                "/molitvy/molitva-nikolayu-chudotvortsu/",
+                "/molitvy/nikolaj-chudotvorets/",
+                "/svyatye/nikolaj-chudotvorets/"
+            ],
+            "variants": {
+                "read": "/svyatye/nikolaj-chudotvorets/molitvy/chitat/",
+                "listen": "/svyatye/nikolaj-chudotvorets/molitvy/slushat/",
+                "text_full": "/svyatye/nikolaj-chudotvorets/molitvy/tekst-polnostyu/",
+                "russian": "/svyatye/nikolaj-chudotvorets/molitvy/na-russkom/"
+            },
+            "intents": {
+                "pomosh": "/svyatye/nikolaj-chudotvorets/molitvy/o-pomoshchi/",
+                "vo-vsem": "/svyatye/nikolaj-chudotvorets/molitvy/vo-vsem/",
+                "zdravie": "/svyatye/nikolaj-chudotvorets/molitvy/o-zdravii/"
+            }
+        },
+        "spiridon-trimifuntskij": {
+            "canonical": "/svyatye/spiridon-trimifuntskij/molitvy/",
+            "synonyms": [
+                "/molitvy/spiridonu-trimifuntskomu/",
+                "/molitvy/molitva-spiridonu-trimifuntskomu/",
+                "/molitvy/spiridon-trimifuntskij/",
+                "/svyatye/spiridon-trimifuntskij/"
+            ],
+            "variants": {
+                "read": "/svyatye/spiridon-trimifuntskij/molitvy/chitat/",
+                "listen": "/svyatye/spiridon-trimifuntskij/molitvy/slushat/",
+                "text_full": "/svyatye/spiridon-trimifuntskij/molitvy/tekst-polnostyu/",
+                "russian": "/svyatye/spiridon-trimifuntskij/molitvy/na-russkom/"
+            },
+            "intents": {
+                "pomosh": "/svyatye/spiridon-trimifuntskij/molitvy/o-pomoshchi/",
+                "dengi": "/svyatye/spiridon-trimifuntskij/molitvy/o-dengah/"
+            }
+        },
+        "matrona-moskovskaya": {
+            "canonical": "/svyatye/matrona-moskovskaya/molitvy/",
+            "synonyms": [
+                "/molitvy/matrone-moskovskoj/",
+                "/molitvy/molitva-matrone-moskovskoj/",
+                "/molitvy/matrona-moskovskaya/",
+                "/svyatye/matrona-moskovskaya/"
+            ],
+            "variants": {
+                "read": "/svyatye/matrona-moskovskaya/molitvy/chitat/",
+                "listen": "/svyatye/matrona-moskovskaya/molitvy/slushat/",
+                "text_full": "/svyatye/matrona-moskovskaya/molitvy/tekst-polnostyu/",
+                "russian": "/svyatye/matrona-moskovskaya/molitvy/na-russkom/"
+            }
+        },
+        "arhangel-mihail": {
+            "canonical": "/svyatye/arhangel-mihail/molitvy/",
+            "synonyms": [
+                "/molitvy/arhangelu-mihailu/",
+                "/molitvy/molitva-arhangelu-mihailu/",
+                "/molitvy/arhangel-mihail/",
+                "/svyatye/arhangel-mihail/"
+            ],
+            "variants": {
+                "read": "/svyatye/arhangel-mihail/molitvy/chitat/",
+                "listen": "/svyatye/arhangel-mihail/molitvy/slushat/",
+                "text_full": "/svyatye/arhangel-mihail/molitvy/tekst-polnostyu/",
+                "russian": "/svyatye/arhangel-mihail/molitvy/na-russkom/"
+            }
+        }
+    },
+    "situationalPages": {
+        "o-detyah": {
+            "canonical": "/molitvy/o-detyah/",
+            "synonyms": [
+                "/molitvy/molitva-o-detyah/",
+                "/molitvy/molitvy-o-detyah/",
+                "/molitvy/molitva-za-detej/",
+                "/molitvy/materinskaya-molitva-o-detyah/"
+            ]
+        },
+        "o-zdravii": {
+            "canonical": "/molitvy/o-zdravii/",
+            "synonyms": [
+                "/molitvy/molitva-o-zdravii/",
+                "/molitvy/molitvy-o-zdravii/",
+                "/molitvy/molitva-o-zdorove/"
+            ]
+        },
+        "pered-operatsiej": {
+            "canonical": "/molitvy/pered-operatsiej/",
+            "synonyms": [
+                "/molitvy/molitva-pered-operatsiej/",
+                "/molitvy/molitvy-pered-operatsiej/"
+            ]
+        },
+        "na-ekzamen": {
+            "canonical": "/molitvy/na-ekzamen/",
+            "synonyms": [
+                "/molitvy/molitva-na-ekzamen/",
+                "/molitvy/molitva-na-sdachu-ekzamena/",
+                "/molitvy/molitvy-na-ekzamen/"
+            ]
+        },
+        "voditelya": {
+            "canonical": "/molitvy/voditelya/",
+            "synonyms": [
+                "/molitvy/molitva-voditelya/",
+                "/molitvy/molitvy-voditelya/",
+                "/molitvy/molitva-voditelyu/"
+            ]
+        },
+        "v-puteshestvii": {
+            "canonical": "/molitvy/v-puteshestvii/",
+            "synonyms": [
+                "/molitvy/molitva-v-puteshestvii/",
+                "/molitvy/molitvy-v-puteshestvii/",
+                "/molitvy/molitva-puteshestvuyushchim/"
+            ]
+        },
+        "na-noch": {
+            "canonical": "/molitvy/na-noch/",
+            "synonyms": [
+                "/molitvy/molitva-na-noch/",
+                "/molitvy/molitvy-na-noch/",
+                "/molitvy/na-son-gryadushchij/",
+                "/molitvy/molitva-na-son-gryadushchij/"
+            ]
+        },
+        "v-den-rozhdeniya": {
+            "canonical": "/molitvy/v-den-rozhdeniya/",
+            "synonyms": [
+                "/molitvy/molitva-v-den-rozhdeniya/",
+                "/molitvy/molitvy-v-den-rozhdeniya/"
+            ]
+        }
+    },
+    "redirectRules": {
+        "301_redirects": [
+            {
+                "from": "/molitvy/utrennie-molitvy/",
+                "to": "/molitvy/utrennie/"
+            },
+            {
+                "from": "/molitvy/utrennye-molitvy/",
+                "to": "/molitvy/utrennie/"
+            },
+            {
+                "from": "/molitvy/utrennyaya-molitva/",
+                "to": "/molitvy/utrennie/"
+            },
+            {
+                "from": "/molitvy/vechernie-molitvy/",
+                "to": "/molitvy/vechernie/"
+            },
+            {
+                "from": "/molitvy/vechernye-molitvy/",
+                "to": "/molitvy/vechernie/"
+            },
+            {
+                "from": "/molitvy/vechernyaya-molitva/",
+                "to": "/molitvy/vechernie/"
+            },
+            {
+                "from": "/molitvy/otche-nash-molitva/",
+                "to": "/molitvy/otche-nash/"
+            },
+            {
+                "from": "/molitvy/molitva-otche-nash/",
+                "to": "/molitvy/otche-nash/"
+            },
+            {
+                "from": "/molitvy/simvol-very-molitva/",
+                "to": "/molitvy/simvol-very/"
+            },
+            {
+                "from": "/molitvy/molitva-simvol-very/",
+                "to": "/molitvy/simvol-very/"
+            },
+            {
+                "from": "/molitvy/veruyu-molitva/",
+                "to": "/molitvy/simvol-very/"
+            }
+        ]
+    }
+}

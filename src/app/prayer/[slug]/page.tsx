@@ -43,15 +43,121 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     }
 
     const description = prayer.summary?.text || prayer.content.substring(0, 160) + '...';
-    const keywords = prayer.summary?.tags?.join(', ') || 'молитва, православие, духовность, молитвенник';
+    const baseKeywords = prayer.summary?.tags?.join(', ') || 'молитва, православие, духовность, молитвенник';
+
+    // Добавляем популярные ключевые слова на основе заголовка молитвы
+    const titleLower = prayer.title.toLowerCase();
+    let additionalKeywords = [];
+
+    if (titleLower.includes('утренн') || titleLower.includes('утро')) {
+        additionalKeywords.push('утренние молитвы', 'молитвы утренние', 'утренняя молитва', 'молитва утренняя');
+    }
+    if (titleLower.includes('вечерн') || titleLower.includes('вечер') || titleLower.includes('сон грядущий')) {
+        additionalKeywords.push('вечерние молитвы', 'молитвы вечерние', 'вечерняя молитва', 'молитва вечерняя', 'молитвы на сон грядущий');
+    }
+    if (titleLower.includes('отче наш') || titleLower.includes('отче')) {
+        additionalKeywords.push('отче наш молитва', 'молитва отче наш', 'отче наш молитва на русском', 'молитва господня');
+    }
+    if (titleLower.includes('николай') || titleLower.includes('чудотворец')) {
+        additionalKeywords.push('молитва николаю чудотворцу', 'молитвы николаю чудотворцу', 'молитва николаю чудотворцу о помощи');
+    }
+    if (titleLower.includes('спиридон')) {
+        additionalKeywords.push('молитва спиридону тримифунтскому', 'молитвы спиридону тримифунтскому', 'спиридон тримифунтский молитва');
+    }
+    if (titleLower.includes('оптинск') || titleLower.includes('старц')) {
+        additionalKeywords.push('молитва оптинских старцев', 'молитва оптинских старцев на каждый день');
+    }
+    if (titleLower.includes('ангел') || titleLower.includes('хранитель')) {
+        additionalKeywords.push('молитва ангелу хранителю', 'молитва архангелу михаилу', 'молитва михаилу архангелу');
+    }
+    if (titleLower.includes('богородиц') || titleLower.includes('пресвят')) {
+        additionalKeywords.push('молитва богородице', 'молитва пресвятой богородице', 'богородица дева радуйся молитва');
+    }
+    if (titleLower.includes('символ веры') || titleLower.includes('верую')) {
+        additionalKeywords.push('символ веры молитва', 'молитва символ веры', 'символ веры молитва текст', 'верую молитва', 'молитва верую');
+    }
+    if (titleLower.includes('дет') || titleLower.includes('сын') || titleLower.includes('дочь')) {
+        additionalKeywords.push('молитва о детях', 'молитвы о детях', 'молитва за детей', 'молитва за сына', 'молитва о сыне', 'молитва матери о сыне');
+    }
+    if (titleLower.includes('здрав') || titleLower.includes('болезн')) {
+        additionalKeywords.push('молитва о здравии', 'молитва пантелеймону целителю');
+    }
+    if (titleLower.includes('путешеств') || titleLower.includes('дорог')) {
+        additionalKeywords.push('молитва о путешествующих', 'молитва водителя');
+    }
+    if (titleLower.includes('рожден') || titleLower.includes('день рождения')) {
+        additionalKeywords.push('молитва в день рождения');
+    }
+    if (titleLower.includes('экзамен') || titleLower.includes('учен')) {
+        additionalKeywords.push('молитва на сдачу экзамена');
+    }
+    if (titleLower.includes('удач') || titleLower.includes('успех')) {
+        additionalKeywords.push('молитва на удачу');
+    }
+    if (titleLower.includes('причащ') || titleLower.includes('причастие')) {
+        additionalKeywords.push('молитвы ко святому причащению', 'молитвы перед причастием', 'благодарственные молитвы по святом причащении');
+    }
+    if (titleLower.includes('благодарств')) {
+        additionalKeywords.push('благодарственные молитвы');
+    }
+    if (titleLower.includes('соглашен')) {
+        additionalKeywords.push('молитва по соглашению');
+    }
+    if (titleLower.includes('иисусов')) {
+        additionalKeywords.push('иисусова молитва');
+    }
+    if (titleLower.includes('живые помощи') || titleLower.includes('живые помощи')) {
+        additionalKeywords.push('живые помощи молитва', 'молитва живые помощи');
+    }
+    if (titleLower.includes('воскреснет') || titleLower.includes('воскреснет бог')) {
+        additionalKeywords.push('да воскреснет бог молитва', 'молитва да воскреснет бог');
+    }
+    if (titleLower.includes('задержан')) {
+        additionalKeywords.push('молитва задержания');
+    }
+    if (titleLower.includes('матрон')) {
+        additionalKeywords.push('молитва матроне московской', 'молитва матроне');
+    }
+    if (titleLower.includes('ксени')) {
+        additionalKeywords.push('молитва ксении петербургской');
+    }
+    if (titleLower.includes('лук')) {
+        additionalKeywords.push('молитва луке крымскому');
+    }
+    if (titleLower.includes('георги')) {
+        additionalKeywords.push('молитва георгию победоносцу');
+    }
+    if (titleLower.includes('серги') || titleLower.includes('радонежск')) {
+        additionalKeywords.push('молитва сергию радонежскому');
+    }
+    if (titleLower.includes('серафим') || titleLower.includes('саровск')) {
+        additionalKeywords.push('молитва серафиму саровскому');
+    }
+    if (titleLower.includes('ефрем') || titleLower.includes('сирин')) {
+        additionalKeywords.push('молитва ефрема сирина');
+    }
+    if (titleLower.includes('всецариц')) {
+        additionalKeywords.push('молитва всецарице');
+    }
+    if (titleLower.includes('казанск')) {
+        additionalKeywords.push('молитва казанской божьей матери');
+    }
+    if (titleLower.includes('усопш') || titleLower.includes('покойн')) {
+        additionalKeywords.push('молитва об усопших');
+    }
+    if (titleLower.includes('операц')) {
+        additionalKeywords.push('молитва перед операцией');
+    }
+
+    const keywords = [baseKeywords, ...additionalKeywords].join(', ');
 
     return {
-        title: `${prayer.title} - Православная молитва | Молитвы дня`,
+        title: `${prayer.title} - Православная молитва | Молитва дня`,
         description: description,
         keywords: keywords,
-        authors: [{ name: 'Молитвы дня' }],
-        creator: 'Молитвы дня',
-        publisher: 'Молитвы дня',
+        authors: [{ name: 'Молитва дня' }],
+        creator: 'Молитва дня',
+        publisher: 'Молитва дня',
         formatDetection: {
             email: false,
             address: false,
@@ -67,7 +173,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
             url: `/prayer/${prayer.url}`,
             title: `${prayer.title} - Православная молитва`,
             description: description,
-            siteName: 'Молитвы дня',
+            siteName: 'Молитва дня',
             images: [
                 {
                     url: '/og-image.jpg',
@@ -101,6 +207,22 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
         other: {
             'yandex-verification': 'your-yandex-verification-code', // Замените на ваш код
             'google-site-verification': 'your-google-verification-code', // Замените на ваш код
+            'language': 'ru',
+            'geo.region': 'RU',
+            'geo.placename': 'Россия',
+            'distribution': 'global',
+            'rating': 'general',
+            'revisit-after': '1 days',
+            'mobile-web-app-capable': 'yes',
+            'apple-mobile-web-app-capable': 'yes',
+            'apple-mobile-web-app-status-bar-style': 'default',
+            'apple-mobile-web-app-title': 'Молитва дня',
+            'HandheldFriendly': 'true',
+            'MobileOptimized': '320',
+            'content-type': 'text/html; charset=UTF-8',
+            'content-language': 'ru',
+            'audience': 'all',
+            'target': 'all',
         },
     };
 }

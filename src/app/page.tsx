@@ -13,7 +13,7 @@ async function getData(): Promise<{ prayer: Prayer; prayerIndex: PrayerIndex }> 
     const indexContents = fs.readFileSync(indexPath, 'utf8');
     const prayerIndex: PrayerIndex = JSON.parse(indexContents);
 
-    // Выбираем случайную молитву
+    // Выбираем случайную молитву при каждом заходе
     const randomIndex = Math.floor(Math.random() * prayerIndex.totalPrayers);
     const prayerUrl = prayerIndex.prayers[randomIndex]?.url;
 

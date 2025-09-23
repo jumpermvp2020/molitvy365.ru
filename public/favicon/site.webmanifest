@@ -1,0 +1,30 @@
+{
+  "name": "Молитва дня - Случайная православная молитва каждый день",
+  "short_name": "Молитва дня",
+  "description": "Молитва дня - каждый день новая случайная православная молитва для духовного чтения",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAFAFA",
+  "theme_color": "#8B5CF6",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/favicon/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "religion",
+    "spirituality",
+    "books"
+  ],
+  "lang": "ru"
+}

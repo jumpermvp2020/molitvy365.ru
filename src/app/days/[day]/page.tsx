@@ -1,21 +1,18 @@
-import { Metadata } from 'next';
+'use client';
+
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { ArrowLeft, Calendar, Clock, Shield, MessageCircle, Heart, BookOpen, Sun, Moon } from 'lucide-react';
+import { useState, use } from 'react';
 import daysData from '../../../data/prayers-by-days-complete.json';
 
 interface DayPageProps {
-    params: {
+    params: Promise<{
         day: string;
-    };
+    }>;
 }
 
-export async function generateStaticParams() {
-    const days = Object.keys(daysData.weekDays);
-    return days.map((day) => ({
-        day: day,
-    }));
-}
+// generateStaticParams удален - не работает в клиентском компоненте
 
 const dayIcons = {
     monday: Shield,
@@ -27,39 +24,25 @@ const dayIcons = {
     sunday: Sun
 };
 
-export async function generateMetadata({ params }: DayPageProps): Promise<Metadata> {
-    const dayData = daysData.weekDays[params.day as keyof typeof daysData.weekDays];
-
-    if (!dayData) {
-        return {
-            title: 'День не найден',
-        };
-    }
-
-    return {
-        title: `Молитвы на ${dayData.nameGenitive} - ${dayData.theme}`,
-        description: `${dayData.description}. ${dayData.totalPrayers} молитв для духовной практики в ${dayData.nameGenitive}.`,
-        keywords: `молитва ${dayData.nameGenitive}, молитвы ${dayData.nameGenitive}, архангел ${dayData.archangel.toLowerCase()}, ${dayData.theme.toLowerCase()}`,
-        openGraph: {
-            title: `Молитвы на ${dayData.nameGenitive}`,
-            description: `${dayData.description}. ${dayData.totalPrayers} молитв для духовной практики.`,
-            type: 'website',
-        },
-    };
-}
+// generateMetadata удален - не работает в клиентском компоненте
 
 export default function DayPage({ params }: DayPageProps) {
-    const dayData = daysData.weekDays[params.day as keyof typeof daysData.weekDays];
+    const resolvedParams = use(params);
+    const dayData = daysData.weekDays[resolvedParams.day as keyof typeof daysData.weekDays];
 
     if (!dayData) {
         notFound();
     }
 
-    const IconComponent = dayIcons[params.day as keyof typeof dayIcons] || Calendar;
+    const IconComponent = dayIcons[resolvedParams.day as keyof typeof dayIcons] || Calendar;
 
     // Разделяем молитвы на универсальные и специфичные для дня
     const universalPrayers = dayData.prayers.filter(prayer => prayer.isUniversal);
     const specificPrayers = dayData.prayers.filter(prayer => !prayer.isUniversal);
+
+    // Состояние для управления показом всех молитв
+    const [showAllSpecific, setShowAllSpecific] = useState(false);
+    const [showAllUniversal, setShowAllUniversal] = useState(false);
 
     return (
         <div className="min-h-screen bg-gradient-to-br from-[#FDFBFB] to-[#EBEDEE]">
@@ -104,7 +87,7 @@ export default function DayPage({ params }: DayPageProps) {
                         </div>
                         <div className="text-right">
                             <div className="text-3xl font-bold text-[#111111] mb-2">
-                                {dayData.totalPrayers}
+                                {specificPrayers.length}
                             </div>
                             <div className="text-sm text-[#6B7280]">
                                 молитв
@@ -120,7 +103,7 @@ export default function DayPage({ params }: DayPageProps) {
                             Молитвы для {dayData.nameGenitive}
                         </h2>
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                            {specificPrayers.slice(0, 12).map((prayer) => (
+                            {(showAllSpecific ? specificPrayers : specificPrayers.slice(0, 12)).map((prayer) => (
                                 <Link
                                     key={prayer.id}
                                     href={`/prayer/${prayer.url}`}
@@ -147,8 +130,11 @@ export default function DayPage({ params }: DayPageProps) {
                         </div>
                         {specificPrayers.length > 12 && (
                             <div className="text-center mt-6">
-                                <button className="text-[#111111] hover:text-[#4B5563] font-medium px-6 py-3 bg-white/80 rounded-full border border-[#D1D5DB] hover:shadow-sm transition-all duration-200">
-                                    Показать все {specificPrayers.length} молитв
+                                <button
+                                    onClick={() => setShowAllSpecific(!showAllSpecific)}
+                                    className="text-[#111111] hover:text-[#4B5563] font-medium px-6 py-3 bg-white/80 rounded-full border border-[#D1D5DB] hover:shadow-sm transition-all duration-200"
+                                >
+                                    {showAllSpecific ? 'Скрыть' : `Показать все ${specificPrayers.length} молитв`}
                                 </button>
                             </div>
                         )}
@@ -166,7 +152,7 @@ export default function DayPage({ params }: DayPageProps) {
                                 Эти молитвы можно читать в любой день недели для духовной практики
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                                {universalPrayers.slice(0, 9).map((prayer) => (
+                                {(showAllUniversal ? universalPrayers : universalPrayers.slice(0, 9)).map((prayer) => (
                                     <Link
                                         key={prayer.id}
                                         href={`/prayer/${prayer.url}`}
@@ -179,6 +165,16 @@ export default function DayPage({ params }: DayPageProps) {
                                     </Link>
                                 ))}
                             </div>
+                            {universalPrayers.length > 9 && (
+                                <div className="text-center mt-4">
+                                    <button
+                                        onClick={() => setShowAllUniversal(!showAllUniversal)}
+                                        className="text-[#10B981] hover:text-[#059669] font-medium px-4 py-2 bg-[#F0FDF4] rounded-full border border-[#BBF7D0] hover:shadow-sm transition-all duration-200"
+                                    >
+                                        {showAllUniversal ? 'Скрыть' : `Показать все ${universalPrayers.length} универсальных молитв`}
+                                    </button>
+                                </div>
+                            )}
                         </div>
                     </div>
                 )}
@@ -190,7 +186,7 @@ export default function DayPage({ params }: DayPageProps) {
                     </h3>
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
                         {Object.entries(daysData.weekDays).map(([key, day]) => {
-                            if (key === params.day) return null;
+                            if (key === resolvedParams.day) return null;
                             const DayIcon = dayIcons[key as keyof typeof dayIcons] || Calendar;
                             return (
                                 <Link

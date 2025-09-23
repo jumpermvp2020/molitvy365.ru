@@ -4796,7 +4796,7 @@
       "archangelSlug": "arhangelu-gavriilu",
       "theme": "Благовестие, радостные вести",
       "color": "#4ECDC4",
-      "totalPrayers": 167,
+      "totalPrayers": 37,
       "description": "День архангела Гавриила - вестника радостных новостей и семейного благополучия",
       "prayers": [
         {
@@ -7778,7 +7778,7 @@
       "archangelSlug": "arhangelu-rafailu",
       "theme": "Исцеление, помощь в болезнях",
       "color": "#45B7D1",
-      "totalPrayers": 178,
+      "totalPrayers": 48,
       "description": "День архангела Рафаила - целителя и покровителя больных",
       "prayers": [
         {
@@ -10954,7 +10954,7 @@
       "archangelSlug": "arhangelu-uriilu",
       "theme": "Мудрость, просвещение",
       "color": "#96CEB4",
-      "totalPrayers": 140,
+      "totalPrayers": 10,
       "description": "День архангела Уриила - покровителя мудрости и учения",
       "prayers": [
         {
@@ -13450,7 +13450,7 @@
       "archangelSlug": "arhangelu-selafiilu",
       "theme": "Молитва, духовное общение",
       "color": "#FFEAA7",
-      "totalPrayers": 168,
+      "totalPrayers": 38,
       "description": "День архангела Селафиила - покровителя молитвы и духовного общения",
       "prayers": [
         {
@@ -16549,7 +16549,7 @@
       "archangelSlug": "arhangelu-iegudiilu",
       "theme": "Покой, поминовение усопших",
       "color": "#DDA0DD",
-      "totalPrayers": 244,
+      "totalPrayers": 114,
       "description": "День архангела Иегудиила - покровителя покоя и поминовения усопших",
       "prayers": [
         {
@@ -20868,7 +20868,7 @@
       "archangelSlug": "arhangelu-varahiilu",
       "theme": "Воскресение, семейное благополучие",
       "color": "#98D8C8",
-      "totalPrayers": 186,
+      "totalPrayers": 56,
       "description": "День архангела Варахиила - покровителя семейного благополучия и воскресения",
       "prayers": [
         {
@@ -24289,12 +24289,12 @@
     "averagePrayersPerDay": 63,
     "distribution": {
       "monday": 139,
-      "tuesday": 167,
-      "wednesday": 178,
-      "thursday": 140,
-      "friday": 168,
-      "saturday": 244,
-      "sunday": 186
+      "tuesday": 37,
+      "wednesday": 48,
+      "thursday": 10,
+      "friday": 38,
+      "saturday": 114,
+      "sunday": 56
     },
     "categoryMapping": {
       "work": "monday",
