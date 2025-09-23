@@ -47,7 +47,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
     // Добавляем популярные ключевые слова на основе заголовка молитвы
     const titleLower = prayer.title.toLowerCase();
-    let additionalKeywords = [];
+    const additionalKeywords = [];
 
     if (titleLower.includes('утренн') || titleLower.includes('утро')) {
         additionalKeywords.push('утренние молитвы', 'молитвы утренние', 'утренняя молитва', 'молитва утренняя');

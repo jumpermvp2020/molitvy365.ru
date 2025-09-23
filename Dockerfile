@@ -21,7 +21,7 @@ COPY . .
 # Узнать больше о telemetry здесь: https://nextjs.org/telemetry
 ENV NEXT_TELEMETRY_DISABLED=1
 
-RUN npm run build
+RUN npm run build:docker
 
 # Продакшн образ для статической сборки
 FROM node:18-alpine AS runner

@@ -1,12 +1,15 @@
 import React from 'react';
-import { PrayerCategory } from '@/types/prayer';
+import Link from 'next/link';
 
 interface PillarTemplateProps {
-    category: PrayerCategory;
+    category: {
+        name: string;
+        description: string;
+    };
     canonicalUrl: string;
     h1Variations: string[];
     seoDescription: string;
-    detailedDescription: any;
+    detailedDescription: Record<string, unknown>;
 }
 
 export const PillarTemplate: React.FC<PillarTemplateProps> = ({
@@ -28,7 +31,7 @@ export const PillarTemplate: React.FC<PillarTemplateProps> = ({
                 "name": `Как читать ${category.name.toLowerCase()}?`,
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": detailedDescription.sections[0]?.items[0] || "Читайте молитвы в спокойной обстановке, сосредоточившись на словах."
+                    "text": (detailedDescription.sections as Array<{ items: string[] }>)?.[0]?.items[0] || "Читайте молитвы в спокойной обстановке, сосредоточившись на словах."
                 }
             },
             {
@@ -36,7 +39,7 @@ export const PillarTemplate: React.FC<PillarTemplateProps> = ({
                 "name": `Когда читать ${category.name.toLowerCase()}?`,
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": detailedDescription.sections[0]?.items[1] || "Молитвы читаются в соответствии с церковным уставом и личными потребностями."
+                    "text": (detailedDescription.sections as Array<{ items: string[] }>)?.[0]?.items[1] || "Молитвы читаются в соответствии с церковным уставом и личными потребностями."
                 }
             },
             {
@@ -90,7 +93,7 @@ export const PillarTemplate: React.FC<PillarTemplateProps> = ({
                 {/* Breadcrumbs */}
                 <nav className="breadcrumbs" aria-label="Навигация">
                     <ol>
-                        <li><a href="/">Главная</a></li>
+                        <li><Link href="/">Главная</Link></li>
                         <li><a href="/molitvy/">Молитвы</a></li>
                         <li aria-current="page">{category.name}</li>
                     </ol>
@@ -129,7 +132,7 @@ export const PillarTemplate: React.FC<PillarTemplateProps> = ({
                     {/* When to Read */}
                     <section className="when-to-read">
                         <h2>Когда читать {category.name.toLowerCase()}</h2>
-                        {detailedDescription.sections.map((section: any, index: number) => (
+                        {(detailedDescription.sections as Array<{ title: string; items: string[] }>)?.map((section, index: number) => (
                             <div key={index} className="section-block">
                                 <h3>{section.title}</h3>
                                 <ul>
@@ -166,11 +169,11 @@ export const PillarTemplate: React.FC<PillarTemplateProps> = ({
                         <div className="faq-list">
                             <details className="faq-item">
                                 <summary>Как читать {category.name.toLowerCase()}?</summary>
-                                <p>{detailedDescription.sections[0]?.items[0] || "Читайте молитвы в спокойной обстановке, сосредоточившись на словах."}</p>
+                                <p>{(detailedDescription.sections as Array<{ items: string[] }>)?.[0]?.items[0] || "Читайте молитвы в спокойной обстановке, сосредоточившись на словах."}</p>
                             </details>
                             <details className="faq-item">
                                 <summary>Когда читать {category.name.toLowerCase()}?</summary>
-                                <p>{detailedDescription.sections[0]?.items[1] || "Молитвы читаются в соответствии с церковным уставом и личными потребностями."}</p>
+                                <p>{(detailedDescription.sections as Array<{ items: string[] }>)?.[0]?.items[1] || "Молитвы читаются в соответствии с церковным уставом и личными потребностями."}</p>
                             </details>
                             <details className="faq-item">
                                 <summary>Есть ли современный русский перевод?</summary>

@@ -2,7 +2,7 @@ import React from 'react';
 
 interface StructuredDataProps {
     type: 'FAQPage' | 'Article' | 'BreadcrumbList';
-    data: any;
+    data: Record<string, unknown>;
 }
 
 export const StructuredData: React.FC<StructuredDataProps> = ({ type, data }) => {
@@ -12,7 +12,7 @@ export const StructuredData: React.FC<StructuredDataProps> = ({ type, data }) =>
                 return {
                     "@context": "https://schema.org",
                     "@type": "FAQPage",
-                    "mainEntity": data.faq?.map((item: any) => ({
+                    "mainEntity": (data.faq as Array<{ question: string; answer: string }>)?.map((item) => ({
                         "@type": "Question",
                         "name": item.question,
                         "acceptedAnswer": {
@@ -50,7 +50,7 @@ export const StructuredData: React.FC<StructuredDataProps> = ({ type, data }) =>
                         "@type": "ImageObject",
                         "url": data.image
                     } : undefined,
-                    "keywords": data.keywords?.join(', '),
+                    "keywords": (data.keywords as string[])?.join(', '),
                     "articleSection": data.category,
                     "wordCount": data.wordCount,
                     "timeRequired": data.timeRequired
@@ -60,7 +60,7 @@ export const StructuredData: React.FC<StructuredDataProps> = ({ type, data }) =>
                 return {
                     "@context": "https://schema.org",
                     "@type": "BreadcrumbList",
-                    "itemListElement": data.breadcrumbs?.map((item: any, index: number) => ({
+                    "itemListElement": (data.breadcrumbs as Array<{ name: string; url: string }>)?.map((item, index: number) => ({
                         "@type": "ListItem",
                         "position": index + 1,
                         "name": item.name,
@@ -119,7 +119,7 @@ export const BreadcrumbStructuredData: React.FC<{
 // Компонент для генерации всех структурированных данных страницы
 export const PageStructuredData: React.FC<{
     pageType: 'pillar' | 'read' | 'text-full' | 'russian' | 'situational' | 'saint';
-    data: any;
+    data: Record<string, unknown>;
 }> = ({ pageType, data }) => {
     const breadcrumbs = [
         { name: "Главная", url: "/" },
@@ -129,23 +129,23 @@ export const PageStructuredData: React.FC<{
     // Добавляем специфичные breadcrumbs в зависимости от типа страницы
     switch (pageType) {
         case 'pillar':
-            breadcrumbs.push({ name: data.name, url: data.canonicalUrl });
+            breadcrumbs.push({ name: data.name as string, url: data.canonicalUrl as string });
             break;
         case 'read':
         case 'text-full':
         case 'russian':
             breadcrumbs.push(
-                { name: data.category, url: data.parentUrl },
-                { name: getPageTypeName(pageType), url: data.canonicalUrl }
+                { name: data.category as string, url: data.parentUrl as string },
+                { name: getPageTypeName(pageType), url: data.canonicalUrl as string }
             );
             break;
         case 'situational':
-            breadcrumbs.push({ name: data.title, url: data.canonicalUrl });
+            breadcrumbs.push({ name: data.title as string, url: data.canonicalUrl as string });
             break;
         case 'saint':
             breadcrumbs.push(
                 { name: "Святые", url: "/svyatye/" },
-                { name: data.name, url: data.canonicalUrl }
+                { name: data.name as string, url: data.canonicalUrl as string }
             );
             break;
     }
@@ -155,32 +155,32 @@ export const PageStructuredData: React.FC<{
             <BreadcrumbStructuredData breadcrumbs={breadcrumbs} />
 
             {pageType === 'pillar' && data.faq && (
-                <FAQStructuredData faq={data.faq} />
+                <FAQStructuredData faq={data.faq as Array<{ question: string; answer: string }>} />
             )}
 
             {(pageType === 'read' || pageType === 'text-full' || pageType === 'russian') && (
                 <ArticleStructuredData
-                    title={data.title}
-                    description={data.description}
-                    url={data.canonicalUrl}
-                    category={data.category}
-                    keywords={data.keywords}
-                    wordCount={data.content?.length}
-                    timeRequired={`PT${Math.ceil((data.content?.split(/\s+/).length || 0) / 200)}M`}
+                    title={data.title as string}
+                    description={data.description as string}
+                    url={data.canonicalUrl as string}
+                    category={data.category as string}
+                    keywords={data.keywords as string[]}
+                    wordCount={(data.content as string)?.length}
+                    timeRequired={`PT${Math.ceil(((data.content as string)?.split(/\s+/).length || 0) / 200)}M`}
                 />
             )}
 
             {pageType === 'situational' && data.faq && (
-                <FAQStructuredData faq={data.faq} />
+                <FAQStructuredData faq={data.faq as Array<{ question: string; answer: string }>} />
             )}
 
             {pageType === 'saint' && (
                 <ArticleStructuredData
-                    title={data.title}
-                    description={data.description}
-                    url={data.canonicalUrl}
+                    title={data.title as string}
+                    description={data.description as string}
+                    url={data.canonicalUrl as string}
                     category="Святые"
-                    keywords={[data.name, "молитвы", "святой", "помощь"]}
+                    keywords={[data.name as string, "молитвы", "святой", "помощь"]}
                 />
             )}
         </>

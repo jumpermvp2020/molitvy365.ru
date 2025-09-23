@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "node scripts/generate-sitemap.js && next build --turbopack",
+    "build:docker": "node scripts/generate-sitemap.js && next build --turbopack --no-lint",
     "start": "next start",
     "lint": "eslint",
     "generate-sitemap": "node scripts/generate-sitemap.js"

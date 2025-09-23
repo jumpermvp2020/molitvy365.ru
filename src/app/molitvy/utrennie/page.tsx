@@ -5,7 +5,7 @@ import { SEONavigation } from '@/components/SEONavigation';
 import Footer from '@/components/Footer';
 
 // Загружаем данные из сгенерированного контента
-import generatedContent from '../../../seo-generated-content.json';
+import generatedContent from '../../../../seo-generated-content.json';
 
 export const metadata: Metadata = {
     title: 'Утренние молитвы — читать, слушать, текст полностью (на русском)',
@@ -35,21 +35,20 @@ export const metadata: Metadata = {
 
 export default function UtrennieMolitvyPage() {
     // Получаем данные для утренних молитв
-    const categoryData = generatedContent.categories.daily;
+    const categoryData = generatedContent.categories['universal'];
 
     if (!categoryData) {
         return <div>Страница не найдена</div>;
     }
 
     const pageData = {
+        category: categoryData,
         name: categoryData.name,
         description: categoryData.description,
         canonicalUrl: '/molitvy/utrennie/',
         h1Variations: categoryData.h1Variations,
         seoDescription: categoryData.seoDescription,
         detailedDescription: categoryData.detailedDescription,
-        faq: categoryData.faq,
-        relatedPrayers: categoryData.relatedPrayers,
         keywords: categoryData.keywords
     };
 

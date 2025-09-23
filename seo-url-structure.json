@@ -129,6 +129,20 @@
                 "text_full": "/svyatye/arhangel-mihail/molitvy/tekst-polnostyu/",
                 "russian": "/svyatye/arhangel-mihail/molitvy/na-russkom/"
             }
+        },
+        "universal": {
+            "canonical": "/molitvy/universal/",
+            "synonyms": [
+                "/molitvy/universalnye-molitvy/",
+                "/molitvy/universal/",
+                "/molitvy/na-vse-sluchai/"
+            ],
+            "variants": {
+                "read": "/molitvy/universal/chitat/",
+                "listen": "/molitvy/universal/slushat/",
+                "text_full": "/molitvy/universal/tekst-polnostyu/",
+                "russian": "/molitvy/universal/na-russkom/"
+            }
         }
     },
     "situationalPages": {
