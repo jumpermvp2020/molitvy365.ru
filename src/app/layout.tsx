@@ -248,8 +248,9 @@ export default function RootLayout({
         <meta name="theme-color" content="#8B5CF6" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        {/* Preload только критических шрифтов */}
-        <link rel="preload" href="/fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+        {/* Preload критических шрифтов */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
 
         {/* Preconnect для внешних ресурсов */}
         <link rel="preconnect" href="https://mc.yandex.ru" />
@@ -300,7 +301,6 @@ export default function RootLayout({
 
         {/* Мета-теги для безопасности */}
         <meta httpEquiv="X-Content-Type-Options" content="nosniff" />
-        <meta httpEquiv="X-Frame-Options" content="SAMEORIGIN" />
         <meta httpEquiv="X-XSS-Protection" content="1; mode=block" />
 
         {/* Мета-теги для производительности */}
