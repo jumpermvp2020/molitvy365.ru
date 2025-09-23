@@ -54,6 +54,30 @@ export default function Footer() {
                     </div>
                 </div>
 
+                {/* Ссылки на страницы */}
+                <div className="border-t border-gray-200 pt-4 sm:pt-6">
+                    <div className="flex flex-wrap justify-center gap-4 sm:gap-6 mb-4">
+                        <a
+                            href="/about"
+                            className="caption-text text-gray-600 hover:text-purple-600 transition-colors focus-visible"
+                        >
+                            О нас
+                        </a>
+                        <a
+                            href="/faq"
+                            className="caption-text text-gray-600 hover:text-purple-600 transition-colors focus-visible"
+                        >
+                            FAQ
+                        </a>
+                        <a
+                            href="/privacy"
+                            className="caption-text text-gray-600 hover:text-purple-600 transition-colors focus-visible"
+                        >
+                            Политика конфиденциальности
+                        </a>
+                    </div>
+                </div>
+
                 {/* Разделитель */}
                 <div className="border-t border-gray-200 pt-4 sm:pt-6">
                     <div className="flex flex-col md:flex-row justify-between items-center gap-3 sm:gap-4">
