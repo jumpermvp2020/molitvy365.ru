@@ -46,6 +46,28 @@ export async function GET(request: NextRequest) {
     <priority>0.8</priority>
   </url>
   
+  <!-- Информационные страницы -->
+  <url>
+    <loc>${baseUrl}/about</loc>
+    <lastmod>${new Date().toISOString()}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>${baseUrl}/privacy</loc>
+    <lastmod>${new Date().toISOString()}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>${baseUrl}/faq</loc>
+    <lastmod>${new Date().toISOString()}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
   <!-- Страницы молитв -->
   ${sortedPrayers.map(prayer => {
             const priority = prayer.title.includes('Отче наш') ||

@@ -31,6 +31,9 @@ ENV NODE_ENV=production
 # Следующая строка отключает telemetry во время выполнения.
 ENV NEXT_TELEMETRY_DISABLED=1
 
+# Устанавливаем serve глобально
+RUN npm install -g serve
+
 RUN addgroup --system --gid 1001 nodejs
 RUN adduser --system --uid 1001 nextjs
 
@@ -50,4 +53,4 @@ ENV PORT=3000
 ENV HOSTNAME="0.0.0.0"
 
 # Простой статический сервер
-CMD ["npx", "serve", "out", "-p", "3000"]
+CMD ["serve", "out", "-p", "3000"]
