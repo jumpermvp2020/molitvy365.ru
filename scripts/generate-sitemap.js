@@ -26,6 +26,61 @@ const sortedPrayers = prayersIndex.prayers.sort((a, b) => {
     return 0;
 });
 
+// Генерируем URL для молитв (включая альтернативные)
+function generatePrayerUrls(prayers) {
+    const urls = [];
+    
+    for (const prayer of prayers) {
+        const priority = prayer.title.includes('Отче наш') ||
+            prayer.title.includes('Иисусова молитва') ||
+            prayer.title.includes('Богородице Дево') ? '0.9' : '0.7';
+
+        // Добавляем основной URL
+        urls.push(`
+  <url>
+    <loc>${baseUrl}/prayer/${prayer.url}</loc>
+    <lastmod>${new Date().toISOString()}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>${priority}</priority>
+  </url>`);
+
+        // Добавляем альтернативные URL с префиксом "molitva-" для определенных молитв
+        const needsPrefix = [
+            'pered-nachalom-vsyakogo-dela',
+            'pered-vkusheniem-pischi', 
+            'po-okonchanii-dela',
+            'posle-vkusheniya-pischi'
+        ];
+        
+        if (needsPrefix.includes(prayer.url)) {
+            urls.push(`
+  <url>
+    <loc>${baseUrl}/prayer/molitva-${prayer.url}</loc>
+    <lastmod>${new Date().toISOString()}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>${priority}</priority>
+  </url>`);
+        }
+        
+        // Добавляем альтернативные URL для икон Богородицы
+        if (prayer.url.includes('pred-ikonoyu-')) {
+            const alternativeUrl = prayer.url
+                .replace('pred-ikonoyu-', 'presvyatoy-bogoroditse-pered-ee-ikonoy-')
+                .replace(/-\d+-\w+.*$/, ''); // убираем даты из названий
+            
+            urls.push(`
+  <url>
+    <loc>${baseUrl}/prayer/${alternativeUrl}</loc>
+    <lastmod>${new Date().toISOString()}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>${priority}</priority>
+  </url>`);
+        }
+    }
+    
+    return urls.join('');
+}
+
 // Генерируем sitemap
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -68,19 +123,7 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
   </url>
   
   <!-- Страницы молитв -->
-  ${sortedPrayers.map(prayer => {
-        const priority = prayer.title.includes('Отче наш') ||
-            prayer.title.includes('Иисусова молитва') ||
-            prayer.title.includes('Богородице Дево') ? '0.9' : '0.7';
-
-        return `
-  <url>
-    <loc>${baseUrl}/prayer/${prayer.url}</loc>
-    <lastmod>${new Date().toISOString()}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>${priority}</priority>
-  </url>`;
-    }).join('')}
+  ${generatePrayerUrls(sortedPrayers)}
   
 </urlset>`;
 

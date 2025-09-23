@@ -17,9 +17,34 @@ export async function generateStaticParams() {
         const fileContents = fs.readFileSync(filePath, 'utf8');
         const prayerIndex: PrayerIndex = JSON.parse(fileContents);
 
-        return prayerIndex.prayers.map((prayer) => ({
-            slug: prayer.url,
-        }));
+        const params = [];
+
+        // Добавляем оригинальные URL
+        for (const prayer of prayerIndex.prayers) {
+            params.push({ slug: prayer.url });
+
+            // Добавляем альтернативные URL с префиксом "molitva-" для определенных молитв
+            const needsPrefix = [
+                'pered-nachalom-vsyakogo-dela',
+                'pered-vkusheniem-pischi',
+                'po-okonchanii-dela',
+                'posle-vkusheniya-pischi'
+            ];
+
+            if (needsPrefix.includes(prayer.url)) {
+                params.push({ slug: `molitva-${prayer.url}` });
+            }
+
+            // Добавляем альтернативные URL для икон Богородицы
+            if (prayer.url.includes('pred-ikonoyu-')) {
+                const alternativeUrl = prayer.url
+                    .replace('pred-ikonoyu-', 'presvyatoy-bogoroditse-pered-ee-ikonoy-')
+                    .replace(/-\d+-\w+.*$/, ''); // убираем даты из названий
+                params.push({ slug: alternativeUrl });
+            }
+        }
+
+        return params;
     } catch (err) {
         console.error('Error generating static params:', err);
         return [];
@@ -242,6 +267,43 @@ async function getPrayer(slug: string): Promise<Prayer | null> {
 
         return null;
     } catch (error) {
+        // Если не нашли, попробуем без префикса "molitva-"
+        if (slug.startsWith('molitva-')) {
+            const shortSlug = slug.replace('molitva-', '');
+            try {
+                const filePath = path.join(process.cwd(), 'data', 'prayers', `${shortSlug}.json`);
+                const fileContents = fs.readFileSync(filePath, 'utf8');
+                const prayer = JSON.parse(fileContents);
+
+                // Проверяем, что url совпадает с коротким slug
+                if (prayer.url === shortSlug) {
+                    return prayer;
+                }
+            } catch (shortError) {
+                // Продолжаем поиск
+            }
+        }
+
+        // Попробуем найти по альтернативному названию для икон Богородицы
+        if (slug.includes('presvyatoy-bogoroditse-pered-ee-ikonoy-')) {
+            const iconName = slug.replace('presvyatoy-bogoroditse-pered-ee-ikonoy-', '');
+            const alternativeSlug = `pred-ikonoyu-${iconName}`;
+
+            try {
+                // Ищем файлы, которые начинаются с альтернативного slug
+                const files = fs.readdirSync(path.join(process.cwd(), 'data', 'prayers'));
+                for (const file of files) {
+                    if (file.startsWith(alternativeSlug) && file.endsWith('.json')) {
+                        const filePath = path.join(process.cwd(), 'data', 'prayers', file);
+                        const fileContents = fs.readFileSync(filePath, 'utf8');
+                        const prayer = JSON.parse(fileContents);
+                        return prayer;
+                    }
+                }
+            } catch (altError) {
+                // Продолжаем поиск
+            }
+        }
         // Если не нашли по url, попробуем найти по имени файла
         try {
             const files = fs.readdirSync(path.join(process.cwd(), 'data', 'prayers'));
