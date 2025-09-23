@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import { Heart } from 'lucide-react';
 import PrayerBlock from '@/components/PrayerBlock';
 import ProjectsBlock from '@/components/ProjectsBlock';
+import DaysNavigation from '@/components/DaysNavigation';
 import Footer from '@/components/Footer';
 import { Prayer, PrayerIndex } from '@/types/prayer';
 import { useFavorites } from '@/hooks/useFavorites';
@@ -61,10 +62,16 @@ export default function HomeClient({ initialPrayer, prayerIndex }: HomeClientPro
         <div className="min-h-screen bg-gray-50">
             {/* Главный контент */}
             <main className="pt-16 pb-8">
-                <PrayerBlock
-                    prayer={currentPrayer}
-                    onRefresh={handleRefresh}
-                />
+                <div className="container mx-auto px-4">
+                    {/* Случайная молитва */}
+                    <PrayerBlock
+                        prayer={currentPrayer}
+                        onRefresh={handleRefresh}
+                    />
+
+                    {/* Навигация по дням недели */}
+                    <DaysNavigation compact={true} />
+                </div>
             </main>
 
             {/* Блок с другими молитвами */}
