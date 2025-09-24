@@ -8,6 +8,7 @@ import ProjectsBlock from '@/components/ProjectsBlock';
 import DaysNavigation from '@/components/DaysNavigation';
 import Footer from '@/components/Footer';
 import QuickSearch from '@/components/QuickSearch';
+import SiteInfo from '@/components/SiteInfo';
 import { Prayer, PrayerIndex } from '@/types/prayer';
 import { useFavorites } from '@/hooks/useFavorites';
 
@@ -80,6 +81,9 @@ export default function HomeClient({ initialPrayer, prayerIndex }: HomeClientPro
 
             {/* Блок с другими молитвами */}
             <ProjectsBlock prayerIndex={prayerIndex} />
+
+            {/* Информация о сайте */}
+            <SiteInfo />
 
             {/* Футер */}
             <Footer />

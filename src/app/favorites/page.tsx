@@ -5,12 +5,23 @@ import { useRouter } from 'next/navigation';
 import { Heart, ArrowLeft, Trash2, ExternalLink } from 'lucide-react';
 import { useFavorites, FavoritePrayer } from '@/hooks/useFavorites';
 import { Prayer } from '@/types/prayer';
-import { handleBackNavigation, getBackButtonTooltip } from '@/utils/navigation';
+import { handleBackNavigation } from '@/utils/navigation';
 
 export default function FavoritesPage() {
     const router = useRouter();
     const { favorites, isLoading, removeFromFavorites, clearFavorites } = useFavorites();
     const [prayerDetails, setPrayerDetails] = useState<Record<number, Prayer>>({});
+    const [backButtonTooltip, setBackButtonTooltip] = useState<string>("На главную страницу");
+
+    // Обновляем tooltip после гидратации
+    useEffect(() => {
+        if (typeof window !== 'undefined') {
+            const hasReferrer = document.referrer &&
+                document.referrer !== window.location.href &&
+                document.referrer.includes(window.location.origin);
+            setBackButtonTooltip(hasReferrer ? "Вернуться назад" : "На главную страницу");
+        }
+    }, []);
     const [loadingDetails, setLoadingDetails] = useState<Set<number>>(new Set());
 
     // Загружаем детали молитв
@@ -89,7 +100,7 @@ export default function FavoritesPage() {
                                     transition-all duration-200
                                     hover:shadow-sm
                                 "
-                                title={getBackButtonTooltip()}
+                                title={backButtonTooltip}
                             >
                                 <ArrowLeft className="w-4 h-4" />
                                 Назад

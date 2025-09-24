@@ -8,7 +8,7 @@ import { useState, useEffect } from 'react';
 import { prayerCategories } from '@/data/prayer-categories';
 import { useFavorites } from '@/hooks/useFavorites';
 import { showBookmarkInstructions, copyUrlToClipboard } from '@/utils/bookmark';
-import { handleBackNavigation, getBackButtonTooltip } from '@/utils/navigation';
+import { handleBackNavigation } from '@/utils/navigation';
 import { useLanguagePreference } from '@/hooks/useLanguagePreference';
 
 interface PrayerPageBlockProps {
@@ -20,11 +20,22 @@ export default function PrayerPageBlock({ prayer, h1Title }: PrayerPageBlockProp
     const router = useRouter();
     const [isExpanded, setIsExpanded] = useState(false);
     const [bookmarkMessage, setBookmarkMessage] = useState<string | null>(null);
+    const [backButtonTooltip, setBackButtonTooltip] = useState<string>("На главную страницу");
     const { isFavorite, toggleFavorite } = useFavorites();
     const { languagePreference, updateLanguagePreference, isLoaded } = useLanguagePreference();
 
     // Определяем, какой язык использовать
     const isModernLanguage = languagePreference === 'modern-russian';
+
+    // Обновляем tooltip после гидратации
+    useEffect(() => {
+        if (typeof window !== 'undefined') {
+            const hasReferrer = document.referrer &&
+                document.referrer !== window.location.href &&
+                document.referrer.includes(window.location.origin);
+            setBackButtonTooltip(hasReferrer ? "Вернуться назад" : "На главную страницу");
+        }
+    }, []);
 
     // Получаем категорию молитвы
     const getPrayerCategory = (prayerId: number): PrayerCategory | null => {
@@ -103,7 +114,7 @@ export default function PrayerPageBlock({ prayer, h1Title }: PrayerPageBlockProp
                         transition-all duration-200
                         hover:shadow-sm focus-visible
                     "
-                    title={getBackButtonTooltip()}
+                    title={backButtonTooltip}
                 >
                     <ArrowLeft className="w-4 h-4" />
                     <span className="hidden sm:inline">Назад</span>
