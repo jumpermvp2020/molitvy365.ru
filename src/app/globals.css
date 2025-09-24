@@ -121,8 +121,6 @@ body {
 
 /* Text overflow protection */
 .text-overflow-protection {
-  overflow-wrap: break-word;
-  word-wrap: break-word;
   hyphens: auto;
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
