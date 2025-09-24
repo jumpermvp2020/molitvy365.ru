@@ -27,5 +27,7 @@ export interface PrayerIndex {
         id: number;
         title: string;
         url: string;
+        category: string;
+        tags: string[];
     }[];
 }

@@ -1,4 +1,4 @@
-import React from 'react';
+import Link from 'next/link';
 
 interface NeedIntentTemplateProps {
     intent: {
@@ -88,7 +88,7 @@ export const NeedIntentTemplate: React.FC<NeedIntentTemplateProps> = ({
                 {/* Breadcrumbs */}
                 <nav className="breadcrumbs" aria-label="Навигация">
                     <ol>
-                        <li><a href="/">Главная</a></li>
+                        <li><Link href="/">Главная</Link></li>
                         <li><a href="/molitvy/">Молитвы</a></li>
                         <li aria-current="page">{intent.title}</li>
                     </ol>
@@ -176,7 +176,7 @@ export const NeedIntentTemplate: React.FC<NeedIntentTemplateProps> = ({
                         <div className="quick-prayer-content">
                             <p>Если у вас мало времени, можете прочитать краткую молитву:</p>
                             <div className="short-prayer">
-                                <p>"Господи, помилуй!"</p>
+                                <p>&quot;Господи, помилуй!&quot;</p>
                                 <p>Повторите 3 раза, сосредоточившись на просьбе о помощи.</p>
                             </div>
                         </div>

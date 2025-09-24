@@ -1,4 +1,4 @@
-import React from 'react';
+import Link from 'next/link';
 
 interface SaintEntityTemplateProps {
     saint: {
@@ -87,7 +87,7 @@ export const SaintEntityTemplate: React.FC<SaintEntityTemplateProps> = ({
                 {/* Breadcrumbs */}
                 <nav className="breadcrumbs" aria-label="Навигация">
                     <ol>
-                        <li><a href="/">Главная</a></li>
+                        <li><Link href="/">Главная</Link></li>
                         <li><a href="/svyatye/">Святые</a></li>
                         <li aria-current="page">{saint.name}</li>
                     </ol>

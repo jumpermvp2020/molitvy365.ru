@@ -1,4 +1,4 @@
-import React from 'react';
+import Link from 'next/link';
 
 interface TextFullTemplateProps {
     prayer: {
@@ -95,7 +95,7 @@ export const TextFullTemplate: React.FC<TextFullTemplateProps> = ({
                 {/* Breadcrumbs */}
                 <nav className="breadcrumbs" aria-label="Навигация">
                     <ol>
-                        <li><a href="/">Главная</a></li>
+                        <li><Link href="/">Главная</Link></li>
                         <li><a href="/molitvy/">Молитвы</a></li>
                         <li><a href={parentUrl}>{prayer.category}</a></li>
                         <li aria-current="page">Текст полностью</li>

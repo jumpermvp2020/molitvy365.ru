@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo, useEffect } from 'react';
+import { useState, useMemo, useEffect, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import { Search, Filter, Home, BookOpen, Heart, Shield, Users, Clock, Sparkles, X } from 'lucide-react';
@@ -21,7 +21,8 @@ const searchPresets = [
 // Получаем уникальные категории
 const categories = Array.from(new Set(prayersData.prayers.map(prayer => prayer.category))).sort();
 
-export default function CatalogPage() {
+// Компонент каталога с использованием useSearchParams
+function CatalogContent() {
     const searchParams = useSearchParams();
     const [searchQuery, setSearchQuery] = useState('');
     const [selectedCategory, setSelectedCategory] = useState('');
@@ -315,5 +316,31 @@ export default function CatalogPage() {
                 </div>
             </div>
         </div>
+    );
+}
+
+// Основной компонент страницы с Suspense
+export default function CatalogPage() {
+    return (
+        <Suspense fallback={
+            <div className="min-h-screen bg-gradient-to-br from-[#FDFBFB] to-[#EBEDEE]">
+                <div className="container mx-auto px-4 py-8 max-w-6xl">
+                    <div className="text-center">
+                        <div className="animate-pulse">
+                            <div className="h-8 bg-gray-200 rounded w-1/3 mx-auto mb-4"></div>
+                            <div className="h-4 bg-gray-200 rounded w-1/2 mx-auto mb-8"></div>
+                            <div className="h-12 bg-gray-200 rounded w-full mb-6"></div>
+                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                                {[...Array(6)].map((_, i) => (
+                                    <div key={i} className="h-32 bg-gray-200 rounded-lg"></div>
+                                ))}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }>
+            <CatalogContent />
+        </Suspense>
     );
 }
