@@ -1,10 +1,11 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { RefreshCw, Share2, ChevronDown, ChevronUp, Heart, Bookmark } from 'lucide-react';
 import { Prayer } from '@/types/prayer';
 import { useFavorites } from '@/hooks/useFavorites';
 import { showBookmarkInstructions, copyUrlToClipboard } from '@/utils/bookmark';
+import { useLanguagePreference } from '@/hooks/useLanguagePreference';
 
 interface PrayerBlockProps {
     prayer: Prayer;
@@ -14,9 +15,12 @@ interface PrayerBlockProps {
 export default function PrayerBlock({ prayer, onRefresh }: PrayerBlockProps) {
     const [isAnimating, setIsAnimating] = useState(false);
     const [isExpanded, setIsExpanded] = useState(false);
-    const [isModernLanguage, setIsModernLanguage] = useState(false);
     const [bookmarkMessage, setBookmarkMessage] = useState<string | null>(null);
     const { isFavorite, toggleFavorite } = useFavorites();
+    const { languagePreference, updateLanguagePreference, isLoaded } = useLanguagePreference();
+
+    // Определяем, какой язык использовать
+    const isModernLanguage = languagePreference === 'modern-russian';
 
     // Определяем текст для отображения
     const displayContent = isModernLanguage && prayer.contentModern ? prayer.contentModern : prayer.content;
@@ -98,7 +102,7 @@ export default function PrayerBlock({ prayer, onRefresh }: PrayerBlockProps) {
                     <div className="flex justify-center mb-6">
                         <div className="bg-gray-100 rounded-lg p-1 inline-flex flex-wrap gap-1">
                             <button
-                                onClick={() => setIsModernLanguage(false)}
+                                onClick={() => updateLanguagePreference('church-slavonic')}
                                 className={`button-responsive text-sm font-medium transition-all duration-200 focus-visible ${!isModernLanguage
                                     ? 'bg-white text-gray-900 shadow-sm'
                                     : 'text-gray-600 hover:text-gray-800'
@@ -108,7 +112,7 @@ export default function PrayerBlock({ prayer, onRefresh }: PrayerBlockProps) {
                                 <span className="sm:hidden">Церковный</span>
                             </button>
                             <button
-                                onClick={() => setIsModernLanguage(true)}
+                                onClick={() => updateLanguagePreference('modern-russian')}
                                 className={`button-responsive text-sm font-medium transition-all duration-200 focus-visible ${isModernLanguage
                                     ? 'bg-white text-gray-900 shadow-sm'
                                     : 'text-gray-600 hover:text-gray-800'

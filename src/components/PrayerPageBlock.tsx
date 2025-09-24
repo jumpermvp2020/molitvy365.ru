@@ -4,10 +4,12 @@ import { Share2, ArrowLeft, ChevronDown, ChevronUp, Heart, Bookmark } from 'luci
 import { Prayer } from '@/types/prayer';
 import { PrayerCategory, PrayerCategorySection } from '@/types/prayer-categories';
 import { useRouter } from 'next/navigation';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { prayerCategories } from '@/data/prayer-categories';
 import { useFavorites } from '@/hooks/useFavorites';
 import { showBookmarkInstructions, copyUrlToClipboard } from '@/utils/bookmark';
+import { handleBackNavigation, getBackButtonTooltip } from '@/utils/navigation';
+import { useLanguagePreference } from '@/hooks/useLanguagePreference';
 
 interface PrayerPageBlockProps {
     prayer: Prayer;
@@ -17,9 +19,12 @@ interface PrayerPageBlockProps {
 export default function PrayerPageBlock({ prayer, h1Title }: PrayerPageBlockProps) {
     const router = useRouter();
     const [isExpanded, setIsExpanded] = useState(false);
-    const [isModernLanguage, setIsModernLanguage] = useState(false);
     const [bookmarkMessage, setBookmarkMessage] = useState<string | null>(null);
     const { isFavorite, toggleFavorite } = useFavorites();
+    const { languagePreference, updateLanguagePreference, isLoaded } = useLanguagePreference();
+
+    // Определяем, какой язык использовать
+    const isModernLanguage = languagePreference === 'modern-russian';
 
     // Получаем категорию молитвы
     const getPrayerCategory = (prayerId: number): PrayerCategory | null => {
@@ -49,14 +54,7 @@ export default function PrayerPageBlock({ prayer, h1Title }: PrayerPageBlockProp
     const maxHeight = '200px'; // Максимальная высота в свернутом состоянии
 
     const handleBack = () => {
-        // Проверяем, есть ли история для возврата
-        // Используем document.referrer для проверки, откуда пришел пользователь
-        if (document.referrer && document.referrer !== window.location.href) {
-            router.back();
-        } else {
-            // Если нет истории или пользователь пришел напрямую, переходим на главную страницу
-            router.push('/');
-        }
+        handleBackNavigation(router);
     };
 
     const handleShare = async () => {
@@ -105,7 +103,7 @@ export default function PrayerPageBlock({ prayer, h1Title }: PrayerPageBlockProp
                         transition-all duration-200
                         hover:shadow-sm focus-visible
                     "
-                    title="Вернуться назад"
+                    title={getBackButtonTooltip()}
                 >
                     <ArrowLeft className="w-4 h-4" />
                     <span className="hidden sm:inline">Назад</span>
@@ -130,7 +128,7 @@ export default function PrayerPageBlock({ prayer, h1Title }: PrayerPageBlockProp
                     <div className="flex justify-center mb-6">
                         <div className="bg-gray-100 rounded-lg p-1 inline-flex flex-wrap gap-1">
                             <button
-                                onClick={() => setIsModernLanguage(false)}
+                                onClick={() => updateLanguagePreference('church-slavonic')}
                                 className={`button-responsive text-sm font-medium transition-all duration-200 focus-visible ${!isModernLanguage
                                     ? 'bg-white text-gray-900 shadow-sm'
                                     : 'text-gray-600 hover:text-gray-800'
@@ -140,7 +138,7 @@ export default function PrayerPageBlock({ prayer, h1Title }: PrayerPageBlockProp
                                 <span className="sm:hidden">Церковный</span>
                             </button>
                             <button
-                                onClick={() => setIsModernLanguage(true)}
+                                onClick={() => updateLanguagePreference('modern-russian')}
                                 className={`button-responsive text-sm font-medium transition-all duration-200 focus-visible ${isModernLanguage
                                     ? 'bg-white text-gray-900 shadow-sm'
                                     : 'text-gray-600 hover:text-gray-800'

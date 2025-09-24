@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import { Heart, ArrowLeft, Trash2, ExternalLink } from 'lucide-react';
 import { useFavorites, FavoritePrayer } from '@/hooks/useFavorites';
 import { Prayer } from '@/types/prayer';
+import { handleBackNavigation, getBackButtonTooltip } from '@/utils/navigation';
 
 export default function FavoritesPage() {
     const router = useRouter();
@@ -57,7 +58,7 @@ export default function FavoritesPage() {
     };
 
     const handleBack = () => {
-        router.back();
+        handleBackNavigation(router);
     };
 
     if (isLoading) {
@@ -88,7 +89,7 @@ export default function FavoritesPage() {
                                     transition-all duration-200
                                     hover:shadow-sm
                                 "
-                                title="Вернуться назад"
+                                title={getBackButtonTooltip()}
                             >
                                 <ArrowLeft className="w-4 h-4" />
                                 Назад
