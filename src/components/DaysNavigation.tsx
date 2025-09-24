@@ -73,20 +73,21 @@ export default function DaysNavigation({ compact = false }: DaysNavigationProps)
     };
 
     return (
-        <div className={`bg-gradient-to-br from-[#FDFBFB] to-[#EBEDEE] rounded-3xl shadow-sm border border-[#E5E7EB] ${compact ? 'p-6' : 'p-8'} mt-12 mb-8 max-w-6xl mx-auto`}>
-            <div className="flex items-center gap-3 mb-6">
-                <div className="p-2 bg-white/60 rounded-2xl">
-                    <Sparkles className="w-6 h-6 text-[#4B5563]" />
+        <div className={`bg-gradient-to-br from-[#FDFBFB] to-[#EBEDEE] rounded-2xl sm:rounded-3xl shadow-sm border border-[#E5E7EB] ${compact ? 'p-4 sm:p-6' : 'p-6 sm:p-8'} mt-8 sm:mt-12 mb-6 sm:mb-8 max-w-6xl mx-auto`}>
+            <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6">
+                <div className="p-1.5 sm:p-2 bg-white/60 rounded-xl sm:rounded-2xl">
+                    <Sparkles className="w-5 h-5 sm:w-6 sm:h-6 text-[#4B5563]" />
                 </div>
-                <h2 className={`font-semibold text-[#1A1A1A] tracking-tight ${compact ? 'text-2xl' : 'text-3xl'}`}>
+                <h2 className={`font-semibold text-[#1A1A1A] tracking-tight ${compact ? 'text-lg sm:text-xl md:text-2xl' : 'text-xl sm:text-2xl md:text-3xl'} flex-1 min-w-0`}>
                     Молитвы по дням недели
                 </h2>
                 {compact && (
                     <button
                         onClick={() => router.push('/weekly-prayers')}
-                        className="ml-auto text-sm text-[#111111] hover:text-[#4B5563] hover:bg-white/80 px-3 py-1 rounded-full border border-[#D1D5DB] transition-all duration-200 hover:shadow-sm"
+                        className="ml-auto text-xs sm:text-sm text-[#111111] hover:text-[#4B5563] hover:bg-white/80 px-2 sm:px-3 py-1 rounded-full border border-[#D1D5DB] transition-all duration-200 hover:shadow-sm whitespace-nowrap flex-shrink-0"
                     >
-                        Все дни →
+                        <span className="hidden sm:inline">Все дни →</span>
+                        <span className="sm:hidden">Все →</span>
                     </button>
                 )}
             </div>
@@ -97,7 +98,7 @@ export default function DaysNavigation({ compact = false }: DaysNavigationProps)
                 </p>
             )}
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-3 sm:gap-4 md:gap-6">
                 {weekDays.map((day, index) => {
                     const isCurrentDay = index === getCurrentDay();
 
@@ -110,32 +111,32 @@ export default function DaysNavigation({ compact = false }: DaysNavigationProps)
                                 }`}
                             onClick={() => handleDayClick(day.key)}
                         >
-                            <div className="bg-white rounded-xl border border-[#E5E7EB] shadow-[0_6px_16px_rgba(0,0,0,0.06)] p-6 h-full flex flex-col">
-                                <div className="flex items-center gap-3 mb-4">
-                                    <div className={`p-2 ${day.color} rounded-lg flex-shrink-0`}>
+                            <div className="bg-white rounded-xl border border-[#E5E7EB] shadow-[0_6px_16px_rgba(0,0,0,0.06)] p-3 sm:p-4 md:p-6 h-full flex flex-col">
+                                <div className="flex items-center gap-2 sm:gap-3 mb-3 sm:mb-4">
+                                    <div className={`p-1.5 sm:p-2 ${day.color} rounded-lg flex-shrink-0`}>
                                         {day.icon}
                                     </div>
                                     <div className="flex-1 min-w-0">
-                                        <h3 className="font-semibold text-[#1A1A1A] text-lg leading-tight">
+                                        <h3 className="font-semibold text-[#1A1A1A] text-sm sm:text-base md:text-lg leading-tight">
                                             {day.name}
                                         </h3>
                                         {isCurrentDay && (
-                                            <span className="text-xs bg-[#111111] text-white px-2 py-1 rounded-full mt-1 inline-block">
+                                            <span className="text-xs bg-[#111111] text-white px-1.5 sm:px-2 py-0.5 sm:py-1 rounded-full mt-1 inline-block">
                                                 Сегодня
                                             </span>
                                         )}
                                     </div>
                                 </div>
 
-                                <div className="text-sm text-[#4B5563] mb-2 font-medium">
+                                <div className="text-xs sm:text-sm text-[#4B5563] mb-2 font-medium">
                                     Архангел {day.archangel}
                                 </div>
 
-                                <div className="text-sm text-[#9CA3AF] leading-relaxed flex-1 mb-4">
+                                <div className="text-xs sm:text-sm text-[#9CA3AF] leading-relaxed flex-1 mb-3 sm:mb-4">
                                     {day.theme}
                                 </div>
 
-                                <div className="text-sm text-[#6B7280] font-medium">
+                                <div className="text-xs sm:text-sm text-[#6B7280] font-medium">
                                     {day.totalPrayers} молитв
                                 </div>
                             </div>
@@ -144,22 +145,22 @@ export default function DaysNavigation({ compact = false }: DaysNavigationProps)
                 })}
             </div>
 
-            <div className="mt-10 p-7 bg-white/60 rounded-2xl border border-[#E5E7EB]">
-                <div className="flex items-center gap-3 mb-5">
-                    <div className="p-2 bg-white/60 rounded-xl">
-                        <Calendar className="w-4 h-4 text-[#4B5563]" />
+            <div className="mt-8 sm:mt-10 p-4 sm:p-6 md:p-7 bg-white/60 rounded-2xl border border-[#E5E7EB]">
+                <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-5">
+                    <div className="p-1.5 sm:p-2 bg-white/60 rounded-xl">
+                        <Calendar className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#4B5563]" />
                     </div>
-                    <span className="text-sm font-semibold text-[#1A1A1A]">Универсальные молитвы</span>
+                    <span className="text-xs sm:text-sm font-semibold text-[#1A1A1A]">Универсальные молитвы</span>
                 </div>
-                <p className="text-sm text-[#4B5563] mb-5 leading-relaxed">
+                <p className="text-xs sm:text-sm text-[#4B5563] mb-4 sm:mb-5 leading-relaxed">
                     Эти молитвы можно читать в любой день недели для духовной практики
                 </p>
-                <div className="flex flex-wrap gap-4">
+                <div className="flex flex-wrap gap-2 sm:gap-3 md:gap-4">
                     {['iisusova-molitva', 'molitva-gospodnya-otche-nash', 'simvol-very'].map((prayerSlug) => (
                         <button
                             key={prayerSlug}
                             onClick={() => router.push(`/prayer/${prayerSlug}`)}
-                            className="text-sm text-[#111111] hover:text-[#4B5563] hover:bg-white/80 px-5 py-3 rounded-full border border-[#D1D5DB] transition-all duration-200 hover:shadow-sm"
+                            className="text-xs sm:text-sm text-[#111111] hover:text-[#4B5563] hover:bg-white/80 px-3 sm:px-4 md:px-5 py-2 sm:py-2.5 md:py-3 rounded-full border border-[#D1D5DB] transition-all duration-200 hover:shadow-sm"
                         >
                             {prayerSlug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}
                         </button>
