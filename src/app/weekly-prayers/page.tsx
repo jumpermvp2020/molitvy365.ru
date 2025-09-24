@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { Calendar, Clock, Shield, MessageCircle, Heart, BookOpen, Sun, Moon, Sparkles, ArrowLeft } from 'lucide-react';
+import { Calendar, Clock, Shield, MessageCircle, Heart, BookOpen, Sun, Moon, Sparkles, Home } from 'lucide-react';
 import daysData from '../../data/prayers-by-days-complete.json';
 
 export const metadata: Metadata = {
@@ -108,13 +108,13 @@ const dayIcons = {
 };
 
 const dayColors = {
-    monday: 'from-red-50 to-pink-50 border-red-100',
-    tuesday: 'from-teal-50 to-cyan-50 border-teal-100',
-    wednesday: 'from-blue-50 to-indigo-50 border-blue-100',
-    thursday: 'from-green-50 to-emerald-50 border-green-100',
-    friday: 'from-yellow-50 to-amber-50 border-yellow-100',
-    saturday: 'from-purple-50 to-violet-50 border-purple-100',
-    sunday: 'from-orange-50 to-rose-50 border-orange-100'
+    monday: 'from-[#FCE7D7] to-[#FFF8E1] border-[#E5E7EB]',
+    tuesday: 'from-[#F9F5FF] to-[#FCE7D7] border-[#E5E7EB]',
+    wednesday: 'from-[#FFF8E1] to-[#F9F5FF] border-[#E5E7EB]',
+    thursday: 'from-[#FCE7D7] to-[#FFF8E1] border-[#E5E7EB]',
+    friday: 'from-[#F9F5FF] to-[#FCE7D7] border-[#E5E7EB]',
+    saturday: 'from-[#FFF8E1] to-[#F9F5FF] border-[#E5E7EB]',
+    sunday: 'from-[#FCE7D7] to-[#FFF8E1] border-[#E5E7EB]'
 };
 
 export default function WeeklyPrayersPage() {
@@ -127,16 +127,23 @@ export default function WeeklyPrayersPage() {
     const weekDaysArray = Object.entries(daysData.weekDays);
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-[#FDFBFB] to-[#EBEDEE]">
+        <div className="min-h-screen bg-gradient-to-br from-[#FAFAFA] to-[#FDFBFB]">
             <div className="container mx-auto px-4 py-8 max-w-6xl">
                 {/* Навигация */}
-                <div className="mb-8">
+                <div className="mb-8 flex flex-col sm:flex-row gap-4">
                     <Link
                         href="/"
                         className="inline-flex items-center gap-2 text-[#4B5563] hover:text-[#111111] transition-colors duration-200"
                     >
-                        <ArrowLeft className="w-4 h-4" />
+                        <Home className="w-4 h-4" />
                         На главную
+                    </Link>
+                    <Link
+                        href="/catalog"
+                        className="inline-flex items-center gap-2 text-[#4B5563] hover:text-[#111111] transition-colors duration-200"
+                    >
+                        <BookOpen className="w-4 h-4" />
+                        Каталог молитв
                     </Link>
                 </div>
 
@@ -157,13 +164,13 @@ export default function WeeklyPrayersPage() {
                 </div>
 
                 {/* Статистика */}
-                <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 mb-12 border border-[#E5E7EB] shadow-sm">
+                <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 mb-12 border border-[#E5E7EB] shadow-sm">
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         <div className="text-center">
                             <div className="text-4xl font-bold text-[#111111] mb-2">
                                 {daysData.statistics.totalPrayers}
                             </div>
-                            <div className="text-[#6B7280]">
+                            <div className="text-[#9CA3AF]">
                                 Всего молитв
                             </div>
                         </div>
@@ -171,7 +178,7 @@ export default function WeeklyPrayersPage() {
                             <div className="text-4xl font-bold text-[#111111] mb-2">
                                 {daysData.statistics.averagePrayersPerDay}
                             </div>
-                            <div className="text-[#6B7280]">
+                            <div className="text-[#9CA3AF]">
                                 Среднее на день
                             </div>
                         </div>
@@ -179,7 +186,7 @@ export default function WeeklyPrayersPage() {
                             <div className="text-4xl font-bold text-[#111111] mb-2">
                                 7
                             </div>
-                            <div className="text-[#6B7280]">
+                            <div className="text-[#9CA3AF]">
                                 Дней недели
                             </div>
                         </div>
@@ -202,7 +209,7 @@ export default function WeeklyPrayersPage() {
                                     : 'hover:scale-105 hover:shadow-lg'
                                     }`}
                             >
-                                <div className={`${isCurrentDay ? 'shadow-lg' : 'shadow-sm'} bg-gradient-to-br ${colorClass} border rounded-3xl p-8 h-full min-h-[280px] flex flex-col`}>
+                                <div className={`${isCurrentDay ? 'shadow-lg' : 'shadow-sm'} bg-gradient-to-br ${colorClass} border rounded-2xl p-8 h-full min-h-[280px] flex flex-col`}>
                                     <div className="flex items-start gap-4 mb-6">
                                         <div className="p-3 bg-white/40 rounded-2xl flex-shrink-0">
                                             <IconComponent className="w-6 h-6" />
@@ -223,15 +230,15 @@ export default function WeeklyPrayersPage() {
                                         Архангел {dayData.archangel}
                                     </div>
 
-                                    <div className="text-[#6B7280] mb-4 flex-1">
+                                    <div className="text-[#9CA3AF] mb-4 flex-1">
                                         {dayData.theme}
                                     </div>
 
                                     <div className="flex items-center justify-between">
-                                        <div className="text-2xl font-bold text-[#111111]">
-                                            {dayData.totalPrayers}
+                                        <div className="text-2xl font-bold text-[#1A1A1A]">
+                                            {dayData.prayers.filter(prayer => !prayer.isUniversal).length}
                                         </div>
-                                        <div className="text-sm text-[#6B7280]">
+                                        <div className="text-sm text-[#9CA3AF]">
                                             молитв
                                         </div>
                                     </div>
@@ -242,7 +249,7 @@ export default function WeeklyPrayersPage() {
                 </div>
 
                 {/* Описание традиции */}
-                <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 border border-[#E5E7EB] shadow-sm">
+                <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 border border-[#E5E7EB] shadow-sm">
                     <h2 className="text-2xl font-bold text-[#1A1A1A] mb-6">
                         Православная традиция молитв по дням недели
                     </h2>

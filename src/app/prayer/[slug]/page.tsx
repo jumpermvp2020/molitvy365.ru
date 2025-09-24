@@ -373,7 +373,7 @@ export default async function PrayerPage({ params }: { params: Promise<{ slug: s
 
             {/* Главный контент */}
             <main className="pt-16 pb-8">
-                <div className="max-w-2xl mx-auto px-4">
+                <div className="container-responsive mx-auto px-4">
                     <Breadcrumbs items={breadcrumbs} />
                 </div>
                 <PrayerPageBlock prayer={prayer} h1Title={h1Title} />

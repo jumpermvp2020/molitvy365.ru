@@ -2,7 +2,7 @@
 
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { ArrowLeft, Calendar, Clock, Shield, MessageCircle, Heart, BookOpen, Sun, Moon } from 'lucide-react';
+import { ArrowLeft, Calendar, Clock, Shield, MessageCircle, Heart, BookOpen, Sun, Moon, Home } from 'lucide-react';
 import { useState, use } from 'react';
 import daysData from '../../../data/prayers-by-days-complete.json';
 
@@ -53,7 +53,7 @@ export default function DayPage({ params }: DayPageProps) {
                         href="/"
                         className="inline-flex items-center gap-2 text-[#4B5563] hover:text-[#111111] transition-colors duration-200"
                     >
-                        <ArrowLeft className="w-4 h-4" />
+                        <Home className="w-4 h-4" />
                         На главную
                     </Link>
                     <Link
