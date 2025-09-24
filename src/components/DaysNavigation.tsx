@@ -73,7 +73,7 @@ export default function DaysNavigation({ compact = false }: DaysNavigationProps)
     };
 
     return (
-        <div className={`bg-gradient-to-br from-[#FDFBFB] to-[#EBEDEE] rounded-2xl sm:rounded-3xl shadow-sm border border-[#E5E7EB] ${compact ? 'p-4 sm:p-6' : 'p-6 sm:p-8'} mt-8 sm:mt-12 mb-6 sm:mb-8 max-w-6xl mx-auto`}>
+        <div className={`bg-gradient-to-br from-[#FDFBFB] to-[#EBEDEE] rounded-2xl sm:rounded-3xl shadow-sm border border-[#E5E7EB] ${compact ? 'p-3 sm:p-6' : 'p-4 sm:p-8'} mt-6 sm:mt-12 mb-6 sm:mb-8 max-w-6xl mx-auto`}>
             <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6">
                 <div className="p-1.5 sm:p-2 bg-white/60 rounded-xl sm:rounded-2xl">
                     <Sparkles className="w-5 h-5 sm:w-6 sm:h-6 text-[#4B5563]" />
@@ -98,7 +98,7 @@ export default function DaysNavigation({ compact = false }: DaysNavigationProps)
                 </p>
             )}
 
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-3 sm:gap-4 md:gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-4 md:gap-6">
                 {weekDays.map((day, index) => {
                     const isCurrentDay = index === getCurrentDay();
 
@@ -111,32 +111,32 @@ export default function DaysNavigation({ compact = false }: DaysNavigationProps)
                                 }`}
                             onClick={() => handleDayClick(day.key)}
                         >
-                            <div className="bg-white rounded-xl border border-[#E5E7EB] shadow-[0_6px_16px_rgba(0,0,0,0.06)] p-3 sm:p-4 md:p-6 h-full flex flex-col">
-                                <div className="flex items-center gap-2 sm:gap-3 mb-3 sm:mb-4">
-                                    <div className={`p-1.5 sm:p-2 ${day.color} rounded-lg flex-shrink-0`}>
+                            <div className="bg-white rounded-xl border border-[#E5E7EB] shadow-[0_6px_16px_rgba(0,0,0,0.06)] p-4 sm:p-4 md:p-6 h-full flex flex-col min-h-[140px] sm:min-h-[160px]">
+                                <div className="flex items-center gap-3 mb-3 sm:mb-4">
+                                    <div className={`p-2 ${day.color} rounded-lg flex-shrink-0`}>
                                         {day.icon}
                                     </div>
                                     <div className="flex-1 min-w-0">
-                                        <h3 className="font-semibold text-[#1A1A1A] text-sm sm:text-base md:text-lg leading-tight">
+                                        <h3 className="font-semibold text-[#1A1A1A] text-base sm:text-base md:text-lg leading-tight">
                                             {day.name}
                                         </h3>
                                         {isCurrentDay && (
-                                            <span className="text-xs bg-[#111111] text-white px-1.5 sm:px-2 py-0.5 sm:py-1 rounded-full mt-1 inline-block">
+                                            <span className="text-xs bg-[#111111] text-white px-2 py-1 rounded-full mt-1 inline-block">
                                                 Сегодня
                                             </span>
                                         )}
                                     </div>
                                 </div>
 
-                                <div className="text-xs sm:text-sm text-[#4B5563] mb-2 font-medium">
+                                <div className="text-sm text-[#4B5563] mb-2 font-medium">
                                     Архангел {day.archangel}
                                 </div>
 
-                                <div className="text-xs sm:text-sm text-[#9CA3AF] leading-relaxed flex-1 mb-3 sm:mb-4">
+                                <div className="text-sm text-[#9CA3AF] leading-relaxed flex-1 mb-3 sm:mb-4">
                                     {day.theme}
                                 </div>
 
-                                <div className="text-xs sm:text-sm text-[#6B7280] font-medium">
+                                <div className="text-sm text-[#6B7280] font-medium">
                                     {day.totalPrayers} молитв
                                 </div>
                             </div>
