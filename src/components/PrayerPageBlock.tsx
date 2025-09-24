@@ -158,7 +158,6 @@ export default function PrayerPageBlock({ prayer, h1Title }: PrayerPageBlockProp
                     <div
                         className="body-text text-gray-900 text-center mb-6 max-w-none transition-all duration-300 ease-in-out whitespace-pre-line text-overflow-protection"
                         style={{
-                            maxWidth: '60ch',
                             maxHeight: shouldShowExpandButton && !isExpanded ? maxHeight : 'none',
                             overflow: shouldShowExpandButton && !isExpanded ? 'hidden' : 'visible'
                         }}
