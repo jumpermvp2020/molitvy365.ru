@@ -1,8 +1,5 @@
 @import "tailwindcss";
 
-/* Системные шрифты */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+Pro:wght@400;600;700&display=swap');
-
 :root {
   /* Design Profile Colors */
   --background-base: #FAFAFA;
@@ -30,12 +27,10 @@
   --font-mono: ui-monospace, 'SFMono-Regular', monospace;
 }
 
-@theme inline {
+/* CSS Custom Properties for Tailwind */
+:root {
   --color-background: var(--background-base);
   --color-foreground: var(--text-primary);
-  --font-sans: var(--font-sans);
-  --font-serif: var(--font-serif);
-  --font-mono: var(--font-mono);
 }
 
 * {
@@ -96,7 +91,7 @@ body {
 
 /* Container responsive behavior */
 .container-responsive {
-  max-width: 640px;
+  max-width: 1240px;
   margin: 0 auto;
   padding: 0 16px;
 }
