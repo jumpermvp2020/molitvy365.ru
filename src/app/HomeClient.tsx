@@ -7,6 +7,7 @@ import PrayerBlock from '@/components/PrayerBlock';
 import ProjectsBlock from '@/components/ProjectsBlock';
 import DaysNavigation from '@/components/DaysNavigation';
 import Footer from '@/components/Footer';
+import QuickSearch from '@/components/QuickSearch';
 import { Prayer, PrayerIndex } from '@/types/prayer';
 import { useFavorites } from '@/hooks/useFavorites';
 
@@ -68,6 +69,9 @@ export default function HomeClient({ initialPrayer, prayerIndex }: HomeClientPro
                         prayer={currentPrayer}
                         onRefresh={handleRefresh}
                     />
+
+                    {/* Быстрый поиск */}
+                    <QuickSearch prayerIndex={prayerIndex} />
 
                     {/* Навигация по дням недели */}
                     <DaysNavigation compact={true} />

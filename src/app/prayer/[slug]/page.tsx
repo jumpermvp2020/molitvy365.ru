@@ -350,7 +350,7 @@ export default async function PrayerPage({ params }: { params: Promise<{ slug: s
 
     // Breadcrumbs
     const breadcrumbs = [
-        { name: 'Молитвы', url: '/' },
+        { name: 'Молитвы', url: '/catalog' },
         { name: prayer.title, url: `/prayer/${prayer.url}` }
     ];
     const breadcrumbStructuredData = generateBreadcrumbStructuredData(breadcrumbs);

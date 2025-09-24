@@ -63,6 +63,13 @@ export default function DayPage({ params }: DayPageProps) {
                         <ArrowLeft className="w-4 h-4" />
                         Назад к дням недели
                     </Link>
+                    <Link
+                        href="/catalog"
+                        className="inline-flex items-center gap-2 text-[#4B5563] hover:text-[#111111] transition-colors duration-200"
+                    >
+                        <BookOpen className="w-4 h-4" />
+                        Каталог молитв
+                    </Link>
                 </div>
 
                 {/* Заголовок дня */}
