@@ -105,10 +105,10 @@ const prayers = calmPrayers.map(slug => {
             title: prayer.title || text.title || slug,
             slug: prayer.slug || prayer.url || slug,
             category: prayer.category || text.category || 'Молитвы для успокоения',
-            overview: prayer.overview || text.overview || prayer.text || 'Православная молитва для успокоения души и обретения внутреннего покоя.',
-            duration_estimate_min: prayer.duration_estimate_min || text.duration_estimate_min || 2,
-            suitable_for: prayer.suitable_for || text.suitable_for || ['все'],
-            why: prayer.why || text.why || 'Эта молитва помогает обрести душевный покой и умиротворение.'
+            overview: prayer.overview || (text as any).overview || prayer.text || 'Православная молитва для успокоения души и обретения внутреннего покоя.',
+            duration_estimate_min: prayer.duration_estimate_min || (text as any).duration_estimate_min || 2,
+            suitable_for: prayer.suitable_for || (text as any).suitable_for || ['все'],
+            why: prayer.why || (text as any).why || 'Эта молитва помогает обрести душевный покой и умиротворение.'
         };
     }
     return null;
