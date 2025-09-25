@@ -15,7 +15,7 @@ interface BreadcrumbsProps {
 export default function Breadcrumbs({ items }: BreadcrumbsProps) {
     return (
         <nav
-            className="flex items-center space-x-1 sm:space-x-2 caption-text text-gray-600 mb-4 sm:mb-6 overflow-x-auto scrollbar-hide"
+            className="flex items-center space-x-1 sm:space-x-2 text-sm text-gray-600 mb-4 sm:mb-6 overflow-x-auto scrollbar-hide"
             aria-label="Хлебные крошки"
             style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
         >

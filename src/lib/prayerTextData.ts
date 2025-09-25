@@ -14,14 +14,20 @@ export interface PrayerTextData {
 
 export function getPrayerTextData(slug: string): PrayerTextData | null {
     try {
-        const prayerPath = path.join(process.cwd(), 'data', 'utrennie_molitvy_archive', 'json', `${slug}.json`);
+        // Список папок для поиска молитв
+        const searchPaths = [
+            path.join(process.cwd(), 'data', 'utrennie_molitvy_archive', 'json', `${slug}.json`),
+            path.join(process.cwd(), 'data', 'uspokoenie_molitvy_archive', 'json', `${slug}.json`),
+        ];
 
-        if (!fs.existsSync(prayerPath)) {
-            return null;
+        for (const prayerPath of searchPaths) {
+            if (fs.existsSync(prayerPath)) {
+                const prayerContents = fs.readFileSync(prayerPath, 'utf8');
+                return JSON.parse(prayerContents);
+            }
         }
 
-        const prayerContents = fs.readFileSync(prayerPath, 'utf8');
-        return JSON.parse(prayerContents);
+        return null;
     } catch (error) {
         console.error('Error loading prayer text data:', error);
         return null;

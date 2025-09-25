@@ -85,91 +85,135 @@ export default function HomeClient({ initialPrayer, prayerIndex }: HomeClientPro
             {/* Информация о сайте */}
             <SiteInfo />
 
-            {/* Полезные ссылки */}
-            <section className="bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50 py-16">
-                <div className="container mx-auto px-4">
-                    <div className="max-w-4xl mx-auto">
-                        <div className="text-center mb-12">
-                            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                                Полезные разделы
+            {/* Полезные разделы в стиле Medusa */}
+            <section className="bg-white py-24 lg:py-32">
+                <div className="container mx-auto px-4 sm:px-6">
+                    <div className="max-w-6xl mx-auto">
+                        {/* Заголовок в стиле Medusa */}
+                        <div className="text-center mb-20">
+                            <h2 className="text-5xl lg:text-7xl font-bold text-gray-900 mb-8 leading-tight">
+                                Расширьте свою
+                                <span className="block bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent">
+                                    молитвенную практику
+                                </span>
                             </h2>
-                            <p className="text-xl text-gray-600">
-                                Расширьте свою молитвенную практику
+                            <p className="text-xl lg:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+                                Получите доступ к полной коллекции православных молитв, организованных по темам и ситуациям
                             </p>
                         </div>
 
-                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12">
-                            {/* Ссылка на утренние молитвы */}
-                            <a
-                                href="/molitvy/utrennie/"
-                                className="group bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-8 lg:p-12 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-300 hover:scale-[1.02] h-full flex flex-col"
-                            >
-                                <div className="text-center flex flex-col h-full">
-                                    <div className="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-xl sm:rounded-2xl flex items-center justify-center mx-auto mb-4 sm:mb-6 lg:mb-8 group-hover:scale-110 transition-transform duration-200">
-                                        <Clock className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 text-white" />
-                                    </div>
-                                    <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 group-hover:text-indigo-600 transition-colors duration-200 mb-3 sm:mb-4 lg:mb-6">
-                                        Утренние молитвы
-                                    </h3>
-                                    <p className="text-sm sm:text-base lg:text-lg text-gray-600 leading-relaxed mb-4 sm:mb-6 lg:mb-8 max-w-md mx-auto flex-grow">
-                                        Полный свод основных утренних молитв православного христианина с подробными объяснениями и краткими версиями для начинающих.
-                                    </p>
-                                    <div className="inline-flex items-center gap-2 sm:gap-3 bg-gradient-to-r from-blue-50 to-indigo-50 px-4 sm:px-6 lg:px-8 py-3 sm:py-4 rounded-xl border border-blue-100 group-hover:from-blue-100 group-hover:to-indigo-100 transition-all duration-200">
-                                        <span className="text-sm sm:text-base lg:text-lg font-semibold text-indigo-600 group-hover:text-indigo-700">
-                                            Изучить молитвы
-                                        </span>
-                                        <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6 text-indigo-600 group-hover:translate-x-1 transition-transform duration-200" />
-                                    </div>
-                                </div>
-                            </a>
+                        {/* Асимметричная компоновка в стиле Medusa */}
+                        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 mb-20">
+                            {/* Большой центральный блок - Молитвы для успокоения */}
+                            <div className="lg:col-span-7 group">
+                                <a href="/molitvy/uspokoenie/" className="block h-full">
+                                    <div className="bg-gradient-to-br from-green-50 via-emerald-50 to-teal-50 rounded-3xl p-8 lg:p-16 h-full border border-green-200 hover:border-green-300 transition-all duration-300 hover:shadow-2xl relative overflow-hidden">
+                                        {/* Декоративные элементы */}
+                                        <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-green-200/30 to-emerald-200/30 rounded-full -translate-y-16 translate-x-16"></div>
+                                        <div className="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-tr from-emerald-200/20 to-teal-200/20 rounded-full translate-y-12 -translate-x-12"></div>
 
-                            {/* Ссылка на избранные молитвы */}
-                            <a
-                                href="/favorites/"
-                                className="group bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-8 lg:p-12 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-300 hover:scale-[1.02] h-full flex flex-col"
-                            >
-                                <div className="text-center flex flex-col h-full">
-                                    <div className="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 bg-gradient-to-br from-red-500 to-rose-600 rounded-xl sm:rounded-2xl flex items-center justify-center mx-auto mb-4 sm:mb-6 lg:mb-8 group-hover:scale-110 transition-transform duration-200">
-                                        <Heart className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 text-white" />
+                                        <div className="relative z-10">
+                                            <div className="flex items-start gap-6 mb-8">
+                                                <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-emerald-600 rounded-3xl flex items-center justify-center group-hover:scale-110 transition-transform duration-200 shadow-lg">
+                                                    <Heart className="w-10 h-10 text-white" />
+                                                </div>
+                                                <div className="flex-1">
+                                                    <h3 className="text-3xl lg:text-5xl font-bold text-gray-900 group-hover:text-green-600 transition-colors duration-200 mb-3">
+                                                        Молитвы для успокоения
+                                                    </h3>
+                                                    <p className="text-green-600 font-semibold text-lg">Найдите покой в молитве</p>
+                                                </div>
+                                            </div>
+                                            <p className="text-gray-700 text-xl leading-relaxed mb-8 max-w-2xl">
+                                                Православные молитвы для успокоения души, снятия тревоги и обретения внутреннего покоя в трудные моменты жизни. Специально подобранная коллекция молитв для душевного равновесия.
+                                            </p>
+                                            <div className="flex items-center text-green-600 font-semibold text-lg group-hover:text-green-700 transition-colors duration-200">
+                                                <span>Найти покой</span>
+                                                <ArrowRight className="w-6 h-6 ml-3 group-hover:translate-x-2 transition-transform duration-200" />
+                                            </div>
+                                        </div>
                                     </div>
-                                    <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 group-hover:text-indigo-600 transition-colors duration-200 mb-3 sm:mb-4 lg:mb-6">
-                                        Избранные молитвы
-                                    </h3>
-                                    <p className="text-sm sm:text-base lg:text-lg text-gray-600 leading-relaxed mb-4 sm:mb-6 lg:mb-8 max-w-md mx-auto flex-grow">
-                                        Сохраните понравившиеся молитвы для быстрого доступа. Создайте свою личную коллекцию молитв для ежедневного чтения.
-                                    </p>
-                                    <div className="inline-flex items-center gap-2 sm:gap-3 bg-gradient-to-r from-red-50 to-rose-50 px-4 sm:px-6 lg:px-8 py-3 sm:py-4 rounded-xl border border-red-100 group-hover:from-red-100 group-hover:to-rose-100 transition-all duration-200">
-                                        <span className="text-sm sm:text-base lg:text-lg font-semibold text-red-600 group-hover:text-red-700">
-                                            Мои молитвы
-                                        </span>
-                                        <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6 text-red-600 group-hover:translate-x-1 transition-transform duration-200" />
-                                    </div>
+                                </a>
+                            </div>
+
+                            {/* Боковые блоки */}
+                            <div className="lg:col-span-5 space-y-8">
+                                {/* Утренние молитвы */}
+                                <div className="group">
+                                    <a href="/molitvy/utrennie/" className="block">
+                                        <div className="bg-gradient-to-br from-blue-50 to-indigo-100 rounded-3xl p-6 lg:p-8 h-full border border-blue-200 hover:border-blue-300 transition-all duration-300 hover:shadow-xl">
+                                            <div className="flex items-center gap-4 mb-4">
+                                                <div className="w-14 h-14 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
+                                                    <Clock className="w-7 h-7 text-white" />
+                                                </div>
+                                                <div>
+                                                    <h3 className="text-xl lg:text-2xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors duration-200">
+                                                        Утренние молитвы
+                                                    </h3>
+                                                    <p className="text-blue-600 font-medium">Начните день с молитвы</p>
+                                                </div>
+                                            </div>
+                                            <p className="text-gray-700 leading-relaxed mb-4">
+                                                Полный свод основных утренних молитв православного христианина.
+                                            </p>
+                                            <div className="flex items-center text-blue-600 font-semibold group-hover:text-blue-700 transition-colors duration-200">
+                                                <span>Изучить</span>
+                                                <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-200" />
+                                            </div>
+                                        </div>
+                                    </a>
                                 </div>
-                            </a>
+
+                                {/* Избранные молитвы */}
+                                <div className="group">
+                                    <a href="/favorites/" className="block">
+                                        <div className="bg-gradient-to-br from-red-50 to-rose-100 rounded-3xl p-6 lg:p-8 h-full border border-red-200 hover:border-red-300 transition-all duration-300 hover:shadow-xl">
+                                            <div className="flex items-center gap-4 mb-4">
+                                                <div className="w-14 h-14 bg-gradient-to-br from-red-500 to-rose-600 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
+                                                    <Heart className="w-7 h-7 text-white" />
+                                                </div>
+                                                <div>
+                                                    <h3 className="text-xl lg:text-2xl font-bold text-gray-900 group-hover:text-red-600 transition-colors duration-200">
+                                                        Избранные молитвы
+                                                    </h3>
+                                                    <p className="text-red-600 font-medium">Ваша коллекция</p>
+                                                </div>
+                                            </div>
+                                            <p className="text-gray-700 leading-relaxed mb-4">
+                                                Сохраните понравившиеся молитвы для быстрого доступа.
+                                            </p>
+                                            <div className="flex items-center text-red-600 font-semibold group-hover:text-red-700 transition-colors duration-200">
+                                                <span>Мои молитвы</span>
+                                                <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-200" />
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
 
-                        {/* Дополнительные ссылки */}
-                        <div className="mt-8 sm:mt-12 lg:mt-16 text-center">
-                            <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 lg:gap-6 justify-center">
+                        {/* Дополнительные ссылки в стиле Medusa */}
+                        <div className="text-center">
+                            <div className="inline-flex flex-col sm:flex-row gap-4 sm:gap-6">
                                 <a
                                     href="/catalog/"
-                                    className="inline-flex items-center gap-2 sm:gap-3 bg-white text-gray-700 px-4 sm:px-6 lg:px-8 py-3 sm:py-4 rounded-xl font-semibold hover:bg-gray-50 transition-all duration-200 shadow-lg border border-gray-200 hover:shadow-xl hover:scale-105 text-sm sm:text-base"
+                                    className="inline-flex items-center gap-3 bg-gray-900 text-white px-8 py-4 rounded-2xl font-semibold hover:bg-gray-800 transition-all duration-200 shadow-lg hover:shadow-xl hover:scale-105"
                                 >
-                                    <BookOpen className="w-4 h-4 sm:w-5 sm:h-5" />
+                                    <BookOpen className="w-5 h-5" />
                                     Каталог молитв
                                 </a>
                                 <a
                                     href="/weekly-prayers/"
-                                    className="inline-flex items-center gap-2 sm:gap-3 bg-white text-gray-700 px-4 sm:px-6 lg:px-8 py-3 sm:py-4 rounded-xl font-semibold hover:bg-gray-50 transition-all duration-200 shadow-lg border border-gray-200 hover:shadow-xl hover:scale-105 text-sm sm:text-base"
+                                    className="inline-flex items-center gap-3 bg-white text-gray-900 px-8 py-4 rounded-2xl font-semibold hover:bg-gray-50 transition-all duration-200 shadow-lg border border-gray-200 hover:shadow-xl hover:scale-105"
                                 >
-                                    <Clock className="w-4 h-4 sm:w-5 sm:h-5" />
+                                    <Clock className="w-5 h-5" />
                                     Еженедельные молитвы
                                 </a>
                                 <a
                                     href="/faq/"
-                                    className="inline-flex items-center gap-2 sm:gap-3 bg-white text-gray-700 px-4 sm:px-6 lg:px-8 py-3 sm:py-4 rounded-xl font-semibold hover:bg-gray-50 transition-all duration-200 shadow-lg border border-gray-200 hover:shadow-xl hover:scale-105 text-sm sm:text-base"
+                                    className="inline-flex items-center gap-3 bg-white text-gray-900 px-8 py-4 rounded-2xl font-semibold hover:bg-gray-50 transition-all duration-200 shadow-lg border border-gray-200 hover:shadow-xl hover:scale-105"
                                 >
-                                    <BookOpen className="w-4 h-4 sm:w-5 sm:h-5" />
+                                    <BookOpen className="w-5 h-5" />
                                     FAQ
                                 </a>
                             </div>

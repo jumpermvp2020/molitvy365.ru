@@ -10,9 +10,9 @@ interface PrayerCardProps {
         overview: string;
         modernText?: string;
         originalText?: string;
-        duration_estimate_min: number;
-        suitable_for: string[];
-        why: string;
+        duration_estimate_min?: number;
+        suitable_for?: string[];
+        why?: string;
         slug: string;
     };
     index: number;
@@ -43,13 +43,13 @@ export function PrayerCard({ prayer, index }: PrayerCardProps) {
                 <div className="bg-gray-50 rounded-lg sm:rounded-xl p-2 sm:p-4 text-center">
                     <Clock className="w-3 h-3 sm:w-4 sm:h-4 text-gray-600 mx-auto mb-1" />
                     <p className="text-xs sm:text-sm font-semibold text-gray-800">
-                        {prayer.duration_estimate_min} мин
+                        {prayer.duration_estimate_min || 2} мин
                     </p>
                 </div>
                 <div className="bg-gray-50 rounded-lg sm:rounded-xl p-2 sm:p-4 text-center">
                     <Users className="w-3 h-3 sm:w-4 sm:h-4 text-gray-600 mx-auto mb-1" />
                     <p className="text-xs sm:text-sm font-semibold text-gray-800 capitalize">
-                        {prayer.suitable_for[0] || 'Все'}
+                        {prayer.suitable_for?.[0] || 'Все'}
                     </p>
                 </div>
                 <div className="bg-gray-50 rounded-lg sm:rounded-xl p-2 sm:p-4 text-center">
@@ -118,7 +118,7 @@ export function PrayerCard({ prayer, index }: PrayerCardProps) {
                     <div className="bg-gray-50 rounded-xl sm:rounded-2xl p-4 sm:p-6">
                         <h4 className="text-sm sm:text-lg font-semibold text-gray-800 mb-2 sm:mb-3">Зачем читать эту молитву</h4>
                         <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
-                            {prayer.why}
+                            {prayer.why || 'Эта молитва помогает обрести душевный покой и умиротворение.'}
                         </p>
                     </div>
 
