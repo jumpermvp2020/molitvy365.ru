@@ -8,6 +8,42 @@ import { StructuredData } from '@/components/StructuredData';
 import { PrayerCard } from '@/components/PrayerCard';
 import { getPrayerTextData } from '@/lib/prayerTextData';
 
+interface PrayerData {
+    title?: string;
+    content?: string;
+    contentModern?: string;
+    slug?: string;
+    url?: string;
+    category?: string;
+    overview?: string;
+    text?: string;
+    duration_estimate_min?: number;
+    suitable_for?: string[];
+    why?: string;
+}
+
+interface TextData {
+    title?: string;
+    modern_ru?: string;
+    original_text?: string;
+    category?: string;
+    overview?: string;
+    duration_estimate_min?: number;
+    suitable_for?: string[];
+    why?: string;
+}
+
+interface FAQItem {
+    question: string;
+    answer: string;
+}
+
+interface RelatedCard {
+    title: string;
+    url: string;
+    description: string;
+}
+
 // Загружаем данные страницы
 const uspokoenieDataPath = path.join(process.cwd(), 'data', 'uspokoenie_page.json');
 const uspokoenieData = JSON.parse(fs.readFileSync(uspokoenieDataPath, 'utf8'));
@@ -58,8 +94,8 @@ const prayers = calmPrayers.map(slug => {
 
     // Используем данные из любого доступного источника
     if (prayerData || textData) {
-        const prayer = prayerData || {} as any;
-        const text = textData || {} as any;
+        const prayer = prayerData || {} as PrayerData;
+        const text = textData || {} as TextData;
 
         return {
             ...prayer,
@@ -108,7 +144,7 @@ export const metadata: Metadata = {
 const structuredData = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    "mainEntity": uspokoenieData.faq.map((item: any) => ({
+    "mainEntity": uspokoenieData.faq.map((item: FAQItem) => ({
         "@type": "Question",
         "name": item.question,
         "acceptedAnswer": {
@@ -380,7 +416,7 @@ export default function UspokoeniePage() {
 
                     <div className="max-w-4xl mx-auto">
                         <div className="space-y-6">
-                            {uspokoenieData.faq.map((item: any, index: number) => (
+                            {uspokoenieData.faq.map((item: FAQItem, index: number) => (
                                 <div key={index} className="bg-gray-50 rounded-2xl p-8 hover:bg-gray-100 transition-colors duration-200">
                                     <h3 className="text-xl font-bold text-gray-900 mb-4">
                                         {item.question}
@@ -415,7 +451,7 @@ export default function UspokoeniePage() {
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
-                        {uspokoenieData.related.map((card: any, index: number) => {
+                        {uspokoenieData.related.map((card: RelatedCard, index: number) => {
                             const gradients = [
                                 'from-blue-500 to-indigo-600',
                                 'from-green-500 to-emerald-600',

@@ -144,7 +144,7 @@ async function getPrayerData(slug: string): Promise<PrayerData | null> {
             const indexContents = fs.readFileSync(indexPath, 'utf8');
             const prayerIndex = JSON.parse(indexContents);
 
-            const prayerItem = prayerIndex.items.find((item: any) => item.slug === slug);
+            const prayerItem = prayerIndex.items.find((item: PrayerItem) => item.slug === slug);
             if (prayerItem) {
                 const guidePath = path.join(process.cwd(), 'data', 'utrennie_molitvy_archive', prayerItem.guide_path);
                 const guideContents = fs.readFileSync(guidePath, 'utf8');
