@@ -21,6 +21,15 @@ interface PrayerData {
     slug: string;
 }
 
+interface PrayerItem {
+    slug: string;
+    title?: string;
+}
+
+interface PrayerIndex {
+    items: PrayerItem[];
+}
+
 interface PageProps {
     params: {
         slug: string;
@@ -64,7 +73,7 @@ async function getPrayerContext(slug: string) {
         if (category === 'Молитвы для успокоения') {
             relatedPrayers = uspokoeniePrayers.map(slug => ({
                 slug,
-                title: slug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())
+                title: slug.replace(/-/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())
             }));
         } else if (category === 'Утренние молитвы') {
             // Загружаем утренние молитвы из архива
@@ -73,9 +82,9 @@ async function getPrayerContext(slug: string) {
                 const indexContents = fs.readFileSync(indexPath, 'utf8');
                 const prayerIndex = JSON.parse(indexContents);
 
-                relatedPrayers = prayerIndex.items.map((item: any) => ({
+                relatedPrayers = prayerIndex.items.map((item: PrayerItem) => ({
                     slug: item.slug,
-                    title: item.title || item.slug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())
+                    title: item.title || item.slug.replace(/-/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())
                 }));
             } catch (error) {
                 console.log('Could not load utrennie prayers');
@@ -89,7 +98,7 @@ async function getPrayerContext(slug: string) {
 }
 
 // Получаем данные молитвы
-async function getPrayerData(slug: string): Promise<any | null> {
+async function getPrayerData(slug: string): Promise<PrayerData | null> {
     try {
         // Список папок для поиска молитв
         const searchPaths = [
@@ -189,7 +198,7 @@ export async function generateStaticParams() {
             const indexContents = fs.readFileSync(indexPath, 'utf8');
             const prayerIndex = JSON.parse(indexContents);
 
-            prayerIndex.items.forEach((item: { slug: string }) => {
+            prayerIndex.items.forEach((item: PrayerItem) => {
                 // Проверяем, что не дублируем молитвы
                 if (!params.some(p => p.slug === item.slug)) {
                     params.push({ slug: item.slug });

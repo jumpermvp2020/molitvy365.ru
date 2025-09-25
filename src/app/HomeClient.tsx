@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
+import Link from 'next/link';
 import { Heart, BookOpen, Clock, ArrowRight } from 'lucide-react';
 import PrayerBlock from '@/components/PrayerBlock';
 import ProjectsBlock from '@/components/ProjectsBlock';
@@ -106,7 +107,7 @@ export default function HomeClient({ initialPrayer, prayerIndex }: HomeClientPro
                         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 mb-20">
                             {/* Большой центральный блок - Молитвы для успокоения */}
                             <div className="lg:col-span-7 group">
-                                <a href="/molitvy/uspokoenie/" className="block h-full">
+                                <Link href="/molitvy/uspokoenie/" className="block h-full">
                                     <div className="bg-gradient-to-br from-green-50 via-emerald-50 to-teal-50 rounded-3xl p-8 lg:p-16 h-full border border-green-200 hover:border-green-300 transition-all duration-300 hover:shadow-2xl relative overflow-hidden">
                                         {/* Декоративные элементы */}
                                         <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-green-200/30 to-emerald-200/30 rounded-full -translate-y-16 translate-x-16"></div>
@@ -133,14 +134,14 @@ export default function HomeClient({ initialPrayer, prayerIndex }: HomeClientPro
                                             </div>
                                         </div>
                                     </div>
-                                </a>
+                                </Link>
                             </div>
 
                             {/* Боковые блоки */}
                             <div className="lg:col-span-5 space-y-8">
                                 {/* Утренние молитвы */}
                                 <div className="group">
-                                    <a href="/molitvy/utrennie/" className="block">
+                                    <Link href="/molitvy/utrennie/" className="block">
                                         <div className="bg-gradient-to-br from-blue-50 to-indigo-100 rounded-3xl p-6 lg:p-8 h-full border border-blue-200 hover:border-blue-300 transition-all duration-300 hover:shadow-xl">
                                             <div className="flex items-center gap-4 mb-4">
                                                 <div className="w-14 h-14 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
@@ -161,12 +162,12 @@ export default function HomeClient({ initialPrayer, prayerIndex }: HomeClientPro
                                                 <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-200" />
                                             </div>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </div>
 
                                 {/* Избранные молитвы */}
                                 <div className="group">
-                                    <a href="/favorites/" className="block">
+                                    <Link href="/favorites/" className="block">
                                         <div className="bg-gradient-to-br from-red-50 to-rose-100 rounded-3xl p-6 lg:p-8 h-full border border-red-200 hover:border-red-300 transition-all duration-300 hover:shadow-xl">
                                             <div className="flex items-center gap-4 mb-4">
                                                 <div className="w-14 h-14 bg-gradient-to-br from-red-500 to-rose-600 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
@@ -187,7 +188,7 @@ export default function HomeClient({ initialPrayer, prayerIndex }: HomeClientPro
                                                 <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-200" />
                                             </div>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -201,21 +202,21 @@ export default function HomeClient({ initialPrayer, prayerIndex }: HomeClientPro
                                 >
                                     <BookOpen className="w-5 h-5" />
                                     Каталог молитв
-                                </a>
-                                <a
+                                </Link>
+                                <Link
                                     href="/weekly-prayers/"
                                     className="inline-flex items-center gap-3 bg-white text-gray-900 px-8 py-4 rounded-2xl font-semibold hover:bg-gray-50 transition-all duration-200 shadow-lg border border-gray-200 hover:shadow-xl hover:scale-105"
                                 >
                                     <Clock className="w-5 h-5" />
                                     Еженедельные молитвы
-                                </a>
-                                <a
+                                </Link>
+                                <Link
                                     href="/faq/"
                                     className="inline-flex items-center gap-3 bg-white text-gray-900 px-8 py-4 rounded-2xl font-semibold hover:bg-gray-50 transition-all duration-200 shadow-lg border border-gray-200 hover:shadow-xl hover:scale-105"
                                 >
                                     <BookOpen className="w-5 h-5" />
                                     FAQ
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>

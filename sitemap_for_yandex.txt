@@ -1,0 +1,145 @@
+# Список страниц для индексации в Яндекс.Вебмастере
+# Сайт: Православные молитвы
+# Дата создания: $(date)
+
+# ===========================================
+# ОСНОВНЫЕ СТРАНИЦЫ
+# ===========================================
+
+# Главная страница
+https://your-domain.com/
+
+# Каталог молитв
+https://your-domain.com/catalog/
+
+# О сайте
+https://your-domain.com/about/
+
+# FAQ (Часто задаваемые вопросы)
+https://your-domain.com/faq/
+
+# Политика конфиденциальности
+https://your-domain.com/privacy/
+
+# Избранные молитвы
+https://your-domain.com/favorites/
+
+# Еженедельные молитвы
+https://your-domain.com/weekly-prayers/
+
+# ===========================================
+# КАТЕГОРИИ МОЛИТВ
+# ===========================================
+
+# Молитвы для успокоения (основная категория)
+https://your-domain.com/molitvy/uspokoenie/
+
+# Утренние молитвы (основная категория)
+https://your-domain.com/molitvy/utrennie/
+
+# ===========================================
+# ОТДЕЛЬНЫЕ МОЛИТВЫ ДЛЯ УСПОКОЕНИЯ
+# ===========================================
+
+# Молитва на сон для успокоения
+https://your-domain.com/molitvy/molitva-na-son/
+
+# Молитва от тревоги
+https://your-domain.com/molitvy/molitva-ot-trevogi/
+
+# Молитва для душевного покоя
+https://your-domain.com/molitvy/molitva-dlya-dushevnogo-pokoya/
+
+# Молитва от стресса
+https://your-domain.com/molitvy/molitva-ot-stressa/
+
+# Молитва для успокоения нервов
+https://your-domain.com/molitvy/molitva-dlya-uspokoeniya-nervov/
+
+# Молитва для спокойного сна
+https://your-domain.com/molitvy/molitva-dlya-spokojnogo-sna/
+
+# ===========================================
+# ОТДЕЛЬНЫЕ УТРЕННИЕ МОЛИТВЫ
+# ===========================================
+
+# Молитва Господня (Отче наш)
+https://your-domain.com/molitvy/molitva-gospodnya/
+
+# Молитва мытаря
+https://your-domain.com/molitvy/molitva-mytarya/
+
+# Молитва четвертая того же святого
+https://your-domain.com/molitvy/molitva-chetvertaya-togo-zhe-svyatogo/
+
+# Молитва десятая ко Пресвятой Богородице
+https://your-domain.com/molitvy/molitva-desyataya-ko-presvyatoj-bogorodice/
+
+# Молитва девятая к ангелу хранителю
+https://your-domain.com/molitvy/molitva-devyataya-k-angelu-hranitelyu/
+
+# Молитва ко Пресвятой Троице
+https://your-domain.com/molitvy/molitva-ko-presvyatoj-troice/
+
+# Молитва о живых
+https://your-domain.com/molitvy/molitva-o-zhivyh/
+
+# Молитва первая святого Макария Великого
+https://your-domain.com/molitvy/molitva-pervaya-svyatogo-makariya-velikogo/
+
+# Молитва предначинательная
+https://your-domain.com/molitvy/molitva-prednachinatelnaya/
+
+# Молитва пятая святого Василия Великого
+https://your-domain.com/molitvy/molitva-pyataya-svyatogo-vasiliya-velikogo/
+
+# ===========================================
+# ДОПОЛНИТЕЛЬНЫЕ СТРАНИЦЫ
+# ===========================================
+
+# AMP версии молитв (для мобильных устройств)
+# https://your-domain.com/amp/prayer/molitva-na-son/
+# https://your-domain.com/amp/prayer/molitva-ot-trevogi/
+# https://your-domain.com/amp/prayer/molitva-dlya-dushevnogo-pokoya/
+# https://your-domain.com/amp/prayer/molitva-gospodnya/
+# https://your-domain.com/amp/prayer/molitva-mytarya/
+
+# Страницы по дням недели (если есть)
+# https://your-domain.com/days/monday/
+# https://your-domain.com/days/tuesday/
+# https://your-domain.com/days/wednesday/
+# https://your-domain.com/days/thursday/
+# https://your-domain.com/days/friday/
+# https://your-domain.com/days/saturday/
+# https://your-domain.com/days/sunday/
+
+# ===========================================
+# ИНСТРУКЦИИ ДЛЯ ЯНДЕКС.ВЕБМАСТЕРА
+# ===========================================
+
+# 1. Скопируйте этот список в Яндекс.Вебмастер
+# 2. Замените "your-domain.com" на ваш реальный домен
+# 3. Добавьте страницы через "Индексирование" → "Переобход страниц"
+# 4. Или используйте "Файлы Sitemap" для автоматической индексации
+
+# ===========================================
+# ПРИОРИТЕТНЫЕ СТРАНИЦЫ ДЛЯ БЫСТРОЙ ИНДЕКСАЦИИ
+# ===========================================
+
+# Высокий приоритет:
+# - Главная страница
+# - Каталог молитв
+# - Молитвы для успокоения (категория)
+# - Утренние молитвы (категория)
+# - Молитва Господня
+# - Молитва на сон для успокоения
+
+# Средний приоритет:
+# - Отдельные молитвы для успокоения
+# - Отдельные утренние молитвы
+# - FAQ и О сайте
+
+# Низкий приоритет:
+# - AMP версии
+# - Страницы по дням недели
+# - Политика конфиденциальности
