@@ -241,7 +241,7 @@ export default async function PrayerPage({ params }: PageProps) {
     }
 
     // Находим текущую молитву в списке связанных
-    const currentIndex = context.relatedPrayers.findIndex(p => p.slug === params.slug);
+    const currentIndex = context.relatedPrayers.findIndex((p: { slug: string }) => p.slug === params.slug);
     const prevPrayer = currentIndex > 0 ? context.relatedPrayers[currentIndex - 1] : null;
     const nextPrayer = currentIndex < context.relatedPrayers.length - 1 ? context.relatedPrayers[currentIndex + 1] : null;
 
