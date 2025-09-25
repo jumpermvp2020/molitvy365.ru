@@ -8,17 +8,30 @@ import { ArrowLeft, ChevronLeft, ChevronRight, Home, BookOpen } from 'lucide-rea
 interface PrayerData {
     title: string;
     overview: string;
-    when_to_read: string;
-    how_to_read: string[];
-    why: string;
-    use_cases: string[];
-    duration_estimate_min: number;
-    suitable_for: string[];
+    when_to_read?: string;
+    how_to_read?: string[];
+    why?: string;
+    use_cases?: string[];
+    duration_estimate_min?: number;
+    suitable_for?: string[];
     short_version_hint?: string;
-    pitfalls: string[];
-    suggested_habits: string[];
-    seo_faq: Array<{ q: string; a: string }>;
+    pitfalls?: string[];
+    suggested_habits?: string[];
+    seo_faq?: Array<{ q: string; a: string }>;
     slug: string;
+    // Дополнительные свойства для разных источников данных
+    content?: string;
+    contentModern?: string;
+    modern_ru?: string;
+    original_text?: string;
+    text?: string;
+    url?: string;
+    id?: number;
+    originalUrl?: string;
+    createdAt?: string;
+    updatedAt?: string;
+    tags?: string[];
+    explanation?: string;
 }
 
 interface PrayerItem {
@@ -241,7 +254,7 @@ export default async function PrayerPage({ params }: PageProps) {
     }
 
     // Находим текущую молитву в списке связанных
-    const currentIndex = context.relatedPrayers.findIndex((p: { slug: string }) => p.slug === params.slug);
+    const currentIndex = context.relatedPrayers.findIndex(p => p.slug === params.slug);
     const prevPrayer = currentIndex > 0 ? context.relatedPrayers[currentIndex - 1] : null;
     const nextPrayer = currentIndex < context.relatedPrayers.length - 1 ? context.relatedPrayers[currentIndex + 1] : null;
 
