@@ -196,7 +196,7 @@ export default function HomeClient({ initialPrayer, prayerIndex }: HomeClientPro
                         {/* Дополнительные ссылки в стиле Medusa */}
                         <div className="text-center">
                             <div className="inline-flex flex-col sm:flex-row gap-4 sm:gap-6">
-                                <a
+                                <Link
                                     href="/catalog/"
                                     className="inline-flex items-center gap-3 bg-gray-900 text-white px-8 py-4 rounded-2xl font-semibold hover:bg-gray-800 transition-all duration-200 shadow-lg hover:shadow-xl hover:scale-105"
                                 >
