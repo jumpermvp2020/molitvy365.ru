@@ -3,7 +3,7 @@
   <!-- Главная страница -->
   <url>
     <loc>https://molitvy365.ru</loc>
-    <lastmod>2025-09-25T07:01:18.178Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.374Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -11,7 +11,7 @@
   <!-- Страница избранного -->
   <url>
     <loc>https://molitvy365.ru/favorites</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -19,7 +19,7 @@
   <!-- Страница каталога молитв -->
   <url>
     <loc>https://molitvy365.ru/catalog</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -27,7 +27,7 @@
   <!-- Страница молитв по дням недели -->
   <url>
     <loc>https://molitvy365.ru/weekly-prayers</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -35,49 +35,49 @@
   <!-- Страницы конкретных дней недели -->
   <url>
     <loc>https://molitvy365.ru/days/monday</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://molitvy365.ru/days/tuesday</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://molitvy365.ru/days/wednesday</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://molitvy365.ru/days/thursday</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://molitvy365.ru/days/friday</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://molitvy365.ru/days/saturday</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://molitvy365.ru/days/sunday</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -85,21 +85,21 @@
   <!-- Информационные страницы -->
   <url>
     <loc>https://molitvy365.ru/about</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://molitvy365.ru/privacy</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://molitvy365.ru/faq</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -108,2815 +108,2815 @@
   
   <url>
     <loc>https://molitvy365.ru/prayer/iisusova-molitva</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-gospodnya-otche-nash</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/simvol-very</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-angelu-hranitelyu-ot-nechistoy-sily</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/17-ya-kafizma-pominalnaya-chtomaya-v-dni-osobogo-pominoveniya-usopshih</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/akafist-iisusu-sladchayshemu</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/akafist-presvyatoy-bogoroditse</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/akafist-za-edinoumershego</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/apostolu-fome</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/arhangelu-varahiilu-pokrovitelyu-blagochestivyh-semeystv-nebesnym-chinam-besplotnym</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/bessrebrenikam-i-chudotvortsam-kosme-i-damianu</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/blagodarenie-za-vsyakoe-blagodeyanie-bozhie</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/blagodarstvennye-molitvy-po-svyatom-prichaschenii</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/blagoslovenie-materi</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/blagovernomu-knyazyu-daniilu-moskovskomu</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/blagovernomu-knyazyu-petru-i-knyagine-fevronii-muromskim-chudotvortsam</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/blazhennomu-prokopiyu-hrista-radi-yurodivomu-ustyuzhskomu-chudotvortsu</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/blazhenstva-evangelskie</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/bogorodichnoe-pravilo</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/bozhiey-materi-mlekopitatelnitse</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/chas-shestoy</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/chas-tretiy</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/chasy-svyatoy-pashi</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/chin-chteniya-12-ti-psalmov</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/chin-litii-sovershaemoy-miryaninom-doma-i-na-kladbische</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/chin-molitvennago-utesheniya-srodnikov-zhivot-svoy-samovolne-skonchavshago</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/chin-obednitsy</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/cvyatitelyu-nektariyu-eginskomu</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/cvyatomu-blagovernomu-velikomu-knyazyu-aleksandru-nevskomu</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/cvyatomu-prepodobnomu-irinarhu-zatvorniku-rostovskomu</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/cvyatomu-ravnoapostolnomu-velikomu-knyazyu-vladimiru</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/cvyatym-sedmi-otrokam-izhe-vo-efese-maksimilianu-iamvlihu-martinianu-ioannu-dionisiyu-eksakustodianu-i-antoninu</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/cvyatym-ugodnikam-ioannu-krestitelyu-ioannu-bogoslovu-nikolayu-chudotvortsu-svyaschennomucheniku-harlampiyu-vmch-georgiyu-pobedonostsu-i-drugim-svyatym</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/desyat-zapovedey</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/devyatyy-chas</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/dve-utrennie-maloizvestnye-molitvy</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/ezhednevnaya-molitva-svyatitelya-filareta-mitropolita-moskovskogo</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/ezhednevnye-molitvy-o-chadah</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/inaya-molitva</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/ispoved</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/kanon-angelu-hranitelyu</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/kanon-molebnyy-ko-gospodu-iisusu-hristu-i-prechistoy-bogoroditse-materi-gospodni-pri-razluchenii-dushi-ot-tela-vsyakogo-pravovernogo</loc>
-    <lastmod>2025-09-25T07:01:18.179Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/kanon-molebnyy-ko-presvyatoy-bogoroditse</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/kanon-o-samovolne-zhivot-svoy-skonchavshih</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/kanon-pokayannyy-ko-gospodu-nashemu-iisusu-hristu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/kanon-za-bolyaschego-glas-3-y</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/keleynoe-pravilo</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/ko-gospodu-iisusu-hristu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/kogda-zametish-za-soboy-kakoy-greh-molitva-sv-ioanna-kronshtadtskogo</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/konchina-cheloveka</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/kratchayshiy-obraz-izbavleniya-ot-hulnyh-mysley</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/liturgiya-oglashennyh</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/liturgiya-vernyh</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molenie-o-tom-chtoby-bog-daroval-nam-userdie-k-molitve-za-usopshih-i-prinyal-by-eyo</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molenie-o-upokoenii-pravoslavnyh-voinov-za-veru-i-otechestvo-na-brani-ubiennyh</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-1-ponedelnik-arhangelu-mihailu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-1</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-2-vtornik-arhangelu-gavriilu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-2</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-3</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-4-chetverg-arhangelu-uriilu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-4</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-5-pyatnitsa-arhangelu-selafiilu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-6-subbota-arhangelu-iegudiilu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-7-voskresenie-arhangelu-varahiilu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-angelu-hranitelyu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-apostolu-simonu-zilotu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-arhangelu-rafailu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-arhistratigu-mihailu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-beremennyh-zhenschin-o-blagopoluchnom-razreshenii</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-blagodarstvennaya-svyatogo-ioanna-kronshtadskogo-chitaemaya-posle-istseleniya-ot-bolezni</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-bolyaschey</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-chestnomu-krestu-da-voskresnet-bog</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-chetvertaya-za-vseh-v-vere-skonchavshihsya-pravoslavnyh-hristian</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-detey-za-roditeley</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-devitsy-o-zamuzhestve</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-dlya-zaschity-ot-nechistoy-sily</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-do-i-posle-chteniya-evangeliya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-iduschego-v-tserkov</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-iereya-prav-ioanna-kronshtadskogo</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-inaya-arhangelu-gavriilu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-k-angelu-hranitelyu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-ko-gospodu-o-proschenii-zastuplenii-i-pomoschi</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-ko-presvyatoy-bogoroditse-pred-ikonoy-ee-podatelnitsa-uma-ili-pribavlenie-uma</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-ko-presvyatoy-bogoroditse</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-lyubimomu-svyatomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-materi-otrochate</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-na-blagoslovenie-pischi-i-pitiya-miryanam</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-na-osvyaschenie-vsyakoy-veschi-svyaschennikom</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-na-son</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-na-vhozhdenie-v-novyy-dom</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-na-vsyakuyu-nemosch</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-nebesnym-pechalnikam-russkoy-zemli</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-negramotnogo-posle-prichascheniya-svyatyh-tain-prot-i-evropeytseva</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-novomuchenikam-i-ispovednikam-rossiyskim</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-o-detyah-prep-amvrosiya-optinskogo</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-o-primirenii-vrazhduyuschih</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-o-proschenii-zabytyh-grehov</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-o-seme</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-o-skonchavshihsya-v-sostoyanii-dushevnogo-zabolevaniya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-o-spasenii-derzhavy-rossiyskoy-i-utolenii-v-ney-razdorov-i-nestroeniy</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-o-spasenii-rossii</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-o-tom-chtoby-s-lyubovyu-uhazhivat-za-bolyaschimi</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-o-upokoenii-skonchavshihsya-posle-tyazhkoy-i-prodolzhitelnoy-bolezni</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-o-v-uzah-suschih</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-o-vozvraschenii-mirnyh-vremen-prepodobnogo-efrema-sirina</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-ob-otroke-neudobouchaschemsya-ploho-uchaschemsya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-ot-goloda-proroku-bozhiyu-ilii</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-ot-neduga-pyanstva</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-pered-chteniem-duhovnyh-knig</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-pered-ispovedyu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-pered-nachalom-obucheniya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-pered-srazheniem</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-pered-ucheniem</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-pered-vyhodom-iz-doma</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-pervaya-ob-istselenii-bolyaschego</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-po-ishode-dushi-iz-tela</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-po-soglasheniyu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-poimenovannomu-otrochati</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-pokayannaya-chitaemaya-v-den-ubieniya-tsarskoy-semi-4-17-iyulya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-pokayannaya-chitaemaya-v-tserkvah-rossii-vo-dni-smuty</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-posle-ispovedaniya-grehov</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-posle-ucheniya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-poslednih-optinskih-startsev-na-nachalo-dnya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-pred-ikonoyu-derzhavnaya-215-marta</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-presvyatoy-bogoroditse-pered-ee-ikonoy-derzhavnaya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-pred-ikonoyu-dostoyno-est-11-24-iyunya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-presvyatoy-bogoroditse-pered-ee-ikonoy-dostoyno-est</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-pred-ikonoyu-feodorovskoyu-14-27-marta</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-presvyatoy-bogoroditse-pered-ee-ikonoy-feodorovskoyu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-pred-ikonoyu-kievo-pecherskoy-imenuemoyu-uspenie-15-28-avgusta</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-presvyatoy-bogoroditse-pered-ee-ikonoy-kievo-pecherskoy-imenuemoyu-uspenie</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-pred-ikonoyu-nedremlyuschee-oko-29-maya-11-iyunya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-presvyatoy-bogoroditse-pered-ee-ikonoy-nedremlyuschee-oko</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-pred-ikonoyu-neupivaemaya-chasha-5-18-maya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-presvyatoy-bogoroditse-pered-ee-ikonoy-neupivaemaya-chasha</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-pred-ikonoyu-pochaevskaya-23-iyulya-5-avgusta</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-presvyatoy-bogoroditse-pered-ee-ikonoy-pochaevskaya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-pred-ikonoyu-slove-plot-byst-922-marta</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-presvyatoy-bogoroditse-pered-ee-ikonoy-slove-plot-byst</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-pred-ikonoyu-smolenskoyu-imenuemoyu-odigitriya-28-iyulya-10-avgusta</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-presvyatoy-bogoroditse-pered-ee-ikonoy-smolenskoyu-imenuemoyu-odigitriya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-pred-ikonoyu-sporuchnitsa-greshnyh-720-marta</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-presvyatoy-bogoroditse-pered-ee-ikonoy-sporuchnitsa-greshnyh</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-pred-ikonoyu-tihvinskoy-26-iyunya-9-iyulya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-presvyatoy-bogoroditse-pered-ee-ikonoy-tihvinskoy</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-pred-ikonoyu-troeruchitsa-28-iyunya-11-iyulya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-presvyatoy-bogoroditse-pered-ee-ikonoy-troeruchitsa</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-pred-ikonoyu-utoli-moya-pechali-25-yanvarya-7-fevralya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-presvyatoy-bogoroditse-pered-ee-ikonoy-utoli-moya-pechali</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-pred-ikonoyu-vilenskoyu-imenuemuyu-odigitriya-14-27-aprelya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-presvyatoy-bogoroditse-pered-ee-ikonoy-vilenskoyu-imenuemuyu-odigitriya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-pred-ikonoyu-vladimirskaya-21-maya-3-iyunya-23-iyunya-6-iyulya-i-26-avgusta-8-sentyabrya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-presvyatoy-bogoroditse-pered-ee-ikonoy-vladimirskaya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-presleduemogo-chelovekami-svt-ignatiya-bryanchaninova</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-presvyatoy-bogoroditse-i-prisnodeve-marii-pred-ee-ikonoy-neupivaemaya-chasha</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-presvyatoy-bogoroditse-za-bolyaschego</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-pri-narechenii-imeni-dityati-v-vosmoy-den-po-ego-rozhdenii</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-protiv-antihrista</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-protiv-kramoly</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-protiv-supostatov</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-prp-nektariya-optinskogo</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-roditeley-na-blagoslovenie-detey</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-roditeley-o-detyah-nahodyaschihsya-na-sluzhbe-v-armii</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-roditeley-za-detey</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-sreda-arhangelu-rafailu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-startsa-makariya-optinskogo</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-suprugov-o-darovanii-detey</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-suprugov-pri-brakosochetanii</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-sv-pravednogo-ioanna-kronshtadskogo-ob-ukreplenii-v-pravoslavnoy-vere-i-edinstve</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-svyatitelya-dimitriya-rostovskogo</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-svyatitelyu-ioannu-shanhayskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-svyatogo-pravednogo-ioanna-kronshtadskogo</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-svyatomu-pravednomu-simeonu-bogopriimtsu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-svyatomu-tsaryu-strastoterptsu-nikolayu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-uznika-v-temnitse-zaklyuchennago</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-v-bolezni</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-v-den-hovogo-goda</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-v-den-rozhdeniya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-vdovitsy-za-supruga</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-vdovtsa-za-suprugu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-velikomuchenitse-anastasii-imenuemoy-uzoreshitelnitsa</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-vo-vremya-epidemii</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-voditelya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-vsem-svyatym-i-angelam-za-bolyaschego</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-vsem-svyatym-i-besplotnym-nebesnym-silam</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-vsem-svyatym-v-zemle-rossiyskoy-prosiyavshim</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-vtoraya-ob-istselenii-bolyaschego</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-vtoraya-pered-ispovedyu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-vtoraya-svyatomu-mucheniku-vonifatiyu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-vtoraya-za-vseh-v-vere-skonchavshihsya-pravoslavnyh-hristian</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-za-blagodeteley-osobenno-rukovodivshih-k-dobrodeteli</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-za-nastavnikov-i-vospitateley</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-za-nemoschnogo-i-nespyaschego</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-za-neveruyuschih-goniteley-i-prezriteley-pravdy</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-za-obidevshih-i-nenavidevshih-nas</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-za-pastyrey-pravoslavnoy-tserkvi</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-za-russkiy-narod</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-za-skonchavshihsya-vne-svoego-otechestva-za-bezrodnyh-i-ubogih</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-za-umirayuschego</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-za-usopshih-vnezapnoyu-skoropostizhnoyu-smertiyu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-za-vseh-v-vere-skonchavshihsya-pravoslavnyh-hristian</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-za-vsyakogo-usopshego</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-zaklyuchennogo-k-angelu-hranitelyu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-zaklyuchennogo-k-bozhiey-materi</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-zaklyuchennogo-k-svyatomu-ioannu-predteche</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-zhene-egda-izverzhet-mladentsa-chitaetsya-tolko-svyaschennikom-i-tolko-pri-nenasilstvennom-vykidyshe</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-zhenschiny-o-zagublennyh-vo-utrobe-svoey-dushah</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitvennoe-vozdyhanie-ko-gospodu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitvy-iereya-sv-innokentiya-mitropolita-moskovskogo</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitvy-k-bozhiey-materi</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitvy-ko-gospodu-iisusu-hristu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitvy-ko-gospodu-sv-ioanna-kronshtadtskogo</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitvy-ko-presvyatoy-bogoroditse-ot-cheloveka-sobirayuschegosya-v-put</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitvy-ko-presvyatoy-bogoroditse</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitvy-na-son-gryaduschim</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitvy-roditelnitse-po-proshestvii-soroka-dney</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitvy-utrennie-i-vechernie</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitvy-utrennie</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitvy-v-pervyy-den-po-rozhdeniyu-dityati</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitvy-zaderzhaniya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/muchenikam-adrianu-i-natalii</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/muchenikam-i-ispovednikam-guriyu-samonu-i-avivu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/mucheniku-gavriilu-belostokskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/mucheniku-i-chudotvortsu-ioannu-voinu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/mucheniku-neofitu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/mucheniku-trifonu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/muchenitse-fomaide-egipetskoy</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/muchenitse-sofii</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/na-bran-bluda</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/na-prinyatie-prosfory-i-svyatoy-vody</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/nebesnym-silam</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/o-bezropotnom-perenesenii-nasmeshek-i-goneniy-blazhennomu-vasiliyu-hrista-radi-yurodivomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/o-bozhestvennoy-liturgii</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/o-darovanii-krotosti-i-smireniya-v-sluzhenii-blizhnim-molitva-sv-ioanna-kronshtadtskogo</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/o-darovanii-molitvy</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/o-mertvorozhdennyh-mladentsah</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/o-nenavidyaschih-i-obidyaschih-nas</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/o-pomoschi-v-bednosti-i-nuzhde-svyatitelyu-ioannu-milostivomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/o-puteshestvuyuschih</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/ob-izbavlenii-ot-iskusheniy</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/ob-obraschenii-zabludshego-molitva-k-bozhiey-materi-svyatitelya-gavriila-novgorodskogo</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/ob-oslablenii-vechnyh-muk-umershih-bez-pokayaniya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/ob-oslablenii-vechnyh-muk-umershih-nekreschenymi</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/ob-ukroschenii-lyudskogo-gneva</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/ob-umnozhenii-lyubvi-i-iskorenenii-nenavisti-i-vsyakoy-zloby</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/ob-umyagchenii-zlyh-serdets-i-pri-zaschite-ot-napastey-zlyh-chelovek</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/opredelenie-grehov-po-desyati-zapovedyam</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/ot-ukusheniya-gada-prepodobnomu-aleksiyu-cheloveku-bozhiyu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/pashalnyy-kanon-glas-1-y</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/pavechernitsa-malaya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/pavechernitsa-velikaya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/pered-ikonoy-iverskoyu-13-26-oktyabrya-12-25-fevralya-i-vtornik-svetloy-sedmitsy</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/pered-ikonoy-mlekopitatelnitsa-12-25-yanvarya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/pered-ikonoy-nechayannaya-radost-922-dekabrya-i-114-maya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/pered-ikonoy-neopalimaya-kupina-4-27-sentyabrya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/pered-ikonoy-skoroposlushnitsa</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/pered-ikonoy-spasitelnitsa-utopayuschih-20-dekabrya-2-yanvarya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/pered-ikonoy-v-skorbeh-i-pechaleh-uteshenie-19-noyabrya-2-dekabrya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/pered-ikonoy-vseh-skorbyaschih-radost</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/pered-ikonoy-znamenie-ezhe-v-velitsem-novegrade-27-noyabrya-10-dekabrya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/pered-ikonoyu-kazanskoyu-22-oktyabrya-4-noyabrya-i-821-iyulya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/pered-ikonoyu-zhivonosnyy-istochnik-v-pyatok-svetloy-sedmitsy</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/pered-nachalom-vsyakogo-dela</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-pered-nachalom-vsyakogo-dela</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/pered-vkusheniem-pischi</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-pered-vkusheniem-pischi</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/pervoverhovnomu-apostolu-pavlu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/pervoverhovnomu-apostolu-petru</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/pervyy-chas</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/pesn-hvalebnaya-svyatogo-amvrosiya-episkopa-mediolanskogo</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/po-okonchanii-dela</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-po-okonchanii-dela</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/polunoschnitsa-povsednevnaya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/posle-vkusheniya-pischi</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-posle-vkusheniya-pischi</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/posledovanie-ko-svyatomu-prichascheniyu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/posledovanie-panihidy</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/posledovanie-po-ishode-dushi-ot-tela</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/pravednomu-artemiyu-verkolskomu-chudotvortsu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/pravednomu-artemiyu-verkolskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/pravednomu-filaretu-milostivomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/pravednomu-iovu-mnogostradalnomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/pravednomu-simeonu-bogopriimtsu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/pravednomu-tsaryu-davidu-psalmopevtsu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/pravednym-bogoottsam-ioakimu-i-anne</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/pravilo-chitaemoe-vo-vremya-iskusheniy</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/pravilo-chitaemoe-vo-vremya-skorbi</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/pravilo-ob-izbavlenii-ot-zlyh-pomyslov</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/pravilo-ot-oskverneniya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/pred-ikonoyu-prozrenie-oches-v-pyatok-svetlyya-sedmitsy</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/presvyatoy-bogoroditse-pered-ee-ikonoy-prozrenie-oches-v-pyatok-svetlyya-sedmitsy</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/prepodobnomu-aleksandru-svirskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/prepodobnomu-aleksiyu-cheloveku-bozhiyu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/prepodobnomu-antoniyu-velikomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/prepodobnomu-daniilu-moskovskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/prepodobnomu-davidu-garedzhiyskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/prepodobnomu-efremu-sirinu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/prepodobnomu-feodoru-studitu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/prepodobnomu-iakovu-igumenu-zheleznoborovskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/prepodobnomu-ioannu-damaskinu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/prepodobnomu-ioannu-rylskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/prepodobnomu-iovu-igumenu-i-chudotvortsu-pochaevskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/prepodobnomu-iovu-pochaevskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/prepodobnomu-ipatiyu-igumenu-rufianskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/prepodobnomu-ipatiyu-pecherskomu-tselebniku</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/prepodobnomu-irinarhu-rostovskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/prepodobnomu-makariyu-velikomu-egipetskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/prepodobnomu-moiseyu-murinu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/prepodobnomu-nikite-stolpniku-pereyaslavskomu-chudotvortsu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/prepodobnomu-pafnutiyu-igumenu-borovskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/prepodobnomu-petru-afonskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/prepodobnomu-romanu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/prepodobnomu-sampsonu-strannopriimtsu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/prepodobnomu-savve-krypetskomu-chudotvortsu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/prepodobnomu-serafimu-sarovskomu-chudotvortsu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/prepodobnomu-serafimu-sarovskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/prepodobnomu-sergiyu-igumenu-radonezhskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/prepodobnomu-sergiyu-radonezhskomu-vseya-rossii-chudotvortsu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/prepodobnomu-simeonu-stolpniku</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/prepodobnomuchenikam-feodoru-i-vasiliyu-pecherskim</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/prepodobnomucheniku-korniliyu-pskovo-pecherskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/prepodobnoy-afanasii-igumene</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/prepodobnoy-marii-egipetskoy</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/prepodobnoy-melanii-rimlyanyne</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/prepodobnym-kirillu-i-marii-roditelyam-prepodobnogo-sergiya-radonezhskogo</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/prepodobnym-ksenofontu-i-marii</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/prepodobnym-zosime-i-savatiyu-solovetskim-chudotvortsam</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/presvyatoy-bogoroditse-pered-ee-ikonoy-feodorovskaya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/presvyatoy-bogoroditse-pered-ee-ikonoy-kazanskaya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/presvyatoy-bogoroditse-pered-ee-ikonoy-lenkovskoyu-ili-spasitelnitsa-utopayuschih</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/presvyatoy-bogoroditse-pered-ee-ikonoy-nechayannaya-radost</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/presvyatoy-bogoroditse-pered-ee-ikonoy-skoroposlushnitsa</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/presvyatoy-bogoroditse-pered-ee-ikonoy-strastnaya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/presvyatoy-bogoroditse-pered-ee-ikonoy-tselitelnitsa</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/presvyatoy-bogoroditse-pered-ee-ikonoy-umyagchenie-zlyh-serdets-ili-semistrelnaya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/presvyatoy-bogoroditse-pered-ee-ikonoy-vseh-skorbyaschih-radost</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/presvyatoy-bogoroditse-pered-ee-ikonoy-vzyskanie-pogibshih-ili-izbavlenie-ot-bed-strazhduschih</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/presvyatoy-bogoroditse-v-chest-ee-ikony-kazanskaya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/presvyatoy-bogoroditse-v-chest-ee-ikony-skoroposlushnitsa</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/presvyatoy-bogoroditse-v-chest-ee-ikony-sporuchnitsa-greshnyh</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/presvyatoy-bogoroditse-v-chest-ee-ikony-troeruchitsa</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/presvyatoy-bogoroditse-v-chest-ee-ikony-vsetsaritsa-pantanassa-molitva-vtoraya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/presvyatoy-bogoroditse-v-chest-ee-ikony-vsetsaritsa-pantanassa</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/presvyatoy-bogoroditse</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/presvyatoy-vladychitse-nashey-bogoroditse-i-prisnodeve-marii</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/pri-klevete-i-nespravedlivyh-pritesneniyah</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/pri-napadenii-zverey-velikomucheniku-georgiyu-pobedonostsu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/pri-nemiloserdii-i-razdrazhenii-na-blizhnego</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/pri-neproschenii-obid-i-pamyatovanii-zlogo</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/pri-ohlazhdenii-lyubvi-k-blizhnim</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/pri-tscheslavnyh-pomyslah-molitva-sv-ioanna-kronshtadtskogo</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/pri-zavisti-blizhnemu-i-setovanii-o-svoih-neudachah</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/prigotovlenie-usopshego-k-pogrebeniyu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/prizyvanie-pomoschi-duha-svyatago-na-vsyakoe-delo-dobroe</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/proroku-bozhiyu-ilii</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/proroku-predteche-i-krestitelyu-gospodnyu-ioannu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/prosba-zaschity-ot-obidchika-mucheniku-ioannu-voinu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/proskomidiya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/protiv-vrazhego-straha</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/psalom-102</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/psalom-126</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/psalom-67</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/psalom-90</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/pyatochislennye-molitvy</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/sem-tainstv-tserkvi</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/shestyy-chas</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/soboru-dvenadtsati-apostolov</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/soroka-sevastiyskim-muchenikam</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/sv-pervomucheniku-arhidiakonu-stefanu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/sv-tsaritse-gruzinskoy-tamare</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyaschennomucheniku-antipe-episkopu-pergamskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyaschennomucheniku-ermolayu-nastavniku-panteleimona-iereyu-nikomidiyskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyaschennomucheniku-ipatiyu-episkopu-gangrskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyaschennomucheniku-kiprianu-i-muchenitse-iustine</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyaschennomucheniku-kiprianu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyaschennomucheniku-vlasiyu-episkopu-sevastiyskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatitelyu-aleksiyu-mitropolitu-moskovskomu-chudotvortsu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatitelyu-aleksiyu-mitropolitu-moskovskomu-vseya-rusi-chudotvortsu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatitelyu-andreyu-arhiepiskopu-kritskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatitelyu-dimitriyu-rostovskomu-chudotvortsu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatitelyu-dimitriyu-rostovskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatitelyu-evfimiyu-arhiepiskopu-novgorodskomu-chudotvortsu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatitelyu-feodosiyu-arhiepiskopu-uglitskomu-i-chernigovskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatitelyu-ioannu-novgorodskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatitelyu-ioannu-zlatoustomu-arhiepiskopu-konstantinopolskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatitelyu-ioasafu-episkopu-belgorodskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatitelyu-mitrofanu-voronezhskomu-chudotvortsu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatitelyu-nikite-episkopu-novgorodskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatitelyu-nikolayu-arhiepiskopu-mirlikiyskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatitelyu-nikolayu-mirlikiyskomu-chudotvortsu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatitelyu-nikolayu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatitelyu-spiridonu-chudotvortsu-episkopu-trimifuntskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatitelyu-spiridonu-trimifuntskomu-chudotvortsu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatitelyu-tihonu-episkopu-voronezhskomu-zadonskomu-chudotvortsu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatitelyu-tihonu-patriarhu-moskovskomu-i-vseya-rusi</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatitelyu-vonifatiyu-milostivomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatomu-apostolu-andreyu-pervozvannomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatomu-apostolu-i-evangelistu-ioannu-bogoslovu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatomu-blagovernomu-knyazyu-aleksandru-nevskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatomu-blagovernomu-knyazyu-vyacheslavu-cheshskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatomu-blazhennomu-vasiliyu-hrista-radi-yurodivomu-moskovskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatomu-dimitriyu-mitropolitu-rostovskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatomu-i-pravednomu-ioannu-kronshtadskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatomu-knyazyu-olegu-bryanskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatomu-mucheniku-i-arhidiakonu-lavrentiyu-rimskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatomu-mucheniku-longinu-sotniku-izhe-pri-kreste-gospodni</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatomu-mucheniku-trifonu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatomu-mucheniku-vonifatiyu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatomu-pravednomu-ioannu-kronshtadtskomu-chudotvortsu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatomu-pravednomu-ioannu-russkomu-ispovedniku</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatomu-pravednomu-iosifu-obruchniku-presvyatoy-devy-marii</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatomu-pravednomu-simeonu-verhoturskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatomu-prepodobnomu-iosifu-volotskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatomu-prepodobnomu-siluanu-afonskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatomu-proroku-zaharii-i-elisavete</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatomu-ravnoapostolnomu-velikomu-knyazyu-vladimiru-vo-svyatom-kreschenii-vasiliyu-krestitelyu-rusi</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatomu-svyaschennomucheniku-haralampiyu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatomu-velikomucheniku-i-pobedonostsu-georgiyu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatomu-velikomucheniku-i-tselitelyu-panteleimonu-molitva-vtoraya-naedine-ot-litsa-bolyaschego-chitaemaya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatomu-velikomucheniku-i-tselitelyu-panteleimonu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatomu-velikomucheniku-prokopiyu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatomu-velikomuchenniku-dimitriyu-solunskomu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatoy-blazhennoy-ksenii-peterburgskoy</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatoy-muchenitse-paraskeve-narechennoy-pyatnitsa</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatoy-pravednoy-iulianii-olshanskoy</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatoy-ravnoapostolnoy-knyagine-olge</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatoy-ravnoapostolnoy-nine-prosvetitelnitse-gruzii</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatoy-velikomuchenitse-varvare</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatym-bessrebrenikam-i-chudotvortsam-kosme-i-damianu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatym-blagovernym-knyazyam-borisu-i-glebu-v-kreschenii-romanu-i-davidu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatym-chudotvortsam-i-bessrebrenikam-muchenikam-kiru-i-ioannu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatym-ravnoapostolnym-kirillu-i-mefodiyu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatym-ravnoapostolnym-konstantinu-i-elene</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatym-semi-otrokam-vo-efese-maksimilianu-iamvlihu-martinianu-ioannu-dionisiyu-eksakustodianu-i-antoninu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/svyatym-soroka-muchenikam-sevastiyskim</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/tretiy-chas</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/tropar-svyatomu-blagovernomu-tsaryu-mucheniku-nikolayu-o-spasenii-rossii-iz-sluzhby-svyatym-tsarstvennym-muchenikam</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/utrenya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/v-chetverg-pervoy-sedmitsy-velikogo-posta</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/v-chetverg-pyatoy-sedmitsy-velikogo-posta</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/v-nachale-velikopostnogo-puti-velikiy-kanon-sv-andreya-kritskogo</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/v-pechali-po-bogu-molitvennyy-plach-prp-siluana-afonskogo</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/v-ponedelnik-pervoy-sedmitsy-velikogo-posta</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/v-skorbi-ili-neduge</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/v-skorbi-ot-ponosheniy-i-neponimaniya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/v-sredu-pervoy-sedmitsy-velikogo-posta</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/vechernya</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/velikomucheniku-artemiyu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/velikomucheniku-evstafiyu-plakide</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/velikomucheniku-feodoru-tironu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/velikomucheniku-georgiyu-pobedonostsu</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/velikomucheniku-nikite</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/velikomuchenitse-ekaterine</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/velikopostnaya-molitva-sv-efrema-sirina</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/vere-nadezhde-lyubovi-i-materi-ih-sofii</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/vo-svyatuyu-i-velikuyu-nedelyu-pashi</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/vo-vtornik-pervoy-sedmitsy-velikogo-posta</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/vopl-k-bogomateri</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/vozdyhanie-materi-o-svoih-detyah</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/vsenoschnoe-bdenie-na-velitsey-vecherni</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/znachenie-17-y-kafizmy</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-gospodu-na-zashchitu-ot-dyavola</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-arhangelu-mihailu-o-zashchite-ot-vragov</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-svyatomu-kiprianu-ot-koldovstva</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-bogoroditse-o-zashchite-ot-vragov</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-ot-porchi-i-sglaza</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://molitvy365.ru/prayer/molitva-o-zashchite-doma-i-semi</loc>
-    <lastmod>2025-09-25T07:01:18.180Z</lastmod>
+    <lastmod>2025-09-25T07:07:36.375Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
