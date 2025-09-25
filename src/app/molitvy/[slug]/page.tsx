@@ -161,7 +161,7 @@ async function getPrayerData(slug: string): Promise<PrayerData | null> {
 // Генерируем статические параметры для всех молитв
 export async function generateStaticParams() {
     try {
-        const params = [];
+        const params: { slug: string }[] = [];
 
         // Добавляем молитвы из папки prayers
         try {
