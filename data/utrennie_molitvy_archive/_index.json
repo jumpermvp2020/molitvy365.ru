@@ -1,0 +1,161 @@
+{
+  "count": 26,
+  "items": [
+    {
+      "id": 1,
+      "title": "Молитва мытаря",
+      "slug": "molitva-mytarya",
+      "guide_path": "guide_rich/molitva-mytarya.json"
+    },
+    {
+      "id": 2,
+      "title": "Молитва предначинательная",
+      "slug": "molitva-prednachinatelnaya",
+      "guide_path": "guide_rich/molitva-prednachinatelnaya.json"
+    },
+    {
+      "id": 3,
+      "title": "Молитва Святому Духу",
+      "slug": "molitva-svyatomu-duhu",
+      "guide_path": "guide_rich/molitva-svyatomu-duhu.json"
+    },
+    {
+      "id": 4,
+      "title": "Трисвятое",
+      "slug": "trisvyatoe",
+      "guide_path": "guide_rich/trisvyatoe.json"
+    },
+    {
+      "id": 5,
+      "title": "Молитва ко Пресвятой Троице",
+      "slug": "molitva-ko-presvyatoj-troice",
+      "guide_path": "guide_rich/molitva-ko-presvyatoj-troice.json"
+    },
+    {
+      "id": 6,
+      "title": "Молитва Господня",
+      "slug": "molitva-gospodnya",
+      "guide_path": "guide_rich/molitva-gospodnya.json"
+    },
+    {
+      "id": 7,
+      "title": "Тропари Троичные",
+      "slug": "tropari-troichnye",
+      "guide_path": "guide_rich/tropari-troichnye.json"
+    },
+    {
+      "id": 8,
+      "title": "Молитва ко Пресвятой Троице",
+      "slug": "molitva-ko-presvyatoj-troice",
+      "guide_path": "guide_rich/molitva-ko-presvyatoj-troice.json"
+    },
+    {
+      "id": 9,
+      "title": "Псалом 50",
+      "slug": "psalom-50",
+      "guide_path": "guide_rich/psalom-50.json"
+    },
+    {
+      "id": 10,
+      "title": "Символ веры",
+      "slug": "simvol-very",
+      "guide_path": "guide_rich/simvol-very.json"
+    },
+    {
+      "id": 11,
+      "title": "Молитва первая, святого Макария Великого",
+      "slug": "molitva-pervaya-svyatogo-makariya-velikogo",
+      "guide_path": "guide_rich/molitva-pervaya-svyatogo-makariya-velikogo.json"
+    },
+    {
+      "id": 12,
+      "title": "Молитва вторая, того же святого",
+      "slug": "molitva-vtoraya-togo-zhe-svyatogo",
+      "guide_path": "guide_rich/molitva-vtoraya-togo-zhe-svyatogo.json"
+    },
+    {
+      "id": 13,
+      "title": "Молитва третья, того же святого",
+      "slug": "molitva-tretya-togo-zhe-svyatogo",
+      "guide_path": "guide_rich/molitva-tretya-togo-zhe-svyatogo.json"
+    },
+    {
+      "id": 14,
+      "title": "Молитва четвертая, того же святого",
+      "slug": "molitva-chetvertaya-togo-zhe-svyatogo",
+      "guide_path": "guide_rich/molitva-chetvertaya-togo-zhe-svyatogo.json"
+    },
+    {
+      "id": 15,
+      "title": "Молитва пятая, святого Василия Великого",
+      "slug": "molitva-pyataya-svyatogo-vasiliya-velikogo",
+      "guide_path": "guide_rich/molitva-pyataya-svyatogo-vasiliya-velikogo.json"
+    },
+    {
+      "id": 16,
+      "title": "Молитва шестая, того же святого",
+      "slug": "molitva-shestaya-togo-zhe-svyatogo",
+      "guide_path": "guide_rich/molitva-shestaya-togo-zhe-svyatogo.json"
+    },
+    {
+      "id": 17,
+      "title": "Молитва седьмая, ко Пресвятой Богородице",
+      "slug": "molitva-sedmaya-ko-presvyatoj-bogorodice",
+      "guide_path": "guide_rich/molitva-sedmaya-ko-presvyatoj-bogorodice.json"
+    },
+    {
+      "id": 18,
+      "title": "Молитва восьмая, ко Господу нашему Иисусу Христу",
+      "slug": "molitva-vosmaya-ko-gospodu-nashemu-iisusu-hristu",
+      "guide_path": "guide_rich/molitva-vosmaya-ko-gospodu-nashemu-iisusu-hristu.json"
+    },
+    {
+      "id": 19,
+      "title": "Молитва девятая, к Ангелу хранителю",
+      "slug": "molitva-devyataya-k-angelu-hranitelyu",
+      "guide_path": "guide_rich/molitva-devyataya-k-angelu-hranitelyu.json"
+    },
+    {
+      "id": 20,
+      "title": "Молитва десятая, ко Пресвятой Богородице",
+      "slug": "molitva-desyataya-ko-presvyatoj-bogorodice",
+      "guide_path": "guide_rich/molitva-desyataya-ko-presvyatoj-bogorodice.json"
+    },
+    {
+      "id": 21,
+      "title": "Молитвенное призывание святого, имя которого носишь",
+      "slug": "molitvennoe-prizyvanie-svyatogo-imya-kotorogo-nosish",
+      "guide_path": "guide_rich/molitvennoe-prizyvanie-svyatogo-imya-kotorogo-nosish.json"
+    },
+    {
+      "id": 22,
+      "title": "Песнь Пресвятой Богородице",
+      "slug": "pesn-presvyatoj-bogorodice",
+      "guide_path": "guide_rich/pesn-presvyatoj-bogorodice.json"
+    },
+    {
+      "id": 23,
+      "title": "Тропарь Кресту и молитва за отечество",
+      "slug": "tropar-krestu-i-molitva-za-otechestvo",
+      "guide_path": "guide_rich/tropar-krestu-i-molitva-za-otechestvo.json"
+    },
+    {
+      "id": 24,
+      "title": "Молитва о живых",
+      "slug": "molitva-o-zhivyh",
+      "guide_path": "guide_rich/molitva-o-zhivyh.json"
+    },
+    {
+      "id": 25,
+      "title": "Молитвы о усопших",
+      "slug": "molitvy-o-usopshih",
+      "guide_path": "guide_rich/molitvy-o-usopshih.json"
+    },
+    {
+      "id": 26,
+      "title": "Окончание молитв",
+      "slug": "okonchanie-molitv",
+      "guide_path": "guide_rich/okonchanie-molitv.json"
+    }
+  ]
+}
